@@ -30,8 +30,8 @@ const FeatureSection = ({ h1, h2, h3, imageUrl, even, imageSize }) => {
         <Image className="is-hidden-tablet" src={imageUrl} />
 
         <div
-          className="has-text-black-bis is-size-2"
-          style={{ fontWeight: 600 }}
+          className="has-text-black-bis is-size-2 has-text-din"
+          style={{ fontWeight: 600,textTransform: 'uppercase', }}
         >
           {h1}
         </div>

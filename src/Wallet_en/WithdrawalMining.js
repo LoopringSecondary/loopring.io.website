@@ -14,10 +14,11 @@ const WithdrawalMining = (props) => {
       <Container>
         <div style={{ minHeight: '400px' }}>
           <div
-            className="title graidient-text"
+            className="title graidient-text has-text-din"
             style={{
               fontWeight: 600,
               marginBottom: '20px',
+              textTransform: 'uppercase',
             }}
           >
             Withdrawal Mining

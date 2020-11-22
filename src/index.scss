@@ -54,3 +54,9 @@ html,
 body {
   font-family: Montserrat, sans-serif !important;
 }
+
+$theme-font: "DINCondensed-Regular", sans-serif;
+
+.has-text-din {
+  font-family: $theme-font;
+}

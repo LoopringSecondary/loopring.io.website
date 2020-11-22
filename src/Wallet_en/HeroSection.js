@@ -55,17 +55,18 @@ const HeroSection = (props) => {
         <CenterAlignContainer>
           <div className="has-text-centered">
             <div
-              className="is-size-4-mobile is-size-3"
-              style={{ fontWeight: '600' }}
+              className="is-size-4-mobile is-size-3 has-text-din"
+              style={{ fontWeight: '600' ,textTransform: 'uppercase',}}
             >
               Loopring Wallet
             </div>
             <div
-              className="is-size-3-mobile is-size-1"
+              className="is-size-3-mobile is-size-1 has-text-din"
               style={{
                 fontWeight: '300',
                 paddingTop: '40px',
                 paddingBottom: '20px',
+                textTransform: 'uppercase',
               }}
             >
               Freedom at Your Fingertips
@@ -92,8 +93,8 @@ const HeroSection = (props) => {
           <div className="has-text-centered" style={{ marginTop: '0' }}>
             <DownloadButton primary />
             <div
-              className="first-zkrollup has-text-black-bis "
-              style={{ paddingTop: '60px', fontWeight: '600' }}
+              className="first-zkrollup has-text-black-bis has-text-din"
+              style={{ paddingTop: '60px', fontWeight: '600' ,textTransform: 'uppercase',}}
             >
               First Ever
             </div>
