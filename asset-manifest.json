@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "//loopring.org/static/css/main.16adca00.chunk.css",
-    "main.js": "//loopring.org/static/js/main.c1488266.chunk.js",
-    "main.js.map": "//loopring.org/static/js/main.c1488266.chunk.js.map",
-    "runtime-main.js": "//loopring.org/static/js/runtime-main.ff6cc758.js",
-    "runtime-main.js.map": "//loopring.org/static/js/runtime-main.ff6cc758.js.map",
-    "static/css/2.00307aab.chunk.css": "//loopring.org/static/css/2.00307aab.chunk.css",
-    "static/js/2.2544694c.chunk.js": "//loopring.org/static/js/2.2544694c.chunk.js",
-    "static/js/2.2544694c.chunk.js.map": "//loopring.org/static/js/2.2544694c.chunk.js.map",
-    "index.html": "//loopring.org/index.html",
-    "precache-manifest.ba4e57792faa6ed44ed9f579aee7d298.js": "//loopring.org/precache-manifest.ba4e57792faa6ed44ed9f579aee7d298.js",
-    "service-worker.js": "//loopring.org/service-worker.js",
-    "static/css/2.00307aab.chunk.css.map": "//loopring.org/static/css/2.00307aab.chunk.css.map",
-    "static/css/main.16adca00.chunk.css.map": "//loopring.org/static/css/main.16adca00.chunk.css.map",
-    "static/js/2.2544694c.chunk.js.LICENSE.txt": "//loopring.org/static/js/2.2544694c.chunk.js.LICENSE.txt"
+    "main.css": "//wallet.loopring.io/static/css/main.16adca00.chunk.css",
+    "main.js": "//wallet.loopring.io/static/js/main.90246a5a.chunk.js",
+    "main.js.map": "//wallet.loopring.io/static/js/main.90246a5a.chunk.js.map",
+    "runtime-main.js": "//wallet.loopring.io/static/js/runtime-main.214a4566.js",
+    "runtime-main.js.map": "//wallet.loopring.io/static/js/runtime-main.214a4566.js.map",
+    "static/css/2.00307aab.chunk.css": "//wallet.loopring.io/static/css/2.00307aab.chunk.css",
+    "static/js/2.74815abd.chunk.js": "//wallet.loopring.io/static/js/2.74815abd.chunk.js",
+    "static/js/2.74815abd.chunk.js.map": "//wallet.loopring.io/static/js/2.74815abd.chunk.js.map",
+    "index.html": "//wallet.loopring.io/index.html",
+    "precache-manifest.8cab0ea0fb5cbda5900661c25dddf514.js": "//wallet.loopring.io/precache-manifest.8cab0ea0fb5cbda5900661c25dddf514.js",
+    "service-worker.js": "//wallet.loopring.io/service-worker.js",
+    "static/css/2.00307aab.chunk.css.map": "//wallet.loopring.io/static/css/2.00307aab.chunk.css.map",
+    "static/css/main.16adca00.chunk.css.map": "//wallet.loopring.io/static/css/main.16adca00.chunk.css.map",
+    "static/js/2.74815abd.chunk.js.LICENSE.txt": "//wallet.loopring.io/static/js/2.74815abd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ff6cc758.js",
+    "static/js/runtime-main.214a4566.js",
     "static/css/2.00307aab.chunk.css",
-    "static/js/2.2544694c.chunk.js",
+    "static/js/2.74815abd.chunk.js",
     "static/css/main.16adca00.chunk.css",
-    "static/js/main.c1488266.chunk.js"
+    "static/js/main.90246a5a.chunk.js"
   ]
 }
