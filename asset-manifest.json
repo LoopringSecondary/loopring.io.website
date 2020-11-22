@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "//wallet.loopring.io/static/css/main.1188eac0.chunk.css",
-    "main.js": "//wallet.loopring.io/static/js/main.4db3c2cc.chunk.js",
-    "main.js.map": "//wallet.loopring.io/static/js/main.4db3c2cc.chunk.js.map",
+    "main.js": "//wallet.loopring.io/static/js/main.7dc0f084.chunk.js",
+    "main.js.map": "//wallet.loopring.io/static/js/main.7dc0f084.chunk.js.map",
     "runtime-main.js": "//wallet.loopring.io/static/js/runtime-main.214a4566.js",
     "runtime-main.js.map": "//wallet.loopring.io/static/js/runtime-main.214a4566.js.map",
     "static/css/2.00307aab.chunk.css": "//wallet.loopring.io/static/css/2.00307aab.chunk.css",
     "static/js/2.74815abd.chunk.js": "//wallet.loopring.io/static/js/2.74815abd.chunk.js",
     "static/js/2.74815abd.chunk.js.map": "//wallet.loopring.io/static/js/2.74815abd.chunk.js.map",
     "index.html": "//wallet.loopring.io/index.html",
-    "precache-manifest.8551d20bfc7e4bb320fd5f61b5cd058a.js": "//wallet.loopring.io/precache-manifest.8551d20bfc7e4bb320fd5f61b5cd058a.js",
+    "precache-manifest.25e5de749670c69441a30fee14aa29a9.js": "//wallet.loopring.io/precache-manifest.25e5de749670c69441a30fee14aa29a9.js",
     "service-worker.js": "//wallet.loopring.io/service-worker.js",
     "static/css/2.00307aab.chunk.css.map": "//wallet.loopring.io/static/css/2.00307aab.chunk.css.map",
     "static/css/main.1188eac0.chunk.css.map": "//wallet.loopring.io/static/css/main.1188eac0.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.00307aab.chunk.css",
     "static/js/2.74815abd.chunk.js",
     "static/css/main.1188eac0.chunk.css",
-    "static/js/main.4db3c2cc.chunk.js"
+    "static/js/main.7dc0f084.chunk.js"
   ]
 }
