@@ -1,0 +1,18 @@
+{
+  "headingFeatures": "Features",
+  "loopring": "Loopring",
+  "deprecated": "(deprecated)",
+  "features": {
+    "ringMatching": "Ring-Matching",
+    "orderSharing": "Order-Sharing",
+    "nonCustodial": "Non-Custodial",
+    "dualAuthoring": "Dual-Authoring",
+    "anyTokenAsFee": "Any-Token-as-Fee",
+    "lrcBurning": "LRC-Burning",
+    "tradeTokenAsFee": "Trade-Token-as-Fee",
+    "lrcStaking": "LRC-Staking",
+    "highThroughput": "High-Throughput",
+    "lowCost": "Low-Cost",
+    "upgradability": "Upgradability"
+  }
+}

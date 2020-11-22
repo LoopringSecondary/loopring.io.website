@@ -1,0 +1,30 @@
+@charset 'utf-8';
+@import "../../_variables.sass";
+
+.main-navigation {
+  .navbar-menu {
+    background-color: $primary;
+  }
+
+  .navbar-burger > span {
+    color: white;
+  }
+
+  .navbar-item {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+
+    &.disabled-button {
+      background-color: #65ffda !important;
+      color: $black;
+      border-radius: 2px;
+      cursor: default;
+    }
+
+    &.disabled-button:hover {
+      color: $black !important;
+      background-color: #65ffda !important;
+    }
+  }
+}

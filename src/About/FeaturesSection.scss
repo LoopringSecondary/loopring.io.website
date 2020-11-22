@@ -1,0 +1,33 @@
+@charset "utf-8";
+@import "../../_variables.sass";
+
+.section-about-features {
+  .deprecated {
+    text-decoration: line-through;
+  }
+
+  .tag {
+    // padding:1rem;
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+    margin-bottom: 0.5rem;
+    background-color: $black;
+    color: $white;
+    font-weight: 700;
+
+    &.highlight {
+      background-color: $primary;
+    }
+
+    &.deprecated {
+      background-color: $grey-lighter;
+      color: $grey-darker;
+    }
+  }
+
+  .column-features {
+    @include mobile {
+      padding-left: 20px;
+    }
+  }
+}
