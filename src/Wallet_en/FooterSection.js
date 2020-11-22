@@ -25,7 +25,7 @@ const FooterSection = () => {
           <Columns.Column size={4}>
             <Container className="has-text-centered">
               <div
-                className="has-text-black-ter"
+                className="has-text-black-ter has-text-din"
                 style={{ fontSize: '20px', marginBottom: '8px' }}
               >
                 Wallet
@@ -47,7 +47,7 @@ const FooterSection = () => {
           <Columns.Column size={4}>
             <Container className="has-text-centered">
               <div
-                className="has-text-black-ter"
+                className="has-text-black-ter has-text-din"
                 style={{ fontSize: '20px', marginBottom: '8px' }}
               >
                 Social
@@ -81,7 +81,7 @@ const FooterSection = () => {
           <Columns.Column size={4}>
             <Container className="has-text-centered">
               <div
-                className="has-text-black-ter"
+                className="has-text-black-ter has-text-din"
                 style={{ fontSize: '20px', marginBottom: '8px' }}
               >
                 Other
