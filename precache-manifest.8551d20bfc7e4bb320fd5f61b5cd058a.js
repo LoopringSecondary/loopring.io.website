@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "313d5c2a98214d9a422774de3afd3b8d",
+    "revision": "22ed3b2d16899396b0c5b034664fa8cd",
     "url": "//wallet.loopring.io/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "//wallet.loopring.io/static/css/2.00307aab.chunk.css"
   },
   {
-    "revision": "3a8f576579b72e159d7c",
-    "url": "//wallet.loopring.io/static/css/main.16adca00.chunk.css"
+    "revision": "574b70ac729cd8505f25",
+    "url": "//wallet.loopring.io/static/css/main.1188eac0.chunk.css"
   },
   {
     "revision": "74433ffd7f57e707e98f",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "//wallet.loopring.io/static/js/2.74815abd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3a8f576579b72e159d7c",
-    "url": "//wallet.loopring.io/static/js/main.90246a5a.chunk.js"
+    "revision": "574b70ac729cd8505f25",
+    "url": "//wallet.loopring.io/static/js/main.4db3c2cc.chunk.js"
   },
   {
     "revision": "15f41b23e40ffa531f6d",
