@@ -37,7 +37,7 @@ const WithdrawalMining = (props) => {
             路印的“提现挖矿”活动是为了激励用户把币从中心化平台提到非托管钱包，学会自己管理虚拟资产。
           </p>
           <p>
-            <a href="/#/wmining">了解更多</a>。
+            <a href="/#/wmining">了解更多</a>
           </p>
         </div>
       </Container>

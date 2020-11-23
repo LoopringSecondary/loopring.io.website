@@ -9,11 +9,22 @@
     -webkit-text-fill-color: transparent;
   }
 
-  .link {
+  a {
     color: #65ffda;
-    text-decoration: underline;
+    padding-top:40px;
+    display: block;
+
+    &:before {
+      content: "⟶";
+      display: inline-block;
+      white-space: pre-wrap;
+      margin-right: 4px;
+      color: #65ffda;
+    }
+
     &:hover {
       color: #65ffda;
+      text-decoration: underline;
     }
   }
 
