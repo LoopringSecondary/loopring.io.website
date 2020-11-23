@@ -9,11 +9,12 @@ import Columns from 'react-bulma-components/lib/components/columns';
 import Footer from 'react-bulma-components/lib/components/footer';
 
 import {CenterAlignContainer} from './Common';
+import './FooterSection.scss';
 
 const FooterSection = () => {
   return (
     <Footer
-      className="has-text-grey-light"
+      className="footer-section has-text-grey-light"
       style={{
         paddingBottom: '0px',
         background: '#f1f2f550',

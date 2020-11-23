@@ -81,7 +81,7 @@ const HeroSection = (props) => {
               margin: 'auto',
               marginTop: '10px',
               marginBottom: '-240px',
-              width: '340px',
+              width: '360px',
               filter: 'drop-shadow(0 0 1rem #1c42ff)',
             }}
             src={'/images/top.png'}
