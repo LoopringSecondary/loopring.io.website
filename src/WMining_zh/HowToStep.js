@@ -16,7 +16,7 @@ import './HowToStep.scss';
 const HowToStep = ({titles}) => {
   return (
     <>
-      <Section className="howto-step is-medium">
+      <Section className="howto-step is-medium" style={{border:"20px solid white"}}>
         <CenterAlignContainer>
           <div className="has-text-left">
             <div
@@ -49,7 +49,7 @@ const HowToStep = ({titles}) => {
                     <Image
                       className=" is-centered"
                       style={{
-                        width: '320px',
+                        width: '300px',
                         overflow: 'hidden',
                         border: '1px solid #1c42ff10',
                         filter: 'drop-shadow(0 0 1rem #1c42ff50)',
