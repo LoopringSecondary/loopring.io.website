@@ -102,7 +102,7 @@ const HeroSection = (props) => {
               className="has-text-black-bis is-size-4-mobile is-size-4"
               style={{ fontWeight: '500' }}
             >
-              Ethereum Smart Wallet with zkRollup-based Trading & AMM Swap.
+              Ethereum Smart Wallet with zkRollup-based Trading, Transfers & AMMs.
             </div>
 
             <div
@@ -115,11 +115,10 @@ const HeroSection = (props) => {
               }}
             >
               Loopring's zkRollup L2 solution offers the same security
-              guarantees as the Ethernet mainnet. The performance has increased
-              over a thousand times, and the cost is less than one percent of
-              the mainnet. As the world's first zkRollup launched on Ethereum
-              mainet, Loopring brings smooth order-book and AMM trading
-              experience right from the Loopring wallet.
+              guarantees as Ethereum mainnet, with a big scalability boost: throughput increased
+              by 1000x, and cost recuced to just 0.1% of L1. Ethereum is now unleashed.
+              One year ago, we launched the first zkRollup on Ethereum - now we put its power in your pocket.
+              Smooth orderbook trading, AMMs, and global payments, right from the Loopring wallet.
             </div>
           </div>
         </CenterAlignContainer>
