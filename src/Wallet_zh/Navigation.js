@@ -32,7 +32,7 @@ const Navigation = (props) => {
     <Navbar className="main-navigation has-background-primary">
       <Container style={{paddingTop: '1rem', paddingBottom: '1rem'}}>
         <Navbar.Brand>
-          <Navbar.Item renderAs="div">
+          <Navbar.Item renderAs="a" href="#">
             <img className="logo" draggable="false" src="/images/logo.svg" />
           </Navbar.Item>
           <a

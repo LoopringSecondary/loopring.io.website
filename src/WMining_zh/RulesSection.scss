@@ -2,10 +2,16 @@
 @import "../../_variables.sass";
 
 .wmining-rules-section {
-	li {
-		margin-bottom: 8px;
+	.rules {
+		background-color: #F1F2F550;
+		padding: 0px 40px;
+		margin:  40px 0;
+		border-radius: 5px;
 	}
- span.strong {
-  color: $primary!important;
- }
+  li {
+    margin-bottom: 8px;
+  }
+  span.strong {
+    color: $primary !important;
+  }
 }

@@ -18,10 +18,13 @@ const RulesSection = (props) => {
       >
         <CenterAlignContainer>
           <div className="has-text-left">
-            <div className="is-size-1" style={{fontWeight: '600'}}>
+            <div
+              className="is-size-1 has-text-dark"
+              style={{fontWeight: '600'}}
+            >
               奖励规则
             </div>
-            <div className="is-size-6 has-text-dark">
+            <div className="is-size-6 has-text-dark rules">
               <ol style={{maxWidth: '800px', padding: '20px'}}>
                 <li>活动时间为11月27日（含）至12月26日（含），共30天。</li>
                 <li>
@@ -57,9 +60,13 @@ const RulesSection = (props) => {
                   我们每天会随机选择一个时间点进行快照，根据您挖矿参与额度当日占比来计算奖励。
                 </li>
                 <li>我们会在次日把LRC奖励直接发放到路印钱包的二层账号中。</li>
+                <li>
+                  该活动仅支持升级到3.6协议版本的路印钱包。请注意，在钱包升级完成之前，请将所有的资产先转到钱包一层。待活动开始之后，再选择是否将资产划转至二层。
+                </li>
+                <li>路印科技保留对本次活动解释，修改，和取消的权利。</li>
               </ol>
-              如果您想了解规则的更多解读，可以参考我们的<a>相关博客</a>。
             </div>
+            如果您想了解规则的更多解读，可以参考我们的<a>相关博客</a>。
           </div>
         </CenterAlignContainer>
       </Section>
