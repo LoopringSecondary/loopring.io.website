@@ -13,18 +13,18 @@ const RulesSection = (props) => {
   return (
     <>
       <Section
-        className="wmining-rules-section is-large has-background-white"
-
+        className="wmining-rules-section is-large"
+style={{border: '20px solid white'}}
       >
         <CenterAlignContainer>
           <div className="has-text-left">
             <div
-              className="is-size-1 has-text-dark"
+              className="is-size-1 has-text-black"
               style={{fontWeight: '100'}}
             >
               提现挖矿<br/><b>奖励规则</b>
             </div>
-            <div className="is-size-6 has-text-dark rules">
+            <div className="is-size-6 has-text-black rules">
               <ol style={{maxWidth: '800px', padding: '20px'}}>
                 <li>活动时间为11月27日（含）至12月26日（含），共30天。</li>
                 <li>
