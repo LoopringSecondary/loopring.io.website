@@ -13,61 +13,56 @@ import {
 
 import './HowToStep.scss';
 
-const HowToStep = ({step, h1, h2, h3, imageUrl, even, imageSize}) => {
-  const bgImgUrl = 'url(\'' + imageUrl + '\')';
-  const bgImgPosition = even ? 'right center' : 'right center';
-  const columnsClassName = even ? 'is-reversed-mobile' : '';
-
-  const textBlock = (
-    <Columns.Column size={4} style={{padding: '0'}}>
-      <RightAlignContainer
-        data-aos="fade-up"
-        style={{
-          padding: '10% 10%',
-          minHeight: '840px',
-        }}
-      >
-        <div>
-          <Image className="is-hidden-tablet" src={imageUrl} />
-
-          <div
-            className="has-text-black-bis is-size-3"
-            style={{fontWeight: 600}}
-          >
-            <span className="has-text-grey">{step} | </span>
-            {h1}
-          </div>
-
-          <p className="has-text-grey-dark is-size-6">{h3}</p>
-        </div>
-      </RightAlignContainer>
-    </Columns.Column>
-  );
-
-  const imageBlock = (
-    <Columns.Column size={8}>
-      <CenterAlignContainer className="is-hidden-mobile">
-        <Image src={imageUrl} />
-      </CenterAlignContainer>
-    </Columns.Column>
-  );
-
+const HowToStep = ({titles}) => {
   return (
-    <Section
-      className="howto-step is-medium"
-      style={{
-        paddingTop: '12px',
-        paddingBottom: '12px',
-        background: even ? '#f1f2f5' : 'white',
-      }}
-    >
-      <Container>
-        <Columns className={columnsClassName}>
-          {even ? textBlock : imageBlock}
-          {even ? imageBlock : textBlock}
-        </Columns>
-      </Container>
-    </Section>
+    <>
+      <Section className="howto-step is-medium">
+        <CenterAlignContainer>
+          <div className="has-text-left">
+            <div
+              className="is-size-1 has-text-dark"
+              style={{fontWeight: '600', paddingBottom: '40px'}}
+            >
+              如何参与
+            </div>
+          </div>
+        </CenterAlignContainer>
+        <Container>
+          <Columns>
+            {titles.map((title, index) => (
+              <Columns.Column size={4}>
+                <Container className="one-step is-centered">
+                  <div style={{padding: '20px'}}>
+                    <div
+                      className="is-size-5 has-text-dark"
+                      style={{
+                        margin: '20px',
+                        marginLeft: '0',
+                        fontWeight: '600',
+                        width: '300px',
+                        minHeight: '60px',
+                      }}
+                    >
+                      <span className="has-text-grey">{index + 1}.</span>{' '}
+                      {title}
+                    </div>
+                    <Image
+                      style={{
+                        width: '300px',
+                        overflow: 'hidden',
+                        border: '1px solid #1c42ff10',
+                        filter: 'drop-shadow(0 0 1rem #1c42ff50)',
+                      }}
+                      src={'/images/wmining/' + (index + 1) + '.jpeg'}
+                    />
+                  </div>
+                </Container>
+              </Columns.Column>
+            ))}
+          </Columns>
+        </Container>
+      </Section>
+    </>
   );
 };
 
