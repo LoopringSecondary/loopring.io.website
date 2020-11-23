@@ -64,7 +64,6 @@ const HeroSection = (props) => {
               className="is-size-2-mobile is-size-1"
               style={{
                 fontWeight: '600',
-                paddingTop: '20px',
                 paddingBottom: '20px',
               }}
             >

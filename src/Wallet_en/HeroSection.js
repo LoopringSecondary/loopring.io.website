@@ -64,7 +64,6 @@ const HeroSection = (props) => {
               className="is-size-3-mobile is-size-1 has-text-din"
               style={{
                 fontWeight: '100',
-                paddingTop: '20px',
                 paddingBottom: '20px',
                 textTransform: 'uppercase',
               }}

@@ -5,15 +5,23 @@ import Container from 'react-bulma-components/lib/components/container';
 import Image from 'react-bulma-components/lib/components/image';
 import Button from 'react-bulma-components/lib/components/button';
 import Columns from 'react-bulma-components/lib/components/columns';
+import {DownloadButton} from './HeroSection';
 
 import './WithdrawalMining.scss';
 
+const CenterAlignContainer = styled.div`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+`;
+
 const WithdrawalMining = (props) => {
   return (
-    <Section className="withdrawal-section is-large has-background-black-bis has-text-white"
+    <Section className="withdrawal-section-en is-large has-background-black-bis has-text-white"
 style={{border: "20px solid white"}}
     >
-      <Container >
+      <CenterAlignContainer >
         <div style={{minHeight: '400px',}}>
           <div
             className="title graidient-text has-text-din"
@@ -46,7 +54,7 @@ style={{border: "20px solid white"}}
           </p>
 
           <div className="is-size-6 rules">
-              <ol style={{maxWidth: '800px', padding: '60px', color:'#65ffda'}}>
+              <ol style={{maxWidth: '800px', padding: '20px', color:'#65ffda'}}>
                 <li>This program will be active from November 27th (inclusive) to December 26th (inclusive), 30 days.</li>
                 <li>
                 The total mining reward is <b>1,000,000 LRC</b>, 33,333 LRC each day.
@@ -89,7 +97,11 @@ style={{border: "20px solid white"}}
               </ol>
             </div>
         </div>
-      </Container>
+<div style={{marginTop:"80px"}}>
+      <DownloadButton />
+      </div>
+      </CenterAlignContainer>
+
     </Section>
   );
 };
