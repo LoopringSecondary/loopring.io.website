@@ -61,7 +61,7 @@ const Navigation = (props) => {
               Loopring Wallet
             </NavbarItem>
             <NavbarItem href="https://v1.loopring.io" onClick={onLinkClick}>
-              Loopring Exchange (v1)
+              Loopring Exchange v1
             </NavbarItem>
           </div>
         </div>

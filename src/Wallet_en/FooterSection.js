@@ -39,7 +39,7 @@ const FooterSection = () => {
                     Android App
                   </a>
                 </div>
-                <div>iOS App</div>
+                <div>iOS App (coming soon)</div>
               </div>
               <div>Wallet Tutorial</div>
               <div>Looping Points</div>
@@ -87,9 +87,9 @@ const FooterSection = () => {
               >
                 Other
               </div>
-
+              <div>Loopring Exchange v2 (coming soon)</div>
               <div>
-                <a href="https://v1.loopring.io">Loopring Exchange (v1)</a>
+                <a href="https://v1.loopring.io">Loopring Exchange v1</a>
               </div>
               <div>
                 <a href="https://loopring.org">Loopring Protocol</a>

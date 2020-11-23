@@ -39,7 +39,7 @@ const FooterSection = () => {
                     安卓App
                   </a>
                 </div>
-                <div>iOS App</div>
+                <div>iOS App（即将上线）</div>
               </div>
               <div>使用教程</div>
               <div>路印积分</div>
@@ -87,9 +87,9 @@ const FooterSection = () => {
               >
                 其他
               </div>
-
+              <div>路印交易所 v2（即将上线）</div>
               <div>
-                <a href="https://v1.loopring.io">路印交易所-V1</a>
+                <a href="https://v1.loopring.io">路印交易所 v1</a>
               </div>
               <div>
                 <a href="https://loopring.org">路印协议</a>

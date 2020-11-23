@@ -61,7 +61,7 @@ const Navigation = (props) => {
               路印钱包
             </NavbarItem>
             <NavbarItem href="https://v1.loopring.io" onClick={onLinkClick}>
-              路印交易所-V1
+              路印交易所 v1
             </NavbarItem>
           </div>
         </div>
