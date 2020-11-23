@@ -66,7 +66,7 @@ const RulesSection = (props) => {
                 <li>路印科技保留对本次活动解释，修改，和取消的权利。</li>
               </ol>
             </div>
-            如果您想了解规则的更多解读，可以参考我们的<a>相关博客</a>。
+            {/* 如果您想了解规则的更多解读，可以参考我们的<a>相关博客</a>。*/}
           </div>
         </CenterAlignContainer>
       </Section>
