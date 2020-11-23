@@ -31,24 +31,25 @@ const HowToStep = ({titles}) => {
           <Columns>
             {titles.map((title, index) => (
               <Columns.Column size={4}>
-                <Container className="one-step is-centered">
-                  <div style={{padding: '20px'}}>
+                <Container className="one-step is-centered has-text-left">
+                  <div className=" is-centered">
                     <div
                       className="is-size-6 has-text-dark"
                       style={{
                         margin: '20px',
                         marginLeft: '0',
                         fontWeight: '600',
-                        width: '300px',
                         minHeight: '80px',
+                        maxWidth: '320px',
                       }}
                     >
                       <span className="has-text-grey">{index + 1}.</span>{' '}
                       {title}
                     </div>
                     <Image
+                      className=" is-centered"
                       style={{
-                        width: '300px',
+                        width: '360px',
                         overflow: 'hidden',
                         border: '1px solid #1c42ff10',
                         filter: 'drop-shadow(0 0 1rem #1c42ff50)',
