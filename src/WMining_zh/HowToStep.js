@@ -34,13 +34,13 @@ const HowToStep = ({titles}) => {
                 <Container className="one-step is-centered">
                   <div style={{padding: '20px'}}>
                     <div
-                      className="is-size-5 has-text-dark"
+                      className="is-size-6 has-text-dark"
                       style={{
                         margin: '20px',
                         marginLeft: '0',
                         fontWeight: '600',
                         width: '300px',
-                        minHeight: '60px',
+                        minHeight: '80px',
                       }}
                     >
                       <span className="has-text-grey">{index + 1}.</span>{' '}

@@ -37,14 +37,7 @@ const WithdrawalMining = (props) => {
             路印的“提现挖矿”活动是为了激励用户把币从中心化平台提到非托管钱包，学会自己管理虚拟资产。
           </p>
           <p>
-            我们将很快发布活动细则，请您先
-            <a
-              className="link"
-              href="http://52.82.125.33:8082/LoopringWallet.apk"
-            >
-              安装路印钱包
-            </a>
-            ，为获奖做好准备!
+            <a href="/#/wmining">了解更多</a>。
           </p>
         </div>
       </Container>
