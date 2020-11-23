@@ -12,7 +12,7 @@ const WithdrawalMining = (props) => {
   return (
     <Section className="withdrawal-section is-large has-background-black-bis has-text-white">
       <Container>
-        <div style={{ minHeight: '400px' }}>
+        <div style={{minHeight: '400px'}}>
           <div
             className="title graidient-text has-text-din"
             style={{
@@ -36,7 +36,7 @@ const WithdrawalMining = (props) => {
           </div>
           <p
             className="desc has-text-white is-size-6"
-            style={{ maxWidth: '680px' }}
+            style={{maxWidth: '680px'}}
           >
             The objective of the "Withdrawal mining" program is to incentivize
             our community to withdraw cryptoassets from centralized platforms

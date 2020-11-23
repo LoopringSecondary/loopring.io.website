@@ -8,7 +8,7 @@ import Button from 'react-bulma-components/lib/components/button';
 import Columns from 'react-bulma-components/lib/components/columns';
 import Footer from 'react-bulma-components/lib/components/footer';
 
-import { CenterAlignContainer } from './Common';
+import {CenterAlignContainer} from './Common';
 
 const FooterSection = () => {
   return (
@@ -26,7 +26,7 @@ const FooterSection = () => {
             <Container className="has-text-centered">
               <div
                 className="has-text-black-ter has-text-din"
-                style={{ fontSize: '20px', marginBottom: '8px' }}
+                style={{fontSize: '20px', marginBottom: '8px'}}
               >
                 Wallet
               </div>
@@ -48,7 +48,7 @@ const FooterSection = () => {
             <Container className="has-text-centered">
               <div
                 className="has-text-black-ter has-text-din"
-                style={{ fontSize: '20px', marginBottom: '8px' }}
+                style={{fontSize: '20px', marginBottom: '8px'}}
               >
                 Social
               </div>
@@ -82,7 +82,7 @@ const FooterSection = () => {
             <Container className="has-text-centered">
               <div
                 className="has-text-black-ter has-text-din"
-                style={{ fontSize: '20px', marginBottom: '8px' }}
+                style={{fontSize: '20px', marginBottom: '8px'}}
               >
                 Other
               </div>

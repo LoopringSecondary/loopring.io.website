@@ -12,7 +12,7 @@ const WithdrawalMining = (props) => {
   return (
     <Section className="withdrawal-section is-large has-background-black-bis has-text-white">
       <Container>
-        <div style={{ minHeight: '400px' }}>
+        <div style={{minHeight: '400px'}}>
           <div
             className="title graidient-text"
             style={{

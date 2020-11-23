@@ -21,4 +21,4 @@ const LeftAlignContainer = styled.div`
 `;
 
 export default CenterAlignContainer;
-export { CenterAlignContainer, RightAlignContainer, LeftAlignContainer };
+export {CenterAlignContainer, RightAlignContainer, LeftAlignContainer};

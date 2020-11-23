@@ -30,7 +30,7 @@ const Navigation = (props) => {
 
   return (
     <Navbar className="main-navigation has-background-primary">
-      <Container style={{ paddingTop: '1rem', paddingBottom: '1rem' }}>
+      <Container style={{paddingTop: '1rem', paddingBottom: '1rem'}}>
         <Navbar.Brand>
           <Navbar.Item renderAs="div">
             <img className="logo" draggable="false" src="/images/logo.svg" />
@@ -42,7 +42,7 @@ const Navigation = (props) => {
             aria-label="menu"
             aria-expanded="false"
             onClick={onBurgerClick}
-            style={{ color: 'white' }}
+            style={{color: 'white'}}
           >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>

@@ -7,7 +7,7 @@ import Button from 'react-bulma-components/lib/components/button';
 
 import './HeroSection.scss';
 
-import { CenterAlignContainer } from './Common';
+import {CenterAlignContainer} from './Common';
 
 const HoverableButton = styled(Button)`
   &:hover {
@@ -56,7 +56,7 @@ const HeroSection = (props) => {
           <div className="has-text-centered">
             <div
               className="is-size-4-mobile is-size-3 has-text-din"
-              style={{ fontWeight: '600' ,textTransform: 'uppercase',}}
+              style={{fontWeight: '600', textTransform: 'uppercase'}}
             >
               Loopring Wallet
             </div>
@@ -77,11 +77,13 @@ const HeroSection = (props) => {
         <CenterAlignContainer>
           <Image
             style={{
+              userSelect: 'none',
+              userDrag: 'none',
               margin: 'auto',
               marginTop: '10px',
               marginBottom: '-240px',
               width: '340px',
-              filter: 'drop-shadow(0 0 1rem rgba(0,0,0,0.5))',
+              filter: 'drop-shadow(0 0 1rem #1c42ff)',
             }}
             src={'/images/top.png'}
           />
@@ -90,19 +92,24 @@ const HeroSection = (props) => {
 
       <Section className="hero-section-bottom is-small has-background-white">
         <CenterAlignContainer>
-          <div className="has-text-centered" style={{ marginTop: '0' }}>
+          <div className="has-text-centered" style={{marginTop: '0'}}>
             <DownloadButton primary />
             <div
               className="first-zkrollup has-text-black-bis has-text-din"
-              style={{ paddingTop: '60px', fontWeight: '600' ,textTransform: 'uppercase',}}
+              style={{
+                paddingTop: '60px',
+                fontWeight: '600',
+                textTransform: 'uppercase',
+              }}
             >
               First Ever
             </div>
             <div
               className="has-text-black-bis is-size-4-mobile is-size-4"
-              style={{ fontWeight: '500' }}
+              style={{fontWeight: '500'}}
             >
-              Ethereum Smart Wallet with zkRollup-based Trading, Transfers & AMMs.
+              Ethereum Smart Wallet with zkRollup-based Trading, Transfers &
+              AMMs.
             </div>
 
             <div
@@ -115,10 +122,12 @@ const HeroSection = (props) => {
               }}
             >
               Loopring's zkRollup L2 solution offers the same security
-              guarantees as Ethereum mainnet, with a big scalability boost: throughput increased
-              by 1000x, and cost recuced to just 0.1% of L1. Ethereum is now unleashed.
-              One year ago, we launched the first zkRollup on Ethereum - now we put its power in your pocket.
-              Smooth orderbook trading, AMMs, and global payments, right from the Loopring wallet.
+              guarantees as Ethereum mainnet, with a big scalability boost:
+              throughput increased by 1000x, and cost recuced to just 0.1% of
+              L1. Ethereum is now unleashed. One year ago, we launched the first
+              zkRollup on Ethereum - now we put its power in your pocket. Smooth
+              orderbook trading, AMMs, and global payments, right from the
+              Loopring wallet.
             </div>
           </div>
         </CenterAlignContainer>
@@ -127,4 +136,4 @@ const HeroSection = (props) => {
   );
 };
 export default HeroSection;
-export { CenterAlignContainer, DownloadButton };
+export {CenterAlignContainer, DownloadButton};
