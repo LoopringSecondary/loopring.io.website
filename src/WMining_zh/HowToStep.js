@@ -40,7 +40,7 @@ const HowToStep = ({titles}) => {
                         marginLeft: '0',
                         fontWeight: '600',
                         minHeight: '80px',
-                        maxWidth: '320px',
+                        maxWidth: '310px',
                       }}
                     >
                       <span className="has-text-grey">{index + 1}.</span>{' '}
@@ -49,7 +49,7 @@ const HowToStep = ({titles}) => {
                     <Image
                       className=" is-centered"
                       style={{
-                        width: '360px',
+                        width: '320px',
                         overflow: 'hidden',
                         border: '1px solid #1c42ff10',
                         filter: 'drop-shadow(0 0 1rem #1c42ff50)',
