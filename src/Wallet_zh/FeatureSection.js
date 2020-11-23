@@ -15,7 +15,7 @@ import './FeatureSection.scss';
 
 const FeatureSection = ({h1, h2, h3, imageUrl, even, imageSize}) => {
   const bgImgUrl = 'url(\'' + imageUrl + '\')';
-  const bgImgPosition = even ? 'left center' : 'right center';
+  const bgImgPosition = even ? 'right center' : 'right center';
   const columnsClassName = even ? 'is-reversed-mobile' : '';
 
   const textBlock = (

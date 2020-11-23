@@ -64,7 +64,7 @@ const HeroSection = (props) => {
               className="is-size-2-mobile is-size-1"
               style={{
                 fontWeight: '600',
-                paddingTop: '40px',
+                paddingTop: '20px',
                 paddingBottom: '20px',
               }}
             >
@@ -84,7 +84,7 @@ const HeroSection = (props) => {
               width: '420px',
               filter: 'drop-shadow(0 0 1rem #1c42ff50)',
             }}
-            src={'/images/top.png'}
+            src={'/images/top_zh.png'}
           />
         </CenterAlignContainer>
       </Section>

@@ -8,6 +8,7 @@ import About from './About/About';
 import NotFound from './NotFound/NotFound';
 import {default as Walletzh} from './Wallet_zh/wallet';
 import {default as Walleten} from './Wallet_en/wallet';
+import {default as WMiningzh} from './WMining_zh/wmining';
 
 class App extends React.Component {
   render() {
@@ -24,6 +25,8 @@ class App extends React.Component {
                 exact
                 component={isChinese ? Walletzh : Walleten}
               />
+              <Route path="/wmining" exact component={WMiningzh} />
+
               {/*              <Route path="/home" exact component={Home} />
               <Route path="/about" exact component={About} />
               <Route path="/protocol" exact component={Protocol} />
