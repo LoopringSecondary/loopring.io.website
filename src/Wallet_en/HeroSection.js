@@ -56,7 +56,7 @@ const HeroSection = (props) => {
           <div className="has-text-centered">
             <div
               className="is-size-4-mobile is-size-3 has-text-din"
-              style={{fontWeight: '600', textTransform: 'uppercase'}}
+              style={{fontWeight: '600'}}
             >
               Loopring Wallet
             </div>
