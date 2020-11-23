@@ -1,17 +1,5 @@
-@font-face {
-  font-weight: normal;
-  font-family: "DINCondensed-Regular";
-  src: url("/fonts/DINCondensed/363123_2_0.eot");
-  src: url("/fonts/DINCondensed/363123_2_0.eot?#iefix")
-      format("embedded-opentype"),
-    url("/fonts/DINCondensed/363123_2_0.woff2") format("woff2"),
-    url("/fonts/DINCondensed/363123_2_0.woff") format("woff"),
-    url("/fonts/DINCondensed/363123_2_0.ttf") format("truetype"),
-    url("/fonts/DINCondensed/363123_2_0.svg#wf") format("svg");
-}
 
 html,
 body {
-  font-family: Roboto, PingFangSC-Regular, PingFang SC,  sans-serif;
+  font-family: Roboto, PingFangSC-Regular, PingFang SC, sans-serif;
 }
-
