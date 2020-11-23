@@ -48,7 +48,7 @@ style={{border: "20px solid white"}}
             className="desc has-text-white is-size-6"
             style={{maxWidth: '680px'}}
           >
-            The objective of the "Withdrawal mining" program is to incentivize
+            The objective of "Withdrawal Mining" is to incentivize
             our community to withdraw cryptoassets from centralized platforms
             and learn to self-manage their assets with a noncustodial wallet.
           </p>
