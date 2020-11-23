@@ -10,9 +10,10 @@ import './WithdrawalMining.scss';
 
 const WithdrawalMining = (props) => {
   return (
-    <Section className="withdrawal-section is-large has-background-black-bis has-text-white">
+    <Section className="withdrawal-section is-large has-background-black-bis has-text-white"
+    style={{border: "20px solid white"}}>
       <Container>
-        <div style={{minHeight: '400px'}}>
+        <div style={{minHeight: '200px', margin: '20px'}}>
           <div
             className="title graidient-text"
             style={{
