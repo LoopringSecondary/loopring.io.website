@@ -31,15 +31,15 @@ const WithdrawalMining = (props) => {
             }}
           >
             <span>Withdraw from CEXs to Loopring Wallet </span>
-            <span>to win 1,000,000 LRC reward. </span>
+            <span>and earn your share of 1,000,000 LRC. </span>
           </div>
           <p
             className="desc has-text-white is-size-6"
             style={{ maxWidth: '680px' }}
           >
-            The objective of the "Withdrawal mining" program is to incentivize
+            The objective of the "Withdrawal Mining" program is to incentivize
             our community to withdraw cryptoassets from centralized platforms
-            and learn to self-manage their assets with a noncustodial wallet.
+            and learn to take control of their assets with a non-custodial wallet.
           </p>
           <p>
             We will release mining rules soon. Please{' '}
