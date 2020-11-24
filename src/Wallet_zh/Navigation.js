@@ -30,9 +30,9 @@ const Navigation = (props) => {
 
   return (
     <Navbar className="main-navigation has-background-primary">
-      <Container style={{ paddingTop: '1rem', paddingBottom: '1rem' }}>
+      <Container style={{paddingTop: '1rem', paddingBottom: '1rem'}}>
         <Navbar.Brand>
-          <Navbar.Item renderAs="div">
+          <Navbar.Item renderAs="a" href="#">
             <img className="logo" draggable="false" src="/images/logo.svg" />
           </Navbar.Item>
           <a
@@ -42,7 +42,7 @@ const Navigation = (props) => {
             aria-label="menu"
             aria-expanded="false"
             onClick={onBurgerClick}
-            style={{ color: 'white' }}
+            style={{color: 'white'}}
           >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
@@ -60,11 +60,8 @@ const Navigation = (props) => {
             >
               路印钱包
             </NavbarItem>
-            <NavbarItem
-              href="https://exchange.loopring.io"
-              onClick={onLinkClick}
-            >
-              路印交易所
+            <NavbarItem href="https://v1.loopring.io" onClick={onLinkClick}>
+              路印交易所 v1
             </NavbarItem>
           </div>
         </div>

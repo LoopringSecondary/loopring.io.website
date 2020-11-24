@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import englishTranslation from "./i18n/VersionsSection.en.json";
-import chineseTranslation from "./i18n/VersionsSection.zh.json";
-import JsonI18nComponent from "../Components/JsonI18nComponent";
+import englishTranslation from './i18n/VersionsSection.en.json';
+import chineseTranslation from './i18n/VersionsSection.zh.json';
+import JsonI18nComponent from '../Components/JsonI18nComponent';
 
-import "./VersionsSection.scss";
+import './VersionsSection.scss';
 
 class VersionsSection extends JsonI18nComponent {
   constructor(props) {
@@ -29,7 +29,7 @@ class VersionsSection extends JsonI18nComponent {
                 <h2>{this.state.I.version10.title}</h2>
 
                 {this.state.I.version10.content.map((p, idx) => (
-                  <p key={idx} dangerouslySetInnerHTML={{ __html: p }} />
+                  <p key={idx} dangerouslySetInnerHTML={{__html: p}} />
                 ))}
               </div>
             </div>
@@ -43,7 +43,7 @@ class VersionsSection extends JsonI18nComponent {
                 <h2>{this.state.I.version15.title}</h2>
 
                 {this.state.I.version15.content.map((p, idx) => (
-                  <p key={idx} dangerouslySetInnerHTML={{ __html: p }} />
+                  <p key={idx} dangerouslySetInnerHTML={{__html: p}} />
                 ))}
               </div>
             </div>
@@ -53,7 +53,7 @@ class VersionsSection extends JsonI18nComponent {
                 <h2>{this.state.I.version20.title}</h2>
 
                 {this.state.I.version20.content.map((p, idx) => (
-                  <p key={idx} dangerouslySetInnerHTML={{ __html: p }} />
+                  <p key={idx} dangerouslySetInnerHTML={{__html: p}} />
                 ))}
               </div>
             </div>
@@ -65,7 +65,7 @@ class VersionsSection extends JsonI18nComponent {
                 <h2>{this.state.I.version30.title}</h2>
 
                 {this.state.I.version30.content.map((p, idx) => (
-                  <p key={idx} dangerouslySetInnerHTML={{ __html: p }} />
+                  <p key={idx} dangerouslySetInnerHTML={{__html: p}} />
                 ))}
               </div>
             </div>

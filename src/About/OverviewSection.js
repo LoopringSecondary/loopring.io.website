@@ -1,12 +1,12 @@
-import React from "react";
-import "./OverviewSection.scss";
-import "../../node_modules/aos/dist/aos.css";
-import AOS from "aos";
+import React from 'react';
+import './OverviewSection.scss';
+import '../../node_modules/aos/dist/aos.css';
+import AOS from 'aos';
 
-import { Translate } from "react-localize-redux";
-import englishTranslation from "./i18n/OverviewSection.en.json";
-import chineseTranslation from "./i18n/OverviewSection.zh.json";
-import JsonI18nComponent from "../Components/JsonI18nComponent";
+import {Translate} from 'react-localize-redux';
+import englishTranslation from './i18n/OverviewSection.en.json';
+import chineseTranslation from './i18n/OverviewSection.zh.json';
+import JsonI18nComponent from '../Components/JsonI18nComponent';
 
 class OverviewSection extends JsonI18nComponent {
   constructor(props, context) {
@@ -32,7 +32,7 @@ class OverviewSection extends JsonI18nComponent {
                 <h2>{this.state.I.section1.title}</h2>
 
                 {this.state.I.section1.content.map((p, idx) => (
-                  <p key={idx} dangerouslySetInnerHTML={{ __html: p }} />
+                  <p key={idx} dangerouslySetInnerHTML={{__html: p}} />
                 ))}
               </div>
             </div>
@@ -45,7 +45,7 @@ class OverviewSection extends JsonI18nComponent {
               <div className="content">
                 <p
                   dangerouslySetInnerHTML={{
-                    __html: this.state.I.section1.objective
+                    __html: this.state.I.section1.objective,
                   }}
                 />
               </div>
@@ -63,13 +63,13 @@ class OverviewSection extends JsonI18nComponent {
                 <h2>{this.state.I.section2.title}</h2>
 
                 {this.state.I.section2.content.map((p, idx) => (
-                  <p key={idx} dangerouslySetInnerHTML={{ __html: p }} />
+                  <p key={idx} dangerouslySetInnerHTML={{__html: p}} />
                 ))}
 
                 <h2>{this.state.I.section3.title}</h2>
 
                 {this.state.I.section3.content.map((p, idx) => (
-                  <p key={idx} dangerouslySetInnerHTML={{ __html: p }} />
+                  <p key={idx} dangerouslySetInnerHTML={{__html: p}} />
                 ))}
               </div>
             </div>
@@ -79,7 +79,7 @@ class OverviewSection extends JsonI18nComponent {
                 <h2>{this.state.I.section4.title}</h2>
 
                 {this.state.I.section4.content.map((p, idx) => (
-                  <p key={idx} dangerouslySetInnerHTML={{ __html: p }} />
+                  <p key={idx} dangerouslySetInnerHTML={{__html: p}} />
                 ))}
               </div>
             </div>

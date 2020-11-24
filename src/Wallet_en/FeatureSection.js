@@ -13,9 +13,9 @@ import {
 
 import './FeatureSection.scss';
 
-const FeatureSection = ({ h1, h2, h3, imageUrl, even, imageSize }) => {
+const FeatureSection = ({h1, h2, h3, imageUrl, even, imageSize}) => {
   const bgImgUrl = 'url(\'' + imageUrl + '\')';
-  const bgImgPosition = even ? 'left center' : 'right center';
+  const bgImgPosition = even ? 'right center' : 'right center';
   const columnsClassName = even ? 'is-reversed-mobile' : '';
 
   const textBlock = (
@@ -30,8 +30,8 @@ const FeatureSection = ({ h1, h2, h3, imageUrl, even, imageSize }) => {
         <Image className="is-hidden-tablet" src={imageUrl} />
 
         <div
-          className="has-text-black-bis is-size-2"
-          style={{ fontWeight: 600 }}
+          className="has-text-black-bis is-size-2 has-text-din"
+          style={{fontWeight: 600, textTransform: 'uppercase'}}
         >
           {h1}
         </div>
@@ -83,11 +83,11 @@ const FeatureSection = ({ h1, h2, h3, imageUrl, even, imageSize }) => {
     >
       <Container>
         <Columns className={columnsClassName}>
-          <Columns.Column size={6} style={{ padding: '0' }}>
+          <Columns.Column size={6} style={{padding: '0'}}>
             {even ? textBlock : imageBlock}
           </Columns.Column>
 
-          <Columns.Column size={6} style={{ padding: '0' }}>
+          <Columns.Column size={6} style={{padding: '0'}}>
             {even ? imageBlock : textBlock}
           </Columns.Column>
         </Columns>

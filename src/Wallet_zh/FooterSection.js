@@ -8,12 +8,13 @@ import Button from 'react-bulma-components/lib/components/button';
 import Columns from 'react-bulma-components/lib/components/columns';
 import Footer from 'react-bulma-components/lib/components/footer';
 
-import { CenterAlignContainer } from './Common';
+import {CenterAlignContainer} from './Common';
+import './FooterSection.scss';
 
 const FooterSection = () => {
   return (
     <Footer
-      className="has-text-grey-light"
+      className="footer-section has-text-grey-light"
       style={{
         paddingBottom: '0px',
         background: '#f1f2f550',
@@ -26,7 +27,7 @@ const FooterSection = () => {
             <Container className="has-text-centered">
               <div
                 className="has-text-black-ter"
-                style={{ fontSize: '20px', marginBottom: '8px' }}
+                style={{fontSize: '20px', marginBottom: '8px'}}
               >
                 钱包
               </div>
@@ -38,7 +39,7 @@ const FooterSection = () => {
                     安卓App
                   </a>
                 </div>
-                <div>iOS App</div>
+                <div>iOS App（即将上线）</div>
               </div>
               <div>使用教程</div>
               <div>路印积分</div>
@@ -48,7 +49,7 @@ const FooterSection = () => {
             <Container className="has-text-centered">
               <div
                 className="has-text-black-ter"
-                style={{ fontSize: '20px', marginBottom: '8px' }}
+                style={{fontSize: '20px', marginBottom: '8px'}}
               >
                 联系
               </div>
@@ -82,13 +83,13 @@ const FooterSection = () => {
             <Container className="has-text-centered">
               <div
                 className="has-text-black-ter"
-                style={{ fontSize: '20px', marginBottom: '8px' }}
+                style={{fontSize: '20px', marginBottom: '8px'}}
               >
                 其他
               </div>
-
+              <div>路印交易所 v2（即将上线）</div>
               <div>
-                <a href="https://exchange.loopring.io">路印交易所</a>
+                <a href="https://v1.loopring.io">路印交易所 v1</a>
               </div>
               <div>
                 <a href="https://loopring.org">路印协议</a>

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, {useEffect} from 'react';
 import styled from 'styled-components';
 import Navigation from './Navigation';
 import HeroSection from './HeroSection';
@@ -28,7 +28,7 @@ const WalletPage = ({t}) => {
           'they can help you recover all your assets. As long as more than half of your guardians are trustworthy, your ' +
           'assets are secure. You can also set limits on daily transfers, and lock it down if ever needed.'
         }
-        imageUrl={'/images/feature_social_recover.png'}
+        imageUrl={'/images/feature_social_recover_en.png'}
       />
       <FeatureSection
         h1={'Own Your Identity'}
@@ -41,7 +41,7 @@ const WalletPage = ({t}) => {
           'wallet are safe. Compared to an ordinary wallet where, if the private key is leaked, all ' +
           'your assets are no longer safe.'
         }
-        imageUrl={'/images/feature_identity.png'}
+        imageUrl={'/images/feature_identity_en.png'}
       />
       <FeatureSection
         even
@@ -55,7 +55,7 @@ const WalletPage = ({t}) => {
           'the power and permissionlessness of Ethereum. Best of both worlds: ' +
           'traditional speed and cost efficiency & Ethereum security, opportunity, and global reach.'
         }
-        imageUrl={'/images/feature_akhs.png'}
+        imageUrl={'/images/feature_akhs_en.png'}
       />
       <FeatureSection
         imageSize={'contain'}
@@ -68,7 +68,7 @@ const WalletPage = ({t}) => {
           'wallets focus on the present, while Loopring Wallet is positioned for the future, whatever ' +
           'it may bring.'
         }
-        imageUrl={'/images/feature_future_looking.png'}
+        imageUrl={'/images/feature_future_looking_en.png'}
       />
 
       <FeatureSection
@@ -81,7 +81,7 @@ const WalletPage = ({t}) => {
           'scaling solutions - not just Loopring. Earn, invest, trade, and more. The new financial system is at your fingertips, and you can put your money to work within your wallet. ' +
           'Always adhering to the principles of open source, no custody of user assets, and safety first. You are always in control.'
         }
-        imageUrl={'/images/feature_best_choice.png'}
+        imageUrl={'/images/feature_best_choice_en.png'}
       />
 
       <WithdrawalMining />
@@ -89,7 +89,5 @@ const WalletPage = ({t}) => {
     </>
   );
 };
-
-
 
 export default WalletPage;

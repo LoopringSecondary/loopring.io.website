@@ -8,12 +8,13 @@ import Button from 'react-bulma-components/lib/components/button';
 import Columns from 'react-bulma-components/lib/components/columns';
 import Footer from 'react-bulma-components/lib/components/footer';
 
-import { CenterAlignContainer } from './Common';
+import {CenterAlignContainer} from './Common';
+import './FooterSection.scss';
 
 const FooterSection = () => {
   return (
     <Footer
-      className="has-text-grey-light"
+      className="footer-section has-text-grey-light"
       style={{
         paddingBottom: '0px',
         background: '#f1f2f550',
@@ -25,8 +26,8 @@ const FooterSection = () => {
           <Columns.Column size={4}>
             <Container className="has-text-centered">
               <div
-                className="has-text-black-ter"
-                style={{ fontSize: '20px', marginBottom: '8px' }}
+                className="has-text-black-ter has-text-din"
+                style={{fontSize: '20px', marginBottom: '8px'}}
               >
                 Wallet
               </div>
@@ -38,7 +39,7 @@ const FooterSection = () => {
                     Android App
                   </a>
                 </div>
-                <div>iOS App</div>
+                <div>iOS App (coming soon)</div>
               </div>
               <div>Wallet Tutorial</div>
               <div>Looping Points</div>
@@ -47,8 +48,8 @@ const FooterSection = () => {
           <Columns.Column size={4}>
             <Container className="has-text-centered">
               <div
-                className="has-text-black-ter"
-                style={{ fontSize: '20px', marginBottom: '8px' }}
+                className="has-text-black-ter has-text-din"
+                style={{fontSize: '20px', marginBottom: '8px'}}
               >
                 Social
               </div>
@@ -81,14 +82,14 @@ const FooterSection = () => {
           <Columns.Column size={4}>
             <Container className="has-text-centered">
               <div
-                className="has-text-black-ter"
-                style={{ fontSize: '20px', marginBottom: '8px' }}
+                className="has-text-black-ter has-text-din"
+                style={{fontSize: '20px', marginBottom: '8px'}}
               >
                 Other
               </div>
-
+              <div>Loopring Exchange v2 (coming soon)</div>
               <div>
-                <a href="https://exchange.loopring.io">Loopring Exchange</a>
+                <a href="https://v1.loopring.io">Loopring Exchange v1</a>
               </div>
               <div>
                 <a href="https://loopring.org">Loopring Protocol</a>

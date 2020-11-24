@@ -1,0 +1,15 @@
+@charset 'utf-8';
+@import "../../_variables.sass";
+
+.howto-step {
+  background-color: #f1f2f5;
+  .one-step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    figure {
+      border-radius: 36px !important;
+    }
+  }
+}

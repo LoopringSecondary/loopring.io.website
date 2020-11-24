@@ -10,9 +10,12 @@ import './WithdrawalMining.scss';
 
 const WithdrawalMining = (props) => {
   return (
-    <Section className="withdrawal-section is-large has-background-black-bis has-text-white">
+    <Section
+      className="withdrawal-section is-large has-background-black-bis has-text-white"
+      style={{border: '20px solid white'}}
+    >
       <Container>
-        <div style={{ minHeight: '400px' }}>
+        <div style={{minHeight: '200px', margin: '20px'}}>
           <div
             className="title graidient-text"
             style={{
@@ -37,14 +40,7 @@ const WithdrawalMining = (props) => {
             路印的“提现挖矿”活动是为了激励用户把币从中心化平台提到非托管钱包，学会自己管理虚拟资产。
           </p>
           <p>
-            我们将很快发布活动细则，请您先
-            <a
-              className="link"
-              href="http://52.82.125.33:8082/LoopringWallet.apk"
-            >
-              安装路印钱包
-            </a>
-            ，为获奖做好准备!
+            <a href="/#/wmining">了解更多</a>
           </p>
         </div>
       </Container>

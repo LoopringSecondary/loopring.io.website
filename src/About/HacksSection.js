@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react';
 
-import englishTranslation from "./i18n/HacksSection.en.json";
-import chineseTranslation from "./i18n/HacksSection.zh.json";
-import JsonI18nComponent from "../Components/JsonI18nComponent";
+import englishTranslation from './i18n/HacksSection.en.json';
+import chineseTranslation from './i18n/HacksSection.zh.json';
+import JsonI18nComponent from '../Components/JsonI18nComponent';
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faRadiationAlt } from "@fortawesome/free-solid-svg-icons";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faRadiationAlt} from '@fortawesome/free-solid-svg-icons';
 
-import "./HacksSection.scss";
+import './HacksSection.scss';
 
 class HacksSection extends JsonI18nComponent {
   constructor(props) {

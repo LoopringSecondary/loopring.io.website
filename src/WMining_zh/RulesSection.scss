@@ -1,0 +1,17 @@
+@charset 'utf-8';
+@import "../../_variables.sass";
+
+.wmining-rules-section {
+  background: #d2dbff;
+  .rules {
+    padding: 0px 40px;
+    margin: 40px 0;
+    border-radius: 5px;
+  }
+  li {
+    margin-bottom: 8px;
+  }
+  span.strong {
+    color: $primary !important;
+  }
+}

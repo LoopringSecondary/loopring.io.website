@@ -7,7 +7,7 @@ import Button from 'react-bulma-components/lib/components/button';
 
 import './HeroSection.scss';
 
-import { CenterAlignContainer } from './Common';
+import {CenterAlignContainer} from './Common';
 
 const HoverableButton = styled(Button)`
   &:hover {
@@ -56,7 +56,7 @@ const HeroSection = (props) => {
           <div className="has-text-centered">
             <div
               className="is-size-5-mobile is-size-4"
-              style={{ fontWeight: '300' }}
+              style={{fontWeight: '300'}}
             >
               路印智能钱包
             </div>
@@ -64,7 +64,6 @@ const HeroSection = (props) => {
               className="is-size-2-mobile is-size-1"
               style={{
                 fontWeight: '600',
-                paddingTop: '40px',
                 paddingBottom: '20px',
               }}
             >
@@ -76,30 +75,32 @@ const HeroSection = (props) => {
         <CenterAlignContainer>
           <Image
             style={{
+              userSelect: 'none',
+              userDrag: 'none',
               margin: 'auto',
               marginTop: '10px',
               marginBottom: '-240px',
-              width: '340px',
-              filter: 'drop-shadow(0 0 1rem rgba(0,0,0,0.5))',
+              width: '420px',
+              filter: 'drop-shadow(0 0 1rem #1c42ff50)',
             }}
-            src={'/images/top.png'}
+            src={'/images/top_zh.png'}
           />
         </CenterAlignContainer>
       </Section>
 
       <Section className="hero-section-bottom is-small has-background-white">
         <CenterAlignContainer>
-          <div className="has-text-centered" style={{ marginTop: '0' }}>
+          <div className="has-text-centered" style={{marginTop: '0'}}>
             <DownloadButton primary />
             <div
               className="first-zkrollup has-text-black-bis "
-              style={{ paddingTop: '60px', fontWeight: '600' }}
+              style={{paddingTop: '60px', fontWeight: '600'}}
             >
               全球第一个
             </div>
             <div
               className="has-text-black-bis is-size-3-mobile is-size-3"
-              style={{ fontWeight: '500' }}
+              style={{fontWeight: '500'}}
             >
               zkRollup加持的以太坊智能钱包
             </div>
@@ -123,4 +124,4 @@ const HeroSection = (props) => {
   );
 };
 export default HeroSection;
-export { CenterAlignContainer, DownloadButton };
+export {CenterAlignContainer, DownloadButton};
