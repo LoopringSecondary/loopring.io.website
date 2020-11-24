@@ -61,7 +61,7 @@ const WithdrawalMining = (props) => {
             >
               <li>
                 This program will be active from November 27th (inclusive) to
-                December 26th (inclusive), 30 days.
+                December 26th (inclusive), Beijing time. 30 days.
               </li>
               <li>
                 The total mining reward is <b>1,000,000 LRC</b>, 33,333 LRC each
@@ -69,15 +69,15 @@ const WithdrawalMining = (props) => {
               </li>
               <li>
                 You can withdraw <b>LRC</b>, <b>ETH</b>, <b>WBTC</b>,{' '}
-                <b>USDT</b>, <b>USDC</b>, and <b>DAI</b> from the custodial
+                <b>USDT</b>, <b>USDC</b>, and <b>DAI</b> from custodial
                 platforms to Loopring Wallet to join the mining program.
               </li>
               <li>
                 To qualify, the total value of your wallet balance shall be no
-                less than 100 USDT.
+                less than 100 USD. Rewards are based on your daily balances.
               </li>
               <li>
-                Users who paid to create a wallet and users who created a wallet
+                Users who paid to create a wallet (bought a short ENS or 'special' address), OR users who have created a wallet
                 before midnight Beijing time on November 27th will earn a{' '}
                 <b>double reward</b>.
               </li>
@@ -94,9 +94,9 @@ const WithdrawalMining = (props) => {
               </li>
 
               <li>
-                The above doubles can be superimposed but capped at 8X. Each
-                wallet's effective participation amount is also limited to
-                800,000 USDT.
+                The above doubles can be 'stacked' (multiplied) but are capped at 8X. Each
+                wallet's effective participation amount is limited to
+                800,000 USD.
               </li>
               <li>
                 We will randomly select a time every day to take a snapshot and
@@ -104,16 +104,19 @@ const WithdrawalMining = (props) => {
                 amount.
               </li>
               <li>
-                We will distribute LRC rewards directly to your layer-2 account
+                We will distribute LRC rewards directly to your wallet's layer-2 account
                 the next day.
               </li>
               <li>
-                This program only supports Loopring Wallet that supports the new
-                Loopring 3.6 protocol.
+                This program only supports Loopring Wallets that are on the new
+                Loopring 3.6 protocol (If you create a wallet before Nov 27th, you can one-click migrate. All wallets created after Nov 27th are on v3.6 by default.)
               </li>
               <li>
-                LLoopring Technology reserves the right to interpret, modify,
-                and cancel this program when necessary.
+                While the spirit of this program is to incentivize users to take control away from CEXs, assets coming from anywhere, including other self-custodial wallets are eligible.
+              </li>
+              <li>
+                Loopring Technology reserves the right to interpret, modify,
+                and cancel this program if necessary. 
               </li>
             </ol>
           </div>
