@@ -14,7 +14,7 @@ const RulesSection = (props) => {
     <>
       <Section
         className="wmining-rules-section is-large"
-style={{border: '20px solid white'}}
+        style={{border: '20px solid white'}}
       >
         <CenterAlignContainer>
           <div className="has-text-left">
@@ -22,7 +22,9 @@ style={{border: '20px solid white'}}
               className="is-size-1 has-text-black"
               style={{fontWeight: '100'}}
             >
-              提现挖矿<br/><b>奖励规则</b>
+              提现挖矿
+              <br />
+              <b>奖励规则</b>
             </div>
             <div className="is-size-6 has-text-black rules">
               <ol style={{maxWidth: '800px', padding: '20px'}}>

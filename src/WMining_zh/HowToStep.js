@@ -16,7 +16,10 @@ import './HowToStep.scss';
 const HowToStep = ({titles}) => {
   return (
     <>
-      <Section className="howto-step is-medium" style={{border:"20px solid white"}}>
+      <Section
+        className="howto-step is-medium"
+        style={{border: '20px solid white'}}
+      >
         <CenterAlignContainer>
           <div className="has-text-left">
             <div
