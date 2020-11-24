@@ -9,6 +9,7 @@ import NotFound from './NotFound/NotFound';
 import {default as Walletzh} from './Wallet_zh/wallet';
 import {default as Walleten} from './Wallet_en/wallet';
 import {default as WMiningzh} from './WMining_zh/wmining';
+import {default as TermsPage} from './Legal/Terms';
 
 class App extends React.Component {
   render() {
@@ -26,53 +27,12 @@ class App extends React.Component {
                 component={isChinese ? Walletzh : Walleten}
               />
               <Route path="/wmining" exact component={WMiningzh} />
-
-              {/*              <Route path="/home" exact component={Home} />
-              <Route path="/about" exact component={About} />
-              <Route path="/protocol" exact component={Protocol} />
-              <Route path="/lrc" exact component={LRC} />
-              <Route path="/team" exact component={Team} />
-              <Route path="/ceremony" exact component={Protocol} />
               <Route
-                path="/blog"
+                path="/legal/terms"
                 exact
-                render={props => <Updates key="updates_all" group="all" />}
-              />
-              <Route
-                path="/blog/update"
-                exact
-                render={props => (
-                  <Updates key="updates_biweekly" group="biweekly" />
-                )}
-              />
-              <Route
-                path="/blog/loopring3.0"
-                exact
-                render={props => (
-                  <Updates key="updates_loopring3_0" group="loopring30" />
-                )}
+                render={(props) => <TermsPage isChinese={isChinese} />}
               />
 
-              <Route
-                path="/blog/learning"
-                exact
-                render={props => (
-                  <Updates key="updates_learning" group={"learning"} />
-                )}
-              />
-              <Route
-                path="/blog/thoughts"
-                exact
-                render={props => (
-                  <Updates key="updates_thoughts" group="thoughts" />
-                )}
-              />
-              <Route
-                path="/blog/news"
-                exact
-                render={props => <Updates key="updates_news" group="news" />}
-              />
-              <Route path="/post/:postId" component={Article} />*/}
               <Route component={NotFound} />
             </Switch>
           </ScrollToTop>

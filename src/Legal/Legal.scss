@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+@import "../../_variables.sass";
+
+.legal.markdown {
+	background: lightyellow;
+
+h1 {
+	font-size: 24px;
+	font-weight: 600;
+	display: inline-block;
+	margin: auto!important;
+}
+}
