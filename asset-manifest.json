@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "//loopring.io/static/css/main.719b8050.chunk.css",
-    "main.js": "//loopring.io/static/js/main.793d0aee.chunk.js",
-    "main.js.map": "//loopring.io/static/js/main.793d0aee.chunk.js.map",
+    "main.css": "//loopring.io/static/css/main.e0e473a5.chunk.css",
+    "main.js": "//loopring.io/static/js/main.e97c2fdb.chunk.js",
+    "main.js.map": "//loopring.io/static/js/main.e97c2fdb.chunk.js.map",
     "runtime-main.js": "//loopring.io/static/js/runtime-main.9d179c5f.js",
     "runtime-main.js.map": "//loopring.io/static/js/runtime-main.9d179c5f.js.map",
-    "static/css/2.e4df8fb8.chunk.css": "//loopring.io/static/css/2.e4df8fb8.chunk.css",
-    "static/js/2.78d3ca5c.chunk.js": "//loopring.io/static/js/2.78d3ca5c.chunk.js",
-    "static/js/2.78d3ca5c.chunk.js.map": "//loopring.io/static/js/2.78d3ca5c.chunk.js.map",
+    "static/css/2.559066bc.chunk.css": "//loopring.io/static/css/2.559066bc.chunk.css",
+    "static/js/2.a654cb09.chunk.js": "//loopring.io/static/js/2.a654cb09.chunk.js",
+    "static/js/2.a654cb09.chunk.js.map": "//loopring.io/static/js/2.a654cb09.chunk.js.map",
     "index.html": "//loopring.io/index.html",
-    "precache-manifest.3e05342e7892de7b4cf10ab9e5c3e824.js": "//loopring.io/precache-manifest.3e05342e7892de7b4cf10ab9e5c3e824.js",
+    "precache-manifest.691044eca78673a9d61c399182d912c9.js": "//loopring.io/precache-manifest.691044eca78673a9d61c399182d912c9.js",
     "service-worker.js": "//loopring.io/service-worker.js",
-    "static/css/2.e4df8fb8.chunk.css.map": "//loopring.io/static/css/2.e4df8fb8.chunk.css.map",
-    "static/css/main.719b8050.chunk.css.map": "//loopring.io/static/css/main.719b8050.chunk.css.map",
-    "static/js/2.78d3ca5c.chunk.js.LICENSE.txt": "//loopring.io/static/js/2.78d3ca5c.chunk.js.LICENSE.txt"
+    "static/css/2.559066bc.chunk.css.map": "//loopring.io/static/css/2.559066bc.chunk.css.map",
+    "static/css/main.e0e473a5.chunk.css.map": "//loopring.io/static/css/main.e0e473a5.chunk.css.map",
+    "static/js/2.a654cb09.chunk.js.LICENSE.txt": "//loopring.io/static/js/2.a654cb09.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9d179c5f.js",
-    "static/css/2.e4df8fb8.chunk.css",
-    "static/js/2.78d3ca5c.chunk.js",
-    "static/css/main.719b8050.chunk.css",
-    "static/js/main.793d0aee.chunk.js"
+    "static/css/2.559066bc.chunk.css",
+    "static/js/2.a654cb09.chunk.js",
+    "static/css/main.e0e473a5.chunk.css",
+    "static/js/main.e97c2fdb.chunk.js"
   ]
 }
