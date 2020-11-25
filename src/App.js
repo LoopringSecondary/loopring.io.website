@@ -28,6 +28,16 @@ class App extends React.Component {
               />
               <Route path="/wmining" exact component={WMiningzh} />
               <Route
+                path="/legal/terms/en"
+                exact
+                render={(props) => <TermsPage isChinese={false} />}
+              />
+              <Route
+                path="/legal/terms/zh"
+                exact
+                render={(props) => <TermsPage isChinese={true} />}
+              />
+              <Route
                 path="/legal/terms"
                 exact
                 render={(props) => <TermsPage isChinese={isChinese} />}
