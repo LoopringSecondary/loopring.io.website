@@ -6,6 +6,7 @@
   background-size: 600px;
   background-repeat: no-repeat;
   background-position: right center;
+  background: 1px solid red;
 
   .graidient-text {
     background: rgb(28, 66, 255);
@@ -46,6 +47,7 @@
 
   @media (max-width: $tablet) {
     background-size: 140px;
+
     .title {
       font-size: 3.5rem;
     }
