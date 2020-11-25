@@ -20,7 +20,7 @@ const TermsPage = ({isChinese}) => {
   }, []);
 
   return (
-    <Container className="legal markdown">
+    <Container className="legal markdown has-text-black">
       <ReactMarkdown children={markdown} />
     </Container>
   );
