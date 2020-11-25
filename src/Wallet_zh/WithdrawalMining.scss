@@ -2,6 +2,13 @@
 @import "../../_variables.sass";
 
 .withdrawal-section {
+
+  background-image: url('/images/wmining_bg.png');
+        background-size: 600px;
+        background-repeat: no-repeat;
+        background-position: right center;
+
+
   .graidient-text {
     background: rgb(28, 66, 255);
     background: linear-gradient(90deg, #1c42ff 0%, #ff66ed 50%);
@@ -33,14 +40,16 @@
   }
 
   @media (max-width: $desktop) {
+    background-size: 300px;
     .title {
       font-size: 6rem;
     }
   }
 
   @media (max-width: $tablet) {
+    background-size: 140px;
     .title {
-      font-size: 4rem;
+      font-size: 3.5rem;
     }
     .slogan span {
       display: block;
