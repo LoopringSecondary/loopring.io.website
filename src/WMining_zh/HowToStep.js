@@ -36,19 +36,6 @@ const HowToStep = ({titles}) => {
               <Columns.Column size={4}>
                 <Container className="one-step is-centered has-text-left">
                   <div className=" is-centered">
-                    <div
-                      className="is-size-6 has-text-dark"
-                      style={{
-                        margin: '20px',
-                        marginLeft: '0',
-                        fontWeight: '600',
-                        minHeight: '80px',
-                        maxWidth: '310px',
-                      }}
-                    >
-                      <span className="has-text-grey">{index + 1}.</span>{' '}
-                      {title}
-                    </div>
                     <Image
                       className=" is-centered"
                       style={{
@@ -59,6 +46,22 @@ const HowToStep = ({titles}) => {
                       }}
                       src={'/images/wmining/' + (index + 1) + '.jpeg'}
                     />
+                    <div
+                      className="is-size-6 has-text-dark"
+                      style={{
+                        padding: '20px',
+                        fontWeight: '600',
+                        minHeight: '80px',
+                        maxWidth: '310px',
+                      }}
+                    >
+                      <div style={{marginTop: 'auto'}}>
+                        <span className="has-text-grey circle-index">
+                          {index + 1}.
+                        </span>{' '}
+                        {title}
+                      </div>
+                    </div>
                   </div>
                 </Container>
               </Columns.Column>

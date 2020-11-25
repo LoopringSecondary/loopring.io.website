@@ -11,13 +11,32 @@ import './WithdrawalMining.scss';
 const WithdrawalMining = (props) => {
   return (
     <Section
-      className="withdrawal-section is-large has-background-black-bis has-text-white"
-      style={{border: '20px solid white'}}
+      className="withdrawal-section is-medium has-background-primary has-text-white"
+      style={{
+        border: '20px solid white',
+        backgroundImage: 'url(\'/images/wmining_bg.png\')',
+        backgroundSize: '600px',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'right center',
+      }}
     >
-      <Container>
-        <div style={{minHeight: '200px', margin: '20px'}}>
+      <Container
+        style={{
+          minHeight: '500px',
+          padding: '40px',
+        }}
+      >
+        <div
+          style={{
+            height: '400px',
+            display: 'block',
+
+            borde: '100px solid yellow',
+            padding: '40px',
+          }}
+        >
           <div
-            className="title graidient-text"
+            className="title "
             style={{
               fontWeight: 600,
               marginBottom: '20px',
@@ -29,7 +48,7 @@ const WithdrawalMining = (props) => {
           <div
             className="slogan is-size-4 "
             style={{
-              paddingBottom: '50px',
+              paddingBottom: '20px',
               color: '#65FFDA',
             }}
           >
