@@ -10,6 +10,7 @@ import {default as Walletzh} from './Wallet_zh/wallet';
 import {default as Walleten} from './Wallet_en/wallet';
 import {default as WMiningzh} from './WMining_zh/wmining';
 import {default as TermsPage} from './Legal/Terms';
+import {default as RisksPage} from './Legal/Risks';
 
 class App extends React.Component {
   render() {
@@ -41,6 +42,21 @@ class App extends React.Component {
                 path="/legal/terms"
                 exact
                 render={(props) => <TermsPage isChinese={isChinese} />}
+              />
+              <Route
+                path="/legal/risks/en"
+                exact
+                render={(props) => <RisksPage isChinese={false} />}
+              />
+              <Route
+                path="/legal/risks/zh"
+                exact
+                render={(props) => <RisksPage isChinese={true} />}
+              />
+              <Route
+                path="/legal/risks"
+                exact
+                render={(props) => <RisksPage isChinese={isChinese} />}
               />
 
               <Route component={NotFound} />
