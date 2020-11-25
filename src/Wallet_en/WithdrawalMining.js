@@ -77,8 +77,9 @@ const WithdrawalMining = (props) => {
                 less than 100 USD. Rewards are based on your daily balances.
               </li>
               <li>
-                Users who paid to create a wallet (bought a short ENS or 'special' address), OR users who have created a wallet
-                before midnight Beijing time on November 27th will earn a{' '}
+                Users who paid to create a wallet (bought a short ENS or
+                'special' address), OR users who have created a wallet before
+                midnight Beijing time on November 27th will earn a{' '}
                 <b>double reward</b>.
               </li>
               <li>
@@ -94,9 +95,9 @@ const WithdrawalMining = (props) => {
               </li>
 
               <li>
-                The above doubles can be 'stacked' (multiplied) but are capped at 8X. Each
-                wallet's effective participation amount is limited to
-                800,000 USD.
+                The above doubles can be 'stacked' (multiplied) but are capped
+                at 8X. Each wallet's effective participation amount is limited
+                to 800,000 USD.
               </li>
               <li>
                 We will randomly select a time every day to take a snapshot and
@@ -104,19 +105,23 @@ const WithdrawalMining = (props) => {
                 amount.
               </li>
               <li>
-                We will distribute LRC rewards directly to your wallet's layer-2 account
-                the next day.
+                We will distribute LRC rewards directly to your wallet's layer-2
+                account the next day.
               </li>
               <li>
                 This program only supports Loopring Wallets that are on the new
-                Loopring 3.6 protocol (If you create a wallet before Nov 27th, you can one-click migrate. All wallets created after Nov 27th are on v3.6 by default.)
+                Loopring 3.6 protocol (If you create a wallet before Nov 27th,
+                you can one-click migrate. All wallets created after Nov 27th
+                are on v3.6 by default.)
               </li>
               <li>
-                While the spirit of this program is to incentivize users to take control away from CEXs, assets coming from anywhere, including other self-custodial wallets are eligible.
+                While the spirit of this program is to incentivize users to take
+                control away from CEXs, assets coming from anywhere, including
+                other self-custodial wallets are eligible.
               </li>
               <li>
-                Loopring Technology reserves the right to interpret, modify,
-                and cancel this program if necessary. 
+                Loopring Technology reserves the right to interpret, modify, and
+                cancel this program if necessary.
               </li>
             </ol>
           </div>
