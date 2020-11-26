@@ -1,4 +1,4 @@
-# Loopring Wallet - Modules and Rules
+# Loopring Wallet Contract Rules
 
 ## Module 1
 
