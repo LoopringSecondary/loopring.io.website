@@ -24,10 +24,8 @@ const WithdrawalMining = (props) => {
       >
         <div
           style={{
-            height: '400px',
+            minHeight: '400px',
             display: 'block',
-
-            borde: '100px solid yellow',
             padding: '40px',
           }}
         >
