@@ -14,10 +14,6 @@ const WithdrawalMining = (props) => {
       className="withdrawal-section is-medium has-background-primary has-text-white"
       style={{
         border: '20px solid white',
-        backgroundImage: 'url(\'/images/wmining_bg.png\')',
-        backgroundSize: '600px',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'right center',
       }}
     >
       <Container
@@ -28,10 +24,8 @@ const WithdrawalMining = (props) => {
       >
         <div
           style={{
-            height: '400px',
+            minHeight: '400px',
             display: 'block',
-
-            borde: '100px solid yellow',
             padding: '40px',
           }}
         >

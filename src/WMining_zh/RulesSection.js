@@ -12,21 +12,26 @@ import {CenterAlignContainer} from '../Wallet_zh/Common';
 const RulesSection = (props) => {
   return (
     <>
-      <Section
-        className="wmining-rules-section is-large"
-        style={{border: '20px solid white'}}
-      >
-        <CenterAlignContainer>
-          <div className="has-text-left">
+      <Section className=" wmining-hero-section"></Section>
+      <Section className="wmining-rules-section is-small">
+        <CenterAlignContainer
+          style={{
+            backgroundColor: 'white',
+            maxWidth: '1000px',
+            marginLeft: 'auto',
+            marginRight: 'auto',
+            padding: '40px',
+            borderRadius: '10px',
+          }}
+        >
+          <div className="has-text-centered">
             <div
-              className="is-size-1 has-text-black"
+              className="is-size-3 has-text-black"
               style={{fontWeight: '100'}}
             >
-              提现挖矿
-              <br />
-              <b>奖励规则</b>
+              奖励规则
             </div>
-            <div className="is-size-6 has-text-black rules">
+            <div className="is-size-6 has-text-black  has-text-left rules">
               <ol style={{maxWidth: '800px', padding: '20px'}}>
                 <li>活动时间为11月27日（含）至12月26日（含），共30天。</li>
                 <li>

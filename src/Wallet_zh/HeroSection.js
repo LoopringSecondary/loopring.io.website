@@ -34,7 +34,7 @@ const DownloadButton = (props) => {
           border: 'none',
         }}
       >
-        下载安卓App
+        下载钱包安卓App（beta）
       </HoverableButton>
     </a>
   );

@@ -17,13 +17,13 @@
 
     &.disabled-button {
       background-color: #65ffda !important;
-      color: $black;
+      color: $primary !important;
       border-radius: 2px;
       cursor: default;
     }
 
     &.disabled-button:hover {
-      color: $black !important;
+      color: $primary !important;
       background-color: #65ffda !important;
     }
   }
