@@ -35,11 +35,11 @@ const FooterSection = () => {
               <div>
                 <a href="mailto:wallet@loopring.org">Feedback</a>
                 <div>
-                  <a href="http://52.82.125.33:8082/LoopringWallet.apk">
-                    Android App
+                  <a href="https://github.com/Loopring/loopring-wallet-feedback/raw/main/LoopringWallet.apk">
+                    Android App (beta, not localized)
                   </a>
                 </div>
-                <div>iOS App (coming soon)</div>
+                <div>iOS App </div>
               </div>
               <div>Wallet Tutorial</div>
               <div>Looping Points</div>
@@ -87,7 +87,7 @@ const FooterSection = () => {
               >
                 Other
               </div>
-              <div>Loopring Exchange v2 (coming soon)</div>
+              <div>Loopring Exchange v2 </div>
               <div>
                 <a href="https://v1.loopring.io">Loopring Exchange v1</a>
               </div>
