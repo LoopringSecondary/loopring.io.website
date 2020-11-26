@@ -46,6 +46,22 @@ class App extends React.Component {
                 render={(props) => <TermsPage isChinese={isChinese} />}
               />
               <Route
+                path="/legal/privacy/en"
+                exact
+                render={(props) => <PrivacyPage isChinese={false} />}
+              />
+              <Route
+                path="/legal/privacy/zh"
+                exact
+                render={(props) => <PrivacyPage isChinese={true} />}
+              />
+              <Route
+                path="/legal/privacy"
+                exact
+                render={(props) => <PrivacyPage isChinese={isChinese} />}
+              />
+
+              <Route
                 path="/legal/risks/en"
                 exact
                 render={(props) => <RisksPage isChinese={false} />}
