@@ -12,6 +12,7 @@ import {default as WMiningzh} from './WMining_zh/wmining';
 import {default as TermsPage} from './Legal/Terms';
 import {default as RisksPage} from './Legal/Risks';
 import {default as PrivacyPage} from './Legal/Privacy';
+import {default as WalletDesignPage} from './Legal/WalletDesign';
 
 class App extends React.Component {
   render() {
@@ -61,19 +62,19 @@ class App extends React.Component {
               />
 
               <Route
-                path="/legal/privacy/en"
+                path="/legal/walletdesign/en"
                 exact
-                render={(props) => <PrivacyPage isChinese={false} />}
+                render={(props) => <WalletDesignPage isChinese={false} />}
               />
               <Route
-                path="/legal/privacy/zh"
+                path="/legal/walletdesign/zh"
                 exact
-                render={(props) => <PrivacyPage isChinese={true} />}
+                render={(props) => <WalletDesignPage isChinese={true} />}
               />
               <Route
-                path="/legal/privacy"
+                path="/legal/walletdesign"
                 exact
-                render={(props) => <PrivacyPage isChinese={isChinese} />}
+                render={(props) => <WalletDesignPage isChinese={isChinese} />}
               />
 
               <Route component={NotFound} />
