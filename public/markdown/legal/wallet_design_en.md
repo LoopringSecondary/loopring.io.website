@@ -20,14 +20,14 @@ This describes how the Loopring Wallet smart contracts work in terms of guardian
 - Loopring Wallet supports signature verification and follows the ERC1271 specification. The verification will fail after the wallet is locked (see below).
 
 ### Safety
-- Adding the first 2 guardians will take effect immediately; adding more guardians (and deleting guardians) will take effect after 72 hours.
-- The addition and deletion of guardians requires more than half of the guardians plus the owner. The operation takes effect immediately.
+- Owners can add the first 2 guardians, which will take effect immediately; adding further guardians (and removing guardians) will take effect after 72 hours (unless approved by more than half of the existing guardians plus the owner, in which case it also takes effect immediately).
+- The addition and removal of guardians requires more than half of the guardians plus the owner. The operation takes effect immediately.
 - The Owner, or any guardian, can lock the wallet, and this operation takes effect immediately. After the wallet is locked, it must be unlocked to resume functionality.
 - More than half of the guardians are needed to unlock the wallet. Unlocking then takes effect immediately.
 - In case you lose access to your wallet, more than half of the guardians are needed to recover the wallet (i.e. "social recovery"), and this operation will take effect immediately. After the wallet is successfully restored, the wait time for the addition & deletion of guardian operations will be invalidated, so you can add guardians immediately (like the first time).
 
 ### Transfers
 - Users can impose a limit on daily transfer amounts. By default, transfers have no daily limit. The increase of the daily limit takes effect within 24 hours. The decrease of the daily limit will take effect immediately.
-- Users can whitelist addresses, which are then exempt from daily limits. Transferring funds to or interacting with whitelisted addresses is not subject to daily limit. Adding a whitelist address takes effect 24 hours; deleting a whitelist address takes effect immediately.
+- Users can whitelist addresses, which are then exempt from daily limits. Interacting with whitelisted addresses is not subject to daily limit. Adding a whitelist address takes effect 24 hours; deleting a whitelist address takes effect immediately.
 - More than half of the guardians plus the owner are required for the addition and deletion of whitelisted addresses. The operation takes effect immediately.
 - There is the ability for a global DApp whitelist address list. Transfering or interacting with a DApp on the whitelist address is not restricted by daily limit. The global DApp whitelist is managed by Loopring. (This means you can interact with some yield protocol, for example, without it affecting your limit).
