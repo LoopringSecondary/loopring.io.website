@@ -1,54 +1,37 @@
-# 路印科技用户风险披露
+# Loopring Technology User Risk Disclosure
 
+Loopring applications, including but not limited to Loopring Smart Wallet ("Wallet") and Loopring Exchange ("Exchange"), provide cutting-edge technologies and services related to blockchain, Ethereum smart contracts, and zero-knowledge proofs, There are many known risks. You must understand and accept these risks, otherwise, please consider stop using the Loopring app immediately.
 
-路印应用程序，包括但不限于路印智能钱包（“钱包”）和路印交易所（“交易所”），因提供区块链，智能合约，和零知识证明等相关的前沿科技与服务，存在许多已知风险。**您必须了解且接受这些风险，否则请立即停止使用路印应用程序。**
+## Wallet Related Risks
+### 1. Insufficient guardians
+If your wallet does not have three or more guardians, your wallet may become unrecoverable because the guardians are unavailable; or you may lose the tokens in the wallet due to the actions of individual guardians.
 
-## 钱包相关风险
+### 2. Official guardian
+After your wallet is created, we will add Loopring's official guardian service to your wallet by default. As a centralized service, Loopring's official guardian may be attacked and controlled by hackers.
 
-### 1.守护人不足
+### 3. Super administrator
+The Loopring Smart Wallet contract has a super administrator who cannot change any wallet status or tokens in the mobile wallet without user authorization. But the super administrator has the right to do the following operations: (1) Modify the global whitelist. There is no daily limit for transfers to any address in the whitelist. (2) New functional modules optional for registered users. (3) Change the mapping relationship between ENS and address. This operation will cause the assets transferred to the same ENS to actually be transferred to different addresses. Therefore, you need to verify the receiving address when transferring funds through ENS .
 
-如果您钱包没有三个或更多守护人，您的钱包可能会因为守护人不可用而变得无法恢复；也可能因个别守护人的行为而丢失钱包内的通证。
+### 4. Untimely operations
+The security of your wallet depends on your timely implementation of specific operations, including but not limited to (1) you should add at least three guardians as soon as possible after the wallet is created and ensure the security of the guardian's own wallet and the availability of the guardian; (2) equipment After the loss, you must lock the wallet with the guardian within 24 hours; (3) After the wallet is stolen, you must contact the guardian within 72 hours to complete the wallet recovery.
 
-### 2. 官方守护人
-在您的钱包创建后，我们默认为您的钱包添加路印官方守护人服务。作为中心化服务，路印官方守护人有可能被黑客攻击和控制。
+## Transaction Related Risks
+The following risks only affect the security of your assets in Loopring's second-tier account.
 
+### 1. The circuit code is not audited
+Our auditor, Least Authority, has completed the code audit of the 3.6 contract part of the Loopring agreement, but the audit of the circuit part of the agreement has not yet been completed. We will update the audit situation. During this period, users can understand the circuit code by themselves, or believe that Loopring will not do evil .
 
-### 3.超级管理员
+### 2. The circuit has not completed a trusted setup
+Loopring has not yet started the trusted setup of the circuit, so you also need to believe that Loopring will not do evil. We expect to complete the circuit trust setting in January 2021.
 
-路印智能钱包合约有一个超级管理员，该管理员无法在没有用户授权的情况下更改任何钱包状态或移动钱包内的通证。但超级管理员有权做如下操作：（1）修改全局白名单。您向白名单中的任何地址转账没有日限额。（2）注册用户可选的新的功能模块。（3）更改ENS与地址间的映射关系，该操作会导致转到同一个ENS的资产实际会转给不同的地址。**因此您通过ENS转账时需要校验接收地址**。
+### 3. Super administrator permissions
+Loopring Exchange is still in the testing stage. In order to fix online problems in time, we have the super administrator authority of the exchange contract. With this permission, Loopring can change the verification data used for contract deployment and zero-knowledge proof. We expect to adopt multi-signature and time lock to manage and restrict super administrator authority in January 2021.
 
-### 4.操作不及时
+### 4. Transaction rollback
+Transaction rollback is the common risk point of all the second-tier expansion plans, that is, the return result of the back-end interface call does not have the finality of the basic token network.
 
-您钱包的安全性依赖于您及时实践特定操作，包括但不限于（1）钱包创建后您应该尽快添加至少三个守护人并确保守护人自身钱包的安全和守护人的可用性；（2）设备丢失后您必须24小时内通过守护人锁定钱包；（3）钱包被盗后您必须在72小时内联系守护人完成钱包恢复。
+### 5. The withdrawal is not timely
+It is mentioned that the untimely arrival of the basic token network is also a risk point shared by all the second-tier expansion plans. Although we support fast withdrawal in the new version of the Loopring Protocol, the experience is consistent with that of a centralized exchange. But there are still many situations where it is impossible to withdraw quickly. In the worst case, the withdrawal time will be in hours. Users who arbitrage between different platforms need to withdraw frequently. These users need to weigh and accept the risk.
 
-
-## 交易相关风险
-
-以下风险只影响您在路印二层账号中资产的安全。
-
-### 1.电路代码未完成审计
-
-我们的审计方Least Authority已经完成了路印协议3.6合约部分的代码审计，但协议电路部分的审计尚未完成。我们会更新审计情况。在此期间，用户可自行了解电路代码，或相信**路印不会作恶**。
-
-
-### 2.电路尚未完成可信设置
-
-路印尚未开始电路的可信设置，因此您也需要相信**路印不会作恶**。我们预计会在2021年1月完成电路可信设置。
-
-### 3.超级管理员权限
-
-目前路印交易所仍然处于测试阶段，为了能够及时修复线上问题，我们拥有交易所合约的超级管理员权限。使用该权限，路印能够改换合约部署和零知识证明使用的验证数据。我们预计会在2021年1月采用多重签名和时间锁来管理约束超级管理员权限。
-
-### 4.交易回滚
-
-交易回滚是所有二层扩容方案共有的风险点，即后台接口调用的返回结果没有基础通证网络的最终性。
-
-### 5.提现到账不及时
-
-提现在基础通证网络到账不及时也是所有二层扩容方案共有的风险点。虽然我们在新版本路印协议中支持了快速提现，体验和中心化交易所一致。但仍有很多情况下无法进行快速提现。最坏情况下提现时间会以小时计，在不同平台间套利的用户需要经常提现，这些用户需要权衡并接受该风险。
-
-
-## 其他风险
-
-除上述重点陈述的风险外，使用路印应用程序还存在其他一些已知和未知风险。如您有任何疑问、意见，和建议，请通过电子邮件与我们联系：wallet@loopring.org。
-
+## Other Risks
+In addition to the risks stated above, there are other known and unknown risks associated with the use of the Loopring application. If you have any questions, comments, or suggestions, please contact us via email: wallet@loopring.org.
