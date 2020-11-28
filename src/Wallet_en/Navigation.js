@@ -5,8 +5,8 @@ import Navbar from 'react-bulma-components/lib/components/navbar';
 import './Navigation.scss';
 
 const NavbarItem = styled(Navbar.Item)`
-  margin: 20px 10px !important;
-  padding: 4px 20px !important;
+  margin: 20px 0px !important;
+  padding: 4px 16px !important;
 
   &:hover {
     background-color: transparent !important;
@@ -60,8 +60,14 @@ const Navigation = (props) => {
             >
               Loopring Wallet
             </NavbarItem>
+            <NavbarItem
+              href="https://exchange.loopring.io"
+              onClick={onLinkClick}
+            >
+              Loopring Swap & Exchange <span className="new">v2</span>
+            </NavbarItem>
             <NavbarItem href="https://v1.loopring.io" onClick={onLinkClick}>
-              Loopring Exchange v1
+              Old Exchange<span className="new old">v1</span>
             </NavbarItem>
           </div>
         </div>

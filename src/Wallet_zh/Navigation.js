@@ -5,7 +5,7 @@ import Navbar from 'react-bulma-components/lib/components/navbar';
 import './Navigation.scss';
 
 const NavbarItem = styled(Navbar.Item)`
-  margin: 20px 10px !important;
+  margin: 20px 0 !important;
   padding: 4px 20px !important;
 
   &:hover {
@@ -29,7 +29,7 @@ const Navigation = (props) => {
   };
 
   return (
-    <Navbar className="main-navigation has-background-primary">
+    <Navbar className="main-navigation-zh has-background-primary">
       <Container style={{paddingTop: '1rem', paddingBottom: '1rem'}}>
         <Navbar.Brand>
           <Navbar.Item renderAs="a" href="#">
@@ -60,8 +60,14 @@ const Navigation = (props) => {
             >
               路印钱包
             </NavbarItem>
+            <NavbarItem
+              href="https://exchange.loopring.io"
+              onClick={onLinkClick}
+            >
+              路印交易所 <span className="new">v2</span>
+            </NavbarItem>
             <NavbarItem href="https://v1.loopring.io" onClick={onLinkClick}>
-              路印交易所 v1
+              旧版交易所<span className="new old">v1</span>
             </NavbarItem>
           </div>
         </div>
