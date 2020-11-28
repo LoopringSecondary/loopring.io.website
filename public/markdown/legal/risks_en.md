@@ -4,7 +4,7 @@ Loopring applications, including but not limited to Loopring Smart Wallet ("Wall
 
 ## Wallet Related Risks
 ### 1. Insufficient guardians
-If your wallet does not have three or more guardians, your wallet may become unrecoverable because the guardians are unavailable; or you may lose the assets in your wallet due to the actions of individual guardians. See [https://github.com/Loopring/loopring.io.website/blob/main/public/markdown/legal/wallet_design_en.md](here) for more information on guardians, and wallet smart contract design.
+If your wallet does not have three or more guardians, your wallet may become unrecoverable because the guardians are unavailable; or you may lose the assets in your wallet due to the actions of individual guardians. See [here](https://github.com/Loopring/loopring.io.website/blob/main/public/markdown/legal/wallet_design_en.md) for more information on guardians, and wallet smart contract design.
 
 ### 2. Official guardian
 After your wallet is created, we will add Loopring's official guardian service to your wallet by default. As a centralized service, Loopring's official guardian may be attacked and controlled by hackers. You can remove Loopring's official guardian service after you add more of your own, or keep it as one of your many. 
