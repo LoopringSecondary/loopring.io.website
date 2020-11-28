@@ -12,7 +12,7 @@ After your wallet is created, we will add Loopring's official guardian service t
 ### 3. Super administrator
 The Loopring Smart Wallet contract has a 'super administrator' who cannot change wallet states or touch tokens in a user's mobile wallet without user authorization. However, the super administrator has the right to do the following operations: (1) Modify the global whitelist. There is no daily limit for transfers to addresses in the whitelist. (2) New functional modules optional for registered users. (3) Change the mapping relationship between ENS and address. This operation will cause the assets transferred to the same ENS to actually be transferred to different addresses. **Therefore, you need to verify the receiving address when transferring funds through ENS.**
 
-### 4. Untimely operations
+### 4. Untimely safety operations
 In certain instances, the security of your wallet depends on your timely implementation of specific operations, including but not limited to (1) you should add at least three guardians as soon as possible after the wallet is created and ensure the security of the guardian's own wallet and the availability of the guardian; (2) After the loss of your mobile device, you must lock the wallet with the guardian within 24 hours; (3) After the wallet is stolen, you must contact the guardian within 72 hours to complete the wallet recovery.
 
 ## Transaction Related Risks
@@ -30,7 +30,7 @@ Loopring Exchange is still in the testing stage. In order to fix potential probl
 ### 4. Transaction rollback
 Transaction rollback is a common risk point of all or many layer-2 scaling solutions. That is, the execution of transactions on layer-2, while 'apparently immediate' from a user's point of view given the return of the back-end interface call, does not have the finality of the underlying layer-1 network (Ethereum). Only when we submit our zkRollup blocks with the corresponding cryptographic proofs to Ethereum (can be minutes, or hours), does layer-2 inherit the same finality as Ethereum. 
 
-### 5. The withdrawal is not timely
+### 5. Untimely withdrawals
 It should be known that situations pertaining to the underlying blockchain (Ethereum) is also a risk point shared by all layer-2 scaling constructions. Although we support fast withdrawals in version 3.6 of the Loopring Protocol, and the experience is consistent with that of a centralized exchange, there are still situations where it is impossible to withdraw to mainnet quickly (if the network is extremely congested, or having difficulty reaching consensus). In the worst case, the withdrawal time will be in hours. Users (especially low-latency traders) who arbitrage between different platforms and need to withdraw frequently should weigh and accept this risk.
 
 ## Other Risks
