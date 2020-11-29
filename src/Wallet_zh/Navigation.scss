@@ -1,7 +1,21 @@
 @charset 'utf-8';
 @import "../../_variables.sass";
 
-.main-navigation {
+.main-navigation-zh {
+  .new {
+    font-size: 10px !important;
+    padding: 2px 6px;
+    margin-left: 4px;
+    background-color: #65ffda;
+    color: #1c20ff;
+    border-radius: 4px;
+    line-height: 14px;
+
+    &.old {
+      background-color: #bbb;
+    }
+  }
+
   .navbar-menu {
     background-color: $primary;
   }
