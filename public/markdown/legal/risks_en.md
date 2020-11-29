@@ -21,8 +21,8 @@ The following risks only affect the security of your assets in Loopring's layer-
 ### 1. The circuit code is not audited
 Our auditor, Least Authority, has completed the code audit of the 3.6 contract part of the Loopring protocol, but the audit of the circuit part of the agreement has not yet been completed. We will update the audit situation. During this period, users can see and understand the open source circuit code by themselves to determine risks, or believe that Loopring will not do evil.
 
-### 2. The circuit has not completed a trusted setup
-Loopring has not yet started the trusted setup of the circuit, so you must believe that Loopring will not do evil. We expect to complete the circuit trust setup ceremony in January 2021.
+### 2. We have not yet completed a trusted setup
+Loopring has not yet started the trusted setup of the ZK circuits, so you must, for now, believe that Loopring will not do evil. We expect to complete a large, externally-participated trusted setup ceremony in January 2021. For what this means, see [here](https://medium.com/loopring-protocol/loopring-starts-zksnark-trusted-setup-multi-party-computation-ceremony-6582874f7a5b) for info about our trusted setup from Loopring v3.1, which took place 1 year ago.
 
 ### 3. Super administrator permissions
 Loopring Exchange is still in the testing stage. In order to fix potential problems rapidly, we have the super administrator authority of the exchange contract. With this permission, Loopring can change the verification data used for contract deployment and zero-knowledge proofs. We expect to adopt multi-signature and time locks to manage and restrict super administrator powers in January 2021.
