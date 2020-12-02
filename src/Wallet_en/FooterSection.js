@@ -87,11 +87,11 @@ const FooterSection = () => {
               >
                 Other
               </div>
-              {/*     <div>
+              <div>
                 <a href="https://exchange.loopring.io">
                   Loopring Swap & Exchange (v2)
                 </a>
-              </div>*/}
+              </div>
               <div>
                 <a href="https://v1.loopring.io">Loopring Exchange (v1)</a>
               </div>
