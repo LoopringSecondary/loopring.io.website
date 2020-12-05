@@ -13,6 +13,7 @@ import {default as TermsPage} from './Legal/Terms';
 import {default as RisksPage} from './Legal/Risks';
 import {default as PrivacyPage} from './Legal/Privacy';
 import {default as WalletDesignPage} from './Legal/WalletDesign';
+import {default as SmartContractsPage} from './Legal/SmartContracts';
 
 class App extends React.Component {
   render() {
@@ -91,6 +92,22 @@ class App extends React.Component {
                 path="/legal/walletdesign"
                 exact
                 render={(props) => <WalletDesignPage isChinese={isChinese} />}
+              />
+
+              <Route
+                path="/legal/contracts/en"
+                exact
+                render={(props) => <SmartContractsPage isChinese={false} />}
+              />
+              <Route
+                path="/legal/contracts/zh"
+                exact
+                render={(props) => <SmartContractsPage isChinese={true} />}
+              />
+              <Route
+                path="/legal/contracts"
+                exact
+                render={(props) => <SmartContractsPage isChinese={isChinese} />}
               />
 
               <Route component={NotFound} />
