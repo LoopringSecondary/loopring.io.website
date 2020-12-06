@@ -1,149 +1,123 @@
-# 服务协议
+# Service Agreement
+This document is a binding legal agreement between you and Loopring Technology Ltd. If you continue to use the Loopring Wallet app, you will be deemed to have accepted its content and are bound by its terms. Please be sure to read carefully and fully understand the content of this agreement, especially the clauses for exemption or limitation of liability, applicable laws and dispute resolution clauses. The terms of exemption or limitation of liability will be marked in bold, and you should read them carefully.
 
-本文档是您与Loopring Technology Ltd之间的具有约束力的法律协议。如果您继续使用路印钱包应用程序，则将视为您已接受其内容，并受其条款的约束。请您务必审慎阅读、充分理解本协议内容，特别是免除或者限制责任的条款、法律适用和争议解决条款。免除或者限制责任的条款将以粗体标识，您应重点阅读。
+## Important terms and definitions
+In this agreement, the following words have the following meanings:
 
-## 重要用语和定义
+**Loopring** refers Loopring Technology Ltd, a British Virgin Islands-registered company, registration number 2018184.
 
-在本协议中，以下词语具有以下含义：
+**The application** refers to the Loopring Exchange and/or Loopring Smart Wallet application. The Loopring application can (or) be provided as a downloadable mobile software application, or it can (or) be accessed through an Internet browser and can Use on desktop or laptop computers.
 
-**路印**指的是Loopring Technology Ltd，一家在英属维尔京群岛注册的公司，注册号为2018184。
+**A device** refers to a mobile phone with Internet functionality or a computing device with Internet functionality (such as a touch screen "tablet").
 
-**应用程序**指的是路印交易所和（或）路印智能钱包应用程序，路印应用程序可（或）作为可下载的移动软件应用程序提供，也可（或）通过互联网浏览器访问并可以在台式机或笔记本电脑上使用。
+**Service** refers to the application functions provided to users, including the ability of these users to appoint guardians and execute transactions.
 
-**设备**是指具有互联网的移动电话功能或具有互联网功能的计算设备（例如触摸屏“平板电脑”）。
+**Token** refers to any digital token or asset. (May be called "cryptocurrency"), which can be used for transmission, storage or exchange using the Loopring app.
 
-**服务**是指提供给用户的应用程序功能，包括这些用户任命守护人和执行交易的能力。
+**Account** refers to your personal user account, which can identify you on the software protocol that enables the transmission and exchange of tokens.
 
-**通证**是指任何数字通证或资产。 （可能称为“加密货币”），可用于使用路印应用程序进行传输，存储或交换。
+**A user** is an individual who has registered an account to use the Loopring application; terms such as "user" should be interpreted accordingly.
 
-**帐户**系指您个人的用户帐户，该帐户可以在启用通证传输和交换的软件协议上识别您的身份。
+If this end user license agreement refers to "you" or "your", it means the individual who accepts this agreement; when referring to "us", "our" or "us", it refers to Loopring.
 
-**用户**是指注册了使用路印应用程序的帐户的个人；诸如“用户”之类的术语应作相应解释。
+## Terms of use
+### 1. Confirmation and acceptance
+Your use of the Loopring app is subject to the terms of this agreement, but may also be subject to any rules or policies applied by any app store provider or operator from which you can download the Loopring app from its website (this The category website is "App Store", and the category rule is "App Store Rules").
 
-如果本最终用户许可协议是指“您”或“您的”，则表示接受本协议的个人；当提到“我们”，“我们的”或“我们”时，它是指路印。
+We may change these terms at any time without notice. Any such changes should take effect the next time you use the Loopring app. The next time you use the Loopring app, any such new terms may be displayed on the screen, and you may need to read and accept them to continue using the Loopring app.
 
+The terms of this agreement apply to the Loopring app and any updates or additions to the Loopring app, unless such additions are provided under separate terms, in which case these terms shall apply. If any open source software is included in the application or any service, the terms of the open source license may override some terms of this agreement.
 
-## 使用条款
+From time to time, we may release updates to the app through the app store or website. Depending on the update, you may not be able to use the service until you download the latest version of the Loopring app and accept any new terms.
 
-### 1.确认与接纳
+It is assumed that you have obtained permission from the owner of any mobile phone or handheld device that you control but do not own. According to the terms of this agreement, you are responsible for the use of the Loopring application on any such device (regardless of whether it is owned by you).
 
-您对路印应用程序的使用受本协议中条款的约束，但也可能受制于您可以从其网站下载路印应用程序的任何应用程序商店提供商或运营商所应用的任何规则或政策（此类网站为“应用商店”，之类规则为“应用商店规则”）。
+The terms of our privacy policy ("Privacy Policy") have been incorporated into this agreement by reference and apply to your use of the application. You acknowledge and agree that Internet transmissions will never be completely private or secure.
 
-我们可能随时更改这些条款，恕不另行通知。任何此类更改应在您下次使用路印应用程序时生效。下次使用路印应用程序时，任何此类新术语都可能会显示在屏幕上，并且可能需要阅读并接受它们才能继续使用路印应用程序。
+All use of Loopring applications shall comply with the terms of our privacy policy. In order to provide applications continuously, stably and safely, we need to collect technical information about the equipment and related software, hardware and peripherals so that we can improve our products and provide you with any services. You agree that we may contact you via email, WeChat, phone, post or SMS from time to time to provide you with information about goods or services that may be of interest to you.
 
-本协议的条款适用于路印应用程序以及路印应用程序的任何更新或补充，除非根据单独的条款提供此类添加，在这种情况下，这些条款应适用。如果应用程序或任何服务中包含任何开源软件，则开源许可的条款可能会覆盖本协议的某些条款。
+The Loopring app or any service may contain links to other independent third-party websites ("third-party websites"). Third-party websites are not under our control, and we are not responsible for their content or privacy policies (if any), and do not provide any guarantees for them. You need to make your own independent judgments about interactions with any third-party sites, including the purchase and use of any products or services accessed through them.
 
-我们可能会不时通过应用商店或网站发布对应用程序的更新。根据更新，您可能无法使用服务，直到您下载路印应用程序的最新版本并接受任何新条款。
+Any words after the term including (including), (especially) including (for example) or any similar phrases shall be interpreted as descriptive and shall not limit the generality of the relevant common words.
 
-假设您已获得任何由您控制但不拥有的移动电话或手持设备的所有者的许可。根据本协议的条款，您须对在任何此类设备上使用路印应用程序（无论它是否由您拥有）承担责任。
+### 2. Privacy Policy
+Your use of the Loopring app means that you trust our way of handling your information. Loopring's privacy policy is designed to help you understand what information we collect, why we collect it, and how you update, manage, export, and delete your information. We recommend that you carefully read and understand the entire contents of the Loopring Privacy Policy before using the Loopring app.
 
-我们的隐私政策（“隐私政策”）的条款已通过引用并入本协议，并适用于您对应用程序的使用。您承认并同意，互联网传输永远不会完全私密或安全。
+### 3. Your account and guardian
+In order to receive the service, you must register and create an account using the functions provided through the Loopring app. The security of your account is your personal responsibility, and we are not responsible for any failures caused by your failure to ensure the security and privacy of your password (or any other security key or login information).
 
-所有使用路印应用程序均应遵守我们的隐私政策的条款。为持续，稳定，安全地提供应用程序，我们需要收集有关设备以及相关软件，硬件和外围设备的技术信息，以使我们能够改善产品并向您提供任何服务。您同意，我们可能会不时通过电子邮件，微信，电话，邮寄或短信的方式与您联系，提供您可能感兴趣的商品或服务信息。
+The functionality provided by the Loopring app allows you to appoint a guardian. The appointment of a guardian is your personal choice and responsibility.
 
-路印应用程序或任何服务可能包含指向其他独立第三方网站（“第三方网站”）的链接。第三方网站不受我们的控制，并且我们对其内容或隐私政策（如果有）不承担任何责任，也不对其提供任何担保。您需要对与任何第三方站点的交互，包括购买和使用通过它们访问的任何产品或服务，做出自己的独立判断。
+We are not responsible for the guardian's actions, negligence or absence, and you agree to be responsible for any disputes between you and your designated guardian (or any third party with the right to exercise any power).
 
-术语之后的任何单词包括（包括），（尤其）包括（例如）或任何类似的短语，应被解释为说明性的，并且不应限制相关通用单词的一般性。
+### 4. The official guardian of Loopring
+You can choose the "Official Guardian of Loopring" as your guardian. If you lose your device, we will provide you with a way to recover your account.
 
+Recovering your account using Loopring's official guardian depends on your prompt response to one or more electronic messages (maybe sent via SMS and/or email) to verify your identity ("recovery message"). Failure to immediately respond to the recovery message or failure to respond to the recovery message at all may result in the link being invalid, and you may not be able to request other recovery messages for a period of time thereafter.
 
-### 2.隐私政策
+The recovery message may invite you to submit a unique code or identifier to us to verify your identity. Repeated failure to provide correct or valid identifiers may result in your account being locked or unavailable for a period of time.
 
-您使用路印应用程序，即表示您信赖我们对您的信息的处理方式。路印隐私政策旨在协助您了解我们会收集哪些信息、为什么收集这些信息，以及您如何更新、管理、导出和删除自己的信息。我们建议您在使用路印应用程序之前务必仔细阅读并理解《路印隐私政策》的全部内容。
+### 5. Trading activities and risks
+The order book trading and automatic market-making trading integrated in the Loopring application are used for spot purchase and sale of digital tokens. In particular, I would like to draw your attention: Loopring prohibits (1) persons and nationals living in prohibited jurisdictions and (2) US residents and citizens from depositing, withdrawing money, or buying and selling in the Loopring app .
 
+The token market is volatile and changes rapidly in terms of liquidity, market depth, and trading dynamics. You accept sole responsibility for the following: any and all trading and non-trading activities on the Loopring app and your account in the Loopring app; and, even if the Loopring app incorrectly states at any time The same is true for the true status of any position or contract of any other party on the Loopring app. You acknowledge and agree: to take full responsibility and assume responsibility for your trading and non-trading behaviors and omissions on the Loopring app and all gains and losses you suffer from using the Loopring app and any service; for protecting access The Loopring app and any service and any information provided through the Loopring app and any service are fully responsible, including but not limited to private keys, usernames, passwords and bank account details.
 
-### 3.您的帐户和守护人
+### 6. Scope of Services and License
+The Loopring app allows you to send and receive tokens (each such event is called a "transaction"). The choice of trading is entirely up to you, and you acknowledge that we do not provide or promise to verify the identity of any counterparty with whom you may interact. You are solely responsible for identifying and verifying the counterparty of the transaction you choose to conduct, and we are not responsible for any decision you make to send the pass to any third party.
 
-为了获得服务，您必须使用通过路印应用程序提供的功能注册并创建一个帐户。您帐户的安全性是您个人的责任，对于因您未能确保密码（或任何其他安全密钥或登录信息）安全和私密而导致的任何失败，我们概不负责。
+If you send the pass to an unexpected recipient, we will not take any responsibility for you. We cannot "cancel" or "undo" transactions you make using the Loopring app, and are not responsible for any transactions you enter incorrectly.
 
-路印应用程序提供的功能使您可以任命守护人。任命守护人是您的个人选择和责任。
+Where you are trying to make a transaction, there may be a delay between the initiation of the transaction and its final execution. Such delays may be caused by delays inherent in the function of the underlying token network on which transactions will be executed. No matter how such delays occur, we are not responsible for any such delays.
 
-我们对守护人的作为，失职或缺席不承担任何责任，并且您同意对您与您指定的守护人（或有权行使任何权力的任何第三方）之间发生的任何纠纷负责。
+If you expect to receive the goods, assets or services for which the token is valued for trading, then we will not bear any responsibility to you. In particular, if your expected consideration is not fulfilled or the quality is unsatisfactory, we will not bear any responsibility to you, and will not make or provide any form of refund or compensatory compensation to you.
 
+We reserve the right to add or delete specific tokens and their related transaction pairs and automatic market making capital pools within the scope of the service at any time without notice. The fact that the service scope (or not) is characterized by any specific type of token should not be interpreted as any form of recognition of the token by us. We will not recommend or endorse any specific token for any purpose.
 
-### 4.路印官方守护人
+Token transactions rely on the normal operation of software protocols that we do not own. Related agreements include open source programs that are publicly available, and we assume any responsibility for the failure of these agreements to operate as expected or at all. In particular, we are not responsible for any changes to such agreements or any "forks" of these agreements that result in the simultaneous existence of multiple instances of these agreements. You confirm and agree that you have the responsibility to inform yourself about the operation of the relevant software agreement on the basis of any token you choose to use in the transaction, and you are responsible for making yourself aware of the "forking" of any agreement and taking appropriate measures. Protect yourself from the same actions.
 
-您可以将“路印官方守护人”选作您的守护人。如果您丢失了设备，我们将为您提供一种恢复帐户的方法。
+Considering that you agree to abide by the terms of this agreement, we grant you a non-transferable, non-exclusive license to use the Loopring app on your device subject to these terms, privacy policy and any applicable app store rules .
 
-使用路印官方守护人恢复您的帐户取决于您迅速响应一条或多条电子消息（可能通过短信和（或）电子邮件发送），以验证您的身份（“恢复消息”）。无法立即响应恢复消息或根本无法响应恢复消息，可能会导致其中的链接无效，并且在此后的一段时间内，您可能无法再请求其他恢复消息。
+We reserve all other rights.
 
-恢复消息可能会邀请您向我们提交唯一的代码或标识符，以验证您的身份。反复未能提供正确或有效的标识符，可能会导致您的帐户在一段时间内被锁定或不可用。
+### 7. Claims and Liability
+You accept any transaction, assignment or contract between you and any other user or third party, which should be a private arrangement between you and that entity. Loopring assumes no responsibility for such arrangements, nor does it assume the responsibility of any party. The responsibility for resolving any disputes related to such arrangements belongs to you only. In particular, you accept that Loopring is not responsible for using app features to verify the identity of the entity to which you can transfer tokens.
 
+Therefore, for any claims, liabilities and losses, you agree to exempt Loopring from all liability, and agree that Loopring will not be liable for any disputes that may arise between you and any other person for any reason.
 
-### 5.买卖活动和风险
+### 8. Events beyond control
+We are not responsible for any failure to perform or delay in performing our obligations under this agreement due to any behavior or event beyond our reasonable control ("events beyond our control"). In particular, I would like to draw your attention: You accept (1) Loopring’s writing and uploading and third-party writing and uploading to the basic pass network security vulnerabilities in the code and data integrated with the Loopring application, (2) the upgrade and distribution of pass contracts Fork, (3) The rollback and fork of the basic token network belong to the category of uncontrollable events described in this clause.
 
-路印应用程序集成的订单本买卖和自动做市买卖用于现货购买和出售数字通证。 特别要提请您注意：**路印禁止（1）居住在禁止管辖区中的人士和国民和（2）美国居民和公民在路印应用程序存款，取款，或买卖**。
+### 9. License restrictions
+Unless expressly provided in this agreement or expressly permitted by any local law, you agree to:
 
-通证市场动荡不定，并且在流动性，市场深度和交易动态方面迅速变化。 您接受独自承担以下责任：**对路印应用程序上的任何和所有买卖和非买卖活动以及您在路印应用程序的帐户承担责任；并且，即使路印应用程序在任何时候不正确地陈述了与路印应用程序上任何其他方的任何仓位或合同的真实状态，也是如此。您承认并同意：对您在路印应用程序上的买卖和非买卖行为及不作为以及您因使用路印应用程序和任何服务而遭受的所有收益和损失承担全部责任并承担责任；对保护访问路印应用程序和任何服务以及通过路印应用程序和任何服务提供的任何信息负全部责任，包括但不限于私钥，用户名，密码和银行帐户详细信息。**
+Do not copy Loopring applications;
 
-### 6.服务范围和许可
+Not to rent, lease, sublicense, loan, translate, merge, adapt, change or modify the Loopring application;
 
-路印应用程序使您可以发送和接收通证（每个此类事件称为“交易”）。进行交易的选择权完全由您自己决定，您承认我们不提供或承诺验证您可能与之互动的任何交易对手的身份。您应全权负责识别和验证您选择进行的交易的交易对手，并且我们对您将通证发送给任何第三方的任何决定不承担任何责任。
+Do not change or modify the Loopring app in whole or in any part;
 
-如果您将通证发送给意外的接收者，我们对您不承担任何责任。 我们无法“取消”或“撤消”您使用路印应用程序进行的交易，并且对您错误输入的任何交易概不负责。
+Do not combine the Loopring app or any part of it with any other program or merge it into any other program;
 
-在您尝试进行交易的地方，启动该交易与最终执行之间可能会有延迟。此类延迟可能是由将在其上执行交易的基础通证网络的功能固有的延迟引起的。无论此类延迟如何发生，我们对任何此类延迟概不负责。
+Do not disassemble, decompile, reverse engineer or create derivative works of this application by all or any part of the Loopring application, or attempt to perform any such operations;
 
-如果您预期收到通证对价的商品，资产或服务而进行交易，那么我们对您不承担任何责任。特别是，如果您的预期对价没有兑现或质量不令人满意，我们对您不承担任何责任，不对您做出或提供任何形式的退款或补偿性赔偿。
+Without our prior written consent, Loopring applications (including objects and source code) may not be provided to anyone in any form or otherwise provided in whole or in part;
 
-我们保留随时在服务范围内添加或删除特定通证和其相关的交易对和自动做市资金池的权利，恕不另行通知。服务范围内（或没有）以任何特定种类的通证为特征的事实不应解释为我们对该通证的任何形式的认可。 我们不会出于任何目的推荐或认可任何特定通证。
+Comply with laws and regulations that may apply to the application or any service.
 
-通证交易依赖于我们不拥有的软件协议的正常运行。相关协议包括可公开获得的开源程序，并且我们对这些协议未能按预期或完全无法运行承担任何责任。特别是，我们对此类协议的任何更改或导致这些协议的多个实例同时存在的这些协议的任何“分叉”概不负责。您确认并同意，您有责任告知自己有关在交易中选择使用的任何通证的基础的相关软件协议的操作，并且您有责任使自己意识到任何协议的“分叉”并采取适当的措施。保护自己免受同样影响的行动。
+Do not copy, modify, copy, send, and use announcements, articles, videos, audios, pictures, files, information, materials, trademarks or logos displayed in this agreement or Loopring applications for commercial purposes.
 
-考虑到您同意遵守本协议的条款，我们授予您不可转让，非专有的许可，以在这些条款，隐私权政策和任何适用的应用商店规则的前提下在您的设备上使用路印应用程序。
+### 10. Application of law and dispute resolution
+Each condition of this agreement operates independently. If any court or competent authority rules that any of them is illegal or unenforceable, the remaining conditions will remain fully effective.
 
+Please note that the entry into force, interpretation, amendment, supplementation and dispute resolution of this agreement shall be governed by the laws of the Hong Kong Special Administrative Region of the People’s Republic of China ; if there are no relevant provisions in the law, refer to business practices and/or industry practices. If you choose to use the Loopring app as a provider or demander anywhere else in the world, you are responsible for checking local laws and ensuring compliance with them.
 
-我们保留所有其他权利。
+Any disputes arising from this agreement or performance of this agreement, or related to this agreement, including any issues concerning its existence, validity or termination, shall be resolved through friendly negotiation between the two parties. If either party is unwilling to resolve through negotiation, or cannot resolve it within thirty (30) days after the start of the negotiation, either party has the right to submit the dispute to the International Chamber of Commerce Arbitration ("ICC") and follow The court’s effective "Conciliation and Arbitration Rules" appoint one or more arbitrators to arbitrate in accordance with the aforementioned rules. The language of arbitration shall be English, and unless otherwise agreed by the parties to this agreement, the place of arbitration shall be the Hong Kong Special Administrative Region of the People's Republic of China . The arbitration tribunal’s award is final and binding on both parties to the agreement.
 
+### 11. Other
+We may transfer our rights and obligations under this agreement to another organization, but this will not affect your rights or our obligations under this agreement.
 
-### 7.索赔和责任
+If we fail to insist that you perform any of the obligations in this agreement, or we do not exercise our rights against you, or we delay doing so, it does not mean that we have waived our rights to you, and it does not mean you There is no need to comply with these obligations. If we do give up your default settings, we will only do so in writing, but this does not mean that we will automatically give up any future default settings.
 
-您接受您与任何其他用户或第三方签订的任何交易，转让或合同应是您与该实体之间的私人安排。 路印对此类安排不承担任何责任，也不承担任何一方的责任，解决与此类安排有关的任何争议的责任仅属于您。 特别是，您接受路印不承担使用应用程序功能验证您可以向其转让令牌的实体的身份的责任。
+Any translated version of this agreement is provided for the convenience of users only, and there is no intention to modify the terms of this agreement. If there is a conflict between the Chinese version of this agreement and the non-Chinese version, the Chinese version shall prevail.
 
-因此，对于任何索赔，责任和损失，您同意免除路印的所有责任，并同意路印对您与任何其他人之间出于任何原因可能引起的任何争议不承担任何责任。
-
-
-
-### 8.无法控制的事件
-
-对于因超出我们合理控制范围的任何行为或事件（“我们无法控制的事件”）而导致的任何未能履行或延迟履行我们在本协议下的义务的行为，我们不承担任何责任。特别要提请您注意：**您接受（1）路印编写上传和路印应用程序集成的第三方编写上传至基础通证网络的代码和数据中的安全漏洞，（2）通证合约的升级和分叉，（3）基础通证网络的回滚和分叉均属于本条款所述的无法控制的事件的范畴。**
-
-
-### 9.许可限制
-
-除非本协议明确规定或任何当地法律明确允许，否则您同意：
-
-不得复制路印应用程序；
-
-不得出租，租赁，再许可，贷款，翻译，合并，改编，更改或修改路印应用程序；
-
-不得对路印应用程序的整个或任何部分进行更改或修改路印应用程序；
-
-不得将路印应用程序或其任何部分与任何其他程序组合或合并到任何其他程序中；
-
-不得将路印应用程序的全部或任何部分对本应用进行分解，反编译，反向工程或创建衍生作品，或尝试进行任何此类操作；
-
-未经我们事先书面同意，不得以任何形式向任何人提供或以其他方式全部或部分提供路印应用程序（包括对象和源代码）；
-
-遵守可能适用于该应用程序或任何服务的法律和法规。
-
-不得因商业目的复制、更改、拷贝、发送，和使用本协议或路印应用程序中显示的公告、文章、视频、音频、图片、档案、资讯、资料、商标或标识。
-
-### 10.法律适用与争议解决
-
-本协议的每个条件均单独运行。如果任何法院或主管当局裁定其中任何一个非法或不可执行，其余条件将保持完全有效。
-
-请注意，本协议之生效、解释、修订、补充与争议解决均适用**中华人民共和国香港特别行政区**法律；如法律无相关规定的，参照商业惯例及/或行业惯例。如果您选择在全球任何其他地方以提供者或需求者的身份使用路印应用程序，则您有责任检查当地法律并确保遵守该法律。
-
-由本协议引起的或履行本协议引起的，或与本协议有关的任何争议，包括其存在、有效性或终止的任何问题，双方应通过友好协商解决。任何一方不愿意协商解决，或在协商开始后的三十（30）日不能解决的，则任何一方均有权将争议提交国际商会仲裁院（“ICC”），并按照提交仲裁时国际商会仲裁院有效的“调解和仲裁规则”指定一名或多名仲裁员根据上述规则仲裁解决。仲裁语言应采用英文，且除非本协议各方另有约定，仲裁地应在**中华人民共和国香港特别行政区**。仲裁庭的裁决是终局裁决，对协议双方均有约束力。
-
-### 11.其他
-
-我们可能会将我们在本协议下的权利和义务转移给另一个组织，但这不会影响您在本协议下的权利或我们的义务。
-
-如果我们未能坚持要求您履行本协议中的任何义务，或者我们不对您行使我们的权利，或者我们延迟这样做，这并不意味着我们已经放弃了对您的权利，并且不会意味着您不必遵守这些义务。如果我们确实放弃您的默认设置，我们只会以书面形式这样做，但这并不意味着我们会自动放弃您以后的任何默认设置。
-
-本协议的任何译文版本仅为方便用户而提供，无意对本协议的条款进行修改。如果本协议的中文版本与非中文版本之间存在冲突，应以中文版本为准。
-
-
-本协议自2020年11月25日起适用。
-
+This agreement is applicable as of November 25, 2020.
