@@ -1,99 +1,83 @@
-# 隐私政策
+# Privacy Policy
 
-本文档描述了Loopring Technology Ltd（“我们”，“路印”）对用户信息的收集，存储，使用，管理，保护等一系列行为，适用于路印运营的路印智能钱包和路印交易所的所有功能，包括但不限于创建钱包、划转，转账，交易，入金出金，管理守护者，领取奖励等服务。
+This document describes the collection, storage, use, management, and protection of user information by Loopring Technology Ltd ("we", "Loopring"), and is applicable to Loopring Smart Wallets and Loopring Exchanges operated by Loopring. Within those applications, it may relate to all functions, including but not limited to creating wallet, transfer, trade, deposit and withdrawal, manage guardian, receive rewards and other services.
 
-路印提供的路印应用程序是去中心化钱包和非托管交易所。总体来说，路印对用户信息搜集的非常有限。尽管如此，我们仍然非常重视对您个人信息的保护。在您使用路印应用程序及相关服务时，路印也会收集和使用您的个人信息。我们会尽全力保护您的个人信息安全可靠。建议您在使用路印钱包之前务必仔细阅读并理解本隐私政策的全部内容。
+The Loopring application provided by Loopring is a decentralized wallet and non-custodial exchange, all built on Ethereum or Loopring Layer-2. Non-custody and complete user control of their assets is primary to all Loopring products, protocol, and our ethos. In general, Loopring's collection of user information is very limited. Nevertheless, When you use Loopring applications and related services, Loopring may collect and use your data and personal information. Some of this collection is for the proper functioning of the product, such as for the Loopring official guardian. In line with our ethos, we attach great importance to the protection of your personal information and will do our best to protect the safety and privacy of said information. It is recommended that you carefully read and understand the entire content of this privacy policy before using Loopring Wallet.
 
-## 信息收集
+## Data Collection
+You understand and agree that when you fill in the information as prompted on the page, read and agree to this privacy policy, and complete the creation or restoration of the wallet address, in order to ensure your normal use of our services, we will strictly abide by the openness, legality and legitimacy, and principles of necessity to collect your personal information.
 
-您知悉且同意，当您按照页面信息提示填写信息、阅读并同意本隐私政策且完成创建或恢复钱包地址时,为保障您正常使用我们的服务，我们将严格遵守公开性、合法性、正当性原则以及必要性原则收集您的个人信息。
+Please be aware that the wallet address, ENS name, and all transaction records related to this address (ENS name) will be stored on the Ethereum blockchain. You and, in some instances where you request it of the Loopring relayer, will modify, and by definition, discolse your transaction records to the public Ethereum blockchain. There is no control over deletion.
 
-请知悉您创建的钱包地址、ENS名称、以及与该地址（ENS名称）相关的所有一层交易记录都将被存储在以太坊区块链上，您及我们对于您交易记录的公开、修改及删除并没有控制权。
+1. In order to provide you with the wallet service, we need to collect the following basic information about you before providing the service. This type of information is the information that must be collected to provide the service: (a) Account information: When you create and restore a wallet, we need you Your email address or mobile phone number will be used when performing guardian-related operations, and will also be used by us for user modeling to better provide you with services. (B) Wallet information: When you use the wallet service we provide, we will automatically collect the wallet version information you use. (C) Device information: We will collect the relevant device information you use in the process of receiving our services, including device ID, mobile device operating system version information, mobile device platform type (iOS or Android), phone language, channel information (such as : GooglePlay, Xiaomi App Store, Baidu App Store, Apple App Store); our products integrate Umeng+SDK, Umeng+SDK needs to collect your device Mac address and unique device identification code (IMEI/android ID/IDFA/OPENUDID) /GUID, SIM card IMSI information) to provide statistical analysis services, and calibrate the accuracy of report data through geographic location to provide basic anti-cheating capabilities. (D) For the information collected on various devices that you log in with the same wallet address, we may associate them so that we can provide you with consistent wallet services on these devices. (E) KYC information: Loopring may provide some centralized services in the future. At that time, your identity, address and other information will be collected. This information is only used for compliance inspection.
 
-1. 为了向您提供钱包服务，在提供服务前我们需要收集您的下列基础信息，这类信息是为您提供服务必须收集的信息：
-   （a） 账户信息：当您创建和恢复钱包时，我们需要您的邮箱地址或手机号，这些信息会在进行守护人相关操作的时候被用到，同时也会被我们用来进行用户建模，从而更好地为您提供服务。
-   （b） 钱包信息：当您使用我们提供的钱包服务时，我们会自动收集你使用的钱包版本信息。
-   （c） 设备信息：我们会收集您在接受我们服务过程中使用的相关设备信息，包括设备ID、移动设备操作系统版本信息、移动设备平台类型（iOS或安卓），手机语言，通道信息（如：GooglePlay，小米应用商店，百度应用市场，Apple App Store）；我们的产品集成友盟+SDK，友盟+SDK需要收集您的设备Mac地址、唯一设备识别码（IMEI/android ID/IDFA/OPENUDID/GUID、SIM 卡 IMSI 信息）以提供统计分析服务，并通过地理位置校准报表数据准确性，提供基础反作弊能力。
-   （d） 对于您使用相同的钱包地址登录各种设备上收集到的信息，我们可能会将他们进行关联，以便我们能在这些设备上为您提供一致的钱包服务。
-   （e） KYC信息：未来路印有可能会提供部分中心化服务，届时会搜集您的身份，住址等信息，该信息仅用来做合规检查用。
+1. When you jump to a third-party DApp through Loopring Wallet, the third-party DApp may collect your personal information. If you refuse the third-party DApp to collect such information when providing services, you may not be able to use it in Loopring Wallet The third-party DApp. We do not hold the personal information collected by third-party DApps from you.
 
-1. 当您通过路印钱包跳转到第三方DApp，第三方DApp可能会收集您的个人信息，如果您拒绝第三方DApp在提供服务时收集此类信息，将可能导致您无法在路印钱包中使用该第三方DApp。我们不持有第三方DApp向您收集的个人信息。
+1. When you use Loopring's second-tier account, part or all of the transaction information you generate will still be stored on the Ethereum blockchain. Including but not limited to transfers, transactions, deposits, withdrawals, etc.
 
-1. 当您使用路印二层账号的时候，你产生的交易的部分或全部信息仍然会被存储在以太坊区块链上。包括但不限于转账，交易，入金，出金等。
+## Information storage
+We will collect your personal information based on the laws and commercial purposes of the Hong Kong Special Administrative Region of the People's Republic of China , and will continue to store the personal information collected from you within the necessary time. We usually keep your personal information permanently in the cloud to ensure that any contractual disputes can be resolved.
 
-## 信息存储
+Since we provide products or services through resources and servers all over the world, this means that after obtaining your authorization and consent, your personal information may be transferred to the overseas jurisdiction of the country/region where you use the product or service, or Receive visits from these jurisdictions. The aforementioned jurisdictions may have different data protection laws, or the aforementioned jurisdictions may not have laws that provide adequate protection for your personal information. In such cases, we will ensure that your personal information will be adequately and equally protected in accordance with the provisions of this privacy policy.
+When our products or services cease to operate, we will notify you in the form of an announcement, and delete your personal information or anonymize them within a reasonable period of time.
 
-我们基于**中华人民共和国香港特别行政区**法律及商业上的目的，将收集您的个人信息，并于必要时间内继续保存向您收集的个人信息。我们通常会在云端永久保留您的个人信息，以确保任何合约争议能够被解决。
+If your local law governs user data management differently from the Hong Kong Special Administrative Region of the People's Republic of China, please know that your acceptance of our wallet service is governed by Hong Kong law, and you agree to transfer your personal information to the territory of the People's Republic of China.
 
+## Information use
+We will use the information collected in the course of providing services to you for the following purposes:
+1. Provide you with basic wallet services;
+1. Application certification or management application upgrade;
+1. Other uses. When we use information for other purposes not specified in this policy or use information collected for specific purposes for other purposes, we will seek your consent in advance.
 
+You agree that in the process of using wallet products or accepting our services, if we (a) anonymize customer data; (b) mix customer data with other data; and/or (c) learn based on anonymity, For records and data, we have the right to make models, trends, knowledge, metadata and other observations (collectively referred to as "derived data").
 
-由于我们通过遍布全球的资源和服务器提供产品或服务，这意味着，在获得您的授权同意后，您的个人信息可能会被转移到您使用产品或服务所在国家/地区的境外管辖区，或者受到来自这些管辖区的访问。上述管辖区可能设有不同的数据保护法，或者上述辖区可能没有法律对您的个人信息提供充分保护。在此类情况下，我们会确保您的个人信息将根据本隐私政策的规定得到足够同等的保护。
+Derivative data should consist of anonymized data and must not contain data that can determine the identity of the customer or the identity of other natural persons. Anonymized data means that any information that can distinguish customers or other natural persons should be completely removed, and we or any third person cannot distinguish customers or other natural persons from some of the retained data in any way. You agree that the derivative data belongs to us, and we can use the derivative data for legitimate business purposes (including but not limited to developing, providing, operating, maintaining and improving our products and services).
 
-当我们的产品或服务发生停止运营的情形时，我们将以公告的形式通知您，并在合理的期限内删除您的个人信息或进行匿名化处理。
+## Externally available
+At present, we will not actively share or transfer your personal information to third parties. If there are other situations of sharing or transferring your personal information, we will obtain your prior authorization or consent or anonymize the personal information. The specific person cannot be identified and cannot be recovered.
 
-如果您所在地的法律针对用户数据的管理与中华人民共和国香港特别行政区不同，请知悉您接受我们的钱包服务受香港法律管辖，您同意将个人信息转移到中华人民共和国境内。
+We will not publicly disclose your personal information. If public disclosure is necessary, we will inform you of the purpose of the public disclosure, the type of information disclosed, and the sensitive information that may be involved, and obtain your express consent.
 
-## 信息使用
+You understand that in the following situations, we do not need to obtain your prior authorization to share, transfer, and publicly disclose your personal information:
 
-我们将把在向您提供服务的过程之中所收集的信息用作下列用途：
+1. Directly related to national security and national defense security;
+1. Directly related to public safety, public health, and major public interests;
+1. Directly related to criminal investigation, prosecution, trial and sentence execution;
+1. It is difficult to obtain the consent of the person in order to protect the life, property and other major legal rights of you or other individuals;
+1. Your personal information disclosed to the public by yourself;
+1. Collect personal information from legally publicly disclosed information, such as legal news reports, government information disclosure and other channels;
+1. Necessary for maintaining the safe and stable operation of the wallet, for example, discovering and disposing of wallet failures;
+1. Other circumstances stipulated by laws and regulations.
 
-1. 向您提供基础的钱包服务；
-2. 应用程序认证或管理应用程序升级；
-3. 其他用途。当我们将信息用于本政策未载明的其他用途或者将基于特定目的收集而来的信息用于其他目的时，会事先征求您的同意。
+## Information management
+In accordance with the relevant laws of the Hong Kong Special Administrative Region of the People's Republic of China , we guarantee that you have the following autonomous control rights over your personal information in your wallet:
 
-您同意，在使用钱包产品或者接受我们服务的过程中，如果我们（a）将客户数据匿名化之后；（b）将客户数据与其他数据混同之后；以及/或者（c）基于匿名的学习、记录和数据，我们有权制作模型、趋势、知识、元数据和其他观察（总称“衍生数据”）。
+1. You know that in the "My" section, you can freely choose to perform the following operations: In "Settings"-"Security", you can choose not to turn on the "Fingerprint Login" option, that is, you can choose not to use the Touch ID verification service provided by your mobile phone .
+1. You know that when we collect information from you for a specific purpose, we will give you notice in advance, and you have the right to refuse. But at the same time you know that when you choose to refuse to provide the basic information described in Article 1(1)(a) of this Privacy Policy, it means that you give up using the relevant services of the wallet.
+1. You know that you and we have no control over whether your transaction records are public, because based on the open source properties of the blockchain trading system, your transaction records are automatically open and transparent in the entire blockchain system.
+1. You understand that this privacy policy will no longer apply when you are redirected to a third-party DApp through a wallet link. Regarding your control over your personal information on a third-party DApp, we recommend that you read and understand its privacy rules and related user service agreements before using a third-party DApp.
 
-衍生数据应由匿名化的数据构成，不得含有可以确定客户身份或者确认其他自然人身份的数据。匿名化的数据指，任何可以分辨客户或者其他自然人的信息均应全部移除、我们或者任何第三人无法以任何方式在留存的部分数据中分辨客户或其他自然人。您同意，衍生数据属于我们，我们可以为合法的商业目的使用衍生数据（包括但不限于开发、提供、运营、保持和改善我们的产品及服务）。
+## Information protection
+1. If the wallet ceases to operate, we will promptly stop collecting your personal information. We will post a notice to cease operations on the wallet, and will delete or anonymize the personal information we hold within a reasonable period of time.
+1. In order to protect your personal information, we will adopt data security technical measures to improve internal compliance, increase internal employee information security training, and set security access permissions for relevant data to protect your private information.
+1. In the event of personal information leakage and other security incidents, we will promptly notify you in accordance with the requirements of laws and regulations: the basic situation and possible impact of the security incident, the disposal measures we have taken or will take, and what you can help prevent and reduce risks. Suggestions, remedies for you, etc. We will promptly inform you about the incident by email, letter, telephone, push notification, etc. When it is difficult to inform the subject of personal information one by one, we will adopt a reasonable and effective way to make an announcement.
+1. We will proactively report the handling of personal information security incidents in accordance with the requirements of the regulatory authorities.
 
-## 对外提供
+## Disclaimer
+1. Please note that after you access a third-party DApp through your wallet, the privacy policy issued by the third-party DApp will apply. The collection and use of your personal information by third-party DApps are not under our control, and this privacy policy does not apply to the foregoing circumstances.
+1. You should carefully select and use third-party DApps, and properly protect your personal information. We are not responsible for the privacy protection of other third-party DApps.
+1. You understand and agree: We will take reasonable security measures to protect your personal information as far as possible under the current technical level to avoid information leakage, tampering or damage. However, the wallet uses wireless means to transmit data. Even if we do our best to strengthen security measures, we cannot always guarantee the 100% security of personal information. If you use a wallet to transmit data over a wireless network, its privacy and security may have problems due to factors outside our control, and the problem cannot be regarded as our fault. Therefore, when the above-mentioned problems occur, we will make all reasonable efforts to reduce the loss for you, but if any loss is caused to you, we will only bear reasonable compensation liability for the partial loss caused by our fault.
+1. Loopring Wallet has a guardian function. All your operations on the first layer of the network (Ethereum blockchain) can be seen by your guardian and know that it is your operation. The privacy leakage caused by the disclosure of this part of the information is determined by the product attributes, and Loopring is not responsible for any.
 
-目前，我们不会主动共享或转让您的个人信息至第三方，如存在其他共享或转让您的个人信息情形时，我们会征得您的事先授权或同意或将个人信息经过匿名化处理使之无法识别特定人且不能复原。
+## Policy update
+Our privacy policy may change. Without your explicit consent, we will not reduce your rights in accordance with this privacy policy. We will post announcements related to any changes made to this privacy policy through the wallet. For major changes, we will also provide more noticeable notices (including we will provide you with page tips and other methods to explain the specific changes to this privacy policy).
 
-我们不会对外公开披露您的个人信息，如必须公开披露时，我们会向您告知此次公开披露的目的、披露信息的类型以及可能涉及的敏感信息，并征得您的明示同意。
+The major changes referred to in this privacy policy include but are not limited to:
 
-您了解在以下情形中，我们共享、转让、公开披露您的个人信息无需事先征得您的授权同意：
+- Our service model has undergone major changes. Such as the purpose of processing user information, the type of personal information processed, and the way in which personal information is used.
+- We have undergone major changes in the ownership structure and organizational structure. Such as changes in owners caused by business adjustments, bankruptcy mergers, etc.
+- The main objects of personal information sharing, transfer or public disclosure have changed.
+- Your right to participate in the processing of personal information and how to exercise it has undergone major changes.
+- When the department responsible for handling user information security, contact information and complaint channels change.
+- When the information security impact assessment report shows that there is a high risk.
 
-1. 与国家安全、国防安全直接相关的；
-1. 与公共安全、公共卫生、重大公共利益直接相关的；
-1. 与犯罪侦查、起诉、审判和判决执行等直接相关的；
-1. 出于维护您或其他个人的生命、财产等重大合法权益又很难得到本人同意的；
-1. 您自行向社会公众公开的个人信息；
-1. 从合法公开披露的信息中收集个人信息的，如合法的新闻报道，政府信息公开等渠道；
-1. 用于维护钱包的安全稳定运行所必需的，例如，发现、处置钱包的故障；
-1. 法律法规规定的其他情形。
-
-## 信息管理
-
-按照**中华人民共和国香港特别行政区**相关的法律，我们保障您在钱包中拥有以下对您个人信息的自主控制权：
-
-1. 您知悉在“我的”版块您可以自由选择进行如下操作: 在“设置” - “安全”中，您可以选择不开启“指纹登录”选项，即您可以选择不使用手机提供的Touch ID验证服务。
-1. 您知悉当我们出于特定目的向您收集信息时，我们会提前给予您通知，您有权选择拒绝。但同时您知悉，当您选择拒绝提供本隐私政策第1条第（1）款第a)项所描述的基础信息时，即表示您放弃使用钱包的有关服务。
-1. 您知悉，您及我们对于您交易记录是否公开并没有控制权，因为基于区块链交易系统的开源属性，您的交易记录在整个区块链系统中自动地公开透明。
-1. 您知悉，当您通过钱包的链接跳转至第三方DApp后，本隐私政策将不再适用。关于您在第三方DApp上对您个人信息的控制权问题，我们建议您在使用第三方DApp之前详细阅读并了解其隐私规则和有关用户服务协议等内容。
-
-## 信息保护
-
-1. 如钱包停止运营，我们将及时停止继续收集您个人信息的活动。我们将会在钱包上发布停止运营的通知，并且将对所持有的您的个人信息在合理期限内进行删除或匿名化处理。
-1. 为了保护您的个人信息，我们将采取数据安全技术措施，提升内部合规水平，增加内部员工信息安全培训，并对相关数据设置安全访问权限等方式安全保护您的隐私信息。
-1. 如发生个人信息泄露等安全事件，我们将按照法律法规的要求，及时向您告知：安全事件的基本情况和可能的影响、我们已采取或将要采取的处置措施、您可自助防范和降低风险的建议、对您的补救措施等。我们会及时将事件相关情况以邮件、信函、电话、推送通知等方式告知您。难以逐一告知个人信息主体时，我们会采取合理、有效的方式发布公告。
-1. 我们将按照监管部门要求，主动上报个人信息安全事件的处置情况。
-
-## 免责声明
-
-1. 请您注意，您通过钱包接入第三方DApp后，将适用该第三方DApp发布的隐私政策。第三方DApp对您个人信息的收集和使用等行为不为我们所控制，前述情形不适用本隐私政策。
-1. 您应审慎选择和使用第三方DApp，并妥善保护好您的个人信息，我们对其他第三方DApp的隐私保护不负任何责任。
-1. 您理解并同意：我们将在现有技术水平条件下尽可能采取合理的安全措施来保护您的个人信息，以避免信息的泄露、篡改或者毁损。但钱包系利用无线方式传输数据，即使我们竭尽所能加强安全措施，也不能始终保证个人信息百分之百的安全。如果您使用钱包通过无线网络传输数据，其隐私性和安全性有可能因我们可控范围外的因素而出现问题，而该问题不能视为我们的过错。因此，当出现上述问题时，我们将尽一切合理的努力为您减少损失，但若由此给您造成任何损失的，我们只对由于我们的过错而导致的部分损失承担合理的赔偿责任。
-1. 路印钱包有守护人功能，您在一层网络（以太坊区块链）上的一切操作，您的守护人均可看到并且知道是您的操作。此部分信息公开导致的隐私泄露由产品属性决定，路印不负任何责任。
-
-## 政策更新
-
-我们的隐私政策可能变更。未经您明确同意，我们不会削减您按照本隐私政策所应享有的权利。我们会通过钱包发布与对本隐私政策所做任何变更相关的公告。对于重大变更，我们还会提供更为显著的通知（包括我们会通过向您提供页面提示等方式，说明本隐私政策的具体变更内容）。
-
-本隐私政策所指的重大变更包括但不限于：
-
-- 我们的服务模式发生重大变化。如处理用户信息的目的、处理的个人信息类型、个人信息的使用方式等。
-- 我们在所有权结构、组织架构等方面发生重大变化。如业务调整、破产并购等引起的所有者变更等。
-- 个人信息共享、转让或公开披露的主要对象发生变化。
-- 您参与个人信息处理方面的权利及其行使方式发生重大变化。
-- 我们负责处理用户信息安全的责任部门、联络方式及投诉渠道发生变化时。
-- 信息安全影响评估报告表明存在高风险时。
