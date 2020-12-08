@@ -9,12 +9,7 @@ import NotFound from './NotFound/NotFound';
 import {default as Walletzh} from './Wallet_zh/wallet';
 import {default as Walleten} from './Wallet_en/wallet';
 import {default as WMiningzh} from './WMining_zh/wmining';
-import {default as TermsPage} from './Legal/Terms';
-import {default as RisksPage} from './Legal/Risks';
-import {default as PrivacyPage} from './Legal/Privacy';
-import {default as WalletDesignPage} from './Legal/WalletDesign';
-import {default as SmartContractsPage} from './Legal/SmartContracts';
-import {default as AboutLayer2Page} from './Legal/AboutLayer2';
+import {default as SimpleMarkdownPage} from './Legal/SimpleMarkdown';
 
 class App extends React.Component {
   render() {
@@ -35,96 +30,157 @@ class App extends React.Component {
               <Route
                 path="/legal/terms/en"
                 exact
-                render={(props) => <TermsPage isChinese={false} />}
+                render={(props) => (
+                  <SimpleMarkdownPage name="terms" isChinese={false} />
+                )}
               />
               <Route
                 path="/legal/terms/zh"
                 exact
-                render={(props) => <TermsPage isChinese={true} />}
+                render={(props) => (
+                  <SimpleMarkdownPage name="terms" isChinese={true} />
+                )}
               />
               <Route
                 path="/legal/terms"
                 exact
-                render={(props) => <TermsPage isChinese={isChinese} />}
+                render={(props) => (
+                  <SimpleMarkdownPage name="terms" isChinese={isChinese} />
+                )}
               />
               <Route
                 path="/legal/privacy/en"
                 exact
-                render={(props) => <PrivacyPage isChinese={false} />}
+                render={(props) => (
+                  <SimpleMarkdownPage name="privacy" isChinese={false} />
+                )}
               />
               <Route
                 path="/legal/privacy/zh"
                 exact
-                render={(props) => <PrivacyPage isChinese={true} />}
+                render={(props) => (
+                  <SimpleMarkdownPage name="privacy" isChinese={true} />
+                )}
               />
               <Route
                 path="/legal/privacy"
                 exact
-                render={(props) => <PrivacyPage isChinese={isChinese} />}
+                render={(props) => (
+                  <SimpleMarkdownPage name="privacy" isChinese={isChinese} />
+                )}
               />
 
               <Route
                 path="/legal/risks/en"
                 exact
-                render={(props) => <RisksPage isChinese={false} />}
+                render={(props) => (
+                  <SimpleMarkdownPage name="risks" isChinese={false} />
+                )}
               />
               <Route
                 path="/legal/risks/zh"
                 exact
-                render={(props) => <RisksPage isChinese={true} />}
+                render={(props) => (
+                  <SimpleMarkdownPage name="risks" isChinese={true} />
+                )}
               />
               <Route
                 path="/legal/risks"
                 exact
-                render={(props) => <RisksPage isChinese={isChinese} />}
+                render={(props) => (
+                  <SimpleMarkdownPage name="risks" isChinese={isChinese} />
+                )}
               />
 
               <Route
                 path="/legal/walletdesign/en"
                 exact
-                render={(props) => <WalletDesignPage isChinese={false} />}
+                render={(props) => (
+                  <SimpleMarkdownPage name="walletdesign" isChinese={false} />
+                )}
               />
               <Route
                 path="/legal/walletdesign/zh"
                 exact
-                render={(props) => <WalletDesignPage isChinese={true} />}
+                render={(props) => (
+                  <SimpleMarkdownPage name="walletdesign" isChinese={true} />
+                )}
               />
               <Route
                 path="/legal/walletdesign"
                 exact
-                render={(props) => <WalletDesignPage isChinese={isChinese} />}
+                render={(props) => (
+                  <SimpleMarkdownPage
+                    name="walletdesign"
+                    isChinese={isChinese}
+                  />
+                )}
               />
 
               <Route
                 path="/legal/contracts/en"
                 exact
-                render={(props) => <SmartContractsPage isChinese={false} />}
+                render={(props) => (
+                  <SimpleMarkdownPage name="contracts" isChinese={false} />
+                )}
               />
               <Route
                 path="/legal/contracts/zh"
                 exact
-                render={(props) => <SmartContractsPage isChinese={true} />}
+                render={(props) => (
+                  <SimpleMarkdownPage name="contracts" isChinese={true} />
+                )}
               />
               <Route
                 path="/legal/contracts"
                 exact
-                render={(props) => <SmartContractsPage isChinese={isChinese} />}
+                render={(props) => (
+                  <SimpleMarkdownPage name="contracts" isChinese={isChinese} />
+                )}
               />
 
               <Route
                 path="/legal/aboutl2/en"
                 exact
-                render={(props) => <AboutLayer2Page isChinese={false} />}
+                render={(props) => (
+                  <SimpleMarkdownPage name="aboutl2" isChinese={false} />
+                )}
               />
               <Route
                 path="/legal/aboutl2/zh"
                 exact
-                render={(props) => <AboutLayer2Page isChinese={true} />}
+                render={(props) => (
+                  <SimpleMarkdownPage name="aboutl2" isChinese={true} />
+                )}
               />
               <Route
                 path="/legal/aboutl2"
                 exact
-                render={(props) => <AboutLayer2Page isChinese={isChinese} />}
+                render={(props) => (
+                  <SimpleMarkdownPage name="aboutl2" isChinese={isChinese} />
+                )}
+              />
+
+              <Route
+                path="/legal/points/en"
+                exact
+                render={(props) => (
+                  <SimpleMarkdownPage name="points" isChinese={false} />
+                )}
+              />
+              <Route
+                path="/legal/points/zh"
+                exact
+                render={(props) => (
+                  <SimpleMarkdownPage name="points" isChinese={true} />
+                )}
+              />
+              <Route
+                path="/legal/points"
+                exact
+                render={(props) => (
+                  <SimpleMarkdownPage name="points" isChinese={isChinese} />
+                )}
               />
 
               <Route component={NotFound} />
