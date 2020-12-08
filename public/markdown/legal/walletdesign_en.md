@@ -1,4 +1,4 @@
-# Security Spec
+# Security Specs
 
 This describes how the Loopring Wallet smart contracts work in terms of guardians, locks, limits, and security in general. Your Loopring Wallet is not a 'normal' Ethereum address (not an EOA), it is a smart contract. As such, it is much more flexible, and it has rules and logic baked in, which makes it much more user-friendly, secure, and extensible in the future. You will see that all rules below err on the side of caution. Security is at the core of Loopring Wallet design decisions.
 
