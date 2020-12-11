@@ -51,7 +51,7 @@ const FeatureSection = ({h1, h2, h3, imageUrl, even, imageSize}) => {
           className="download-link"
           href="https://github.com/Loopring/loopring-wallet-feedback/raw/main/LoopringWallet.apk"
         >
-          Get Android App (beta, not localized)
+          Get Android App (beta)
         </a>
       </div>
     </RightAlignContainer>

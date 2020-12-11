@@ -34,7 +34,7 @@ const DownloadButton = (props) => {
           border: 'none',
         }}
       >
-        Get Android App (beta, not localized)
+        Get Android App (beta)
       </HoverableButton>
     </a>
   );
