@@ -6,6 +6,7 @@ import FeatureSection from './FeatureSection';
 import WithdrawalMining from './WithdrawalMining';
 import AOS from 'aos';
 import FooterSection from './FooterSection';
+import SlidesSection from './SlidesSection';
 
 import './wallet.scss';
 
@@ -17,6 +18,7 @@ const WalletPage = ({t}) => {
   return (
     <>
       <Navigation />
+      <SlidesSection />
       <HeroSection />
       <FeatureSection
         even
