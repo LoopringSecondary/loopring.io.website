@@ -18,13 +18,25 @@ import './SlidesSection.scss';
 const handleDragStart = (e) => e.preventDefault();
 const SlidesSection = () => {
   const items = [
-    <a href="https://loopring.org" target="_blank" className="slide">
+    <a
+      href="https://loopring.org/#/post/loopring-to-launch-amm-liquidity-mining-on-layer-2-cn"
+      target="_blank"
+      className="slide"
+    >
       <img src="/images/promotions/1_zh.jpg" onDragStart={handleDragStart} />
     </a>,
-    <a href="https://loopring.org" target="_blank" className="slide">
+    <a
+      href="https://loopring.org/#/post/loopring-to-launch-amm-liquidity-mining-on-layer-2-cn"
+      target="_blank"
+      className="slide"
+    >
       <img src="/images/promotions/2_zh.jpg" onDragStart={handleDragStart} />
     </a>,
-    <a href="https://loopring.org" target="_blank" className="slide">
+    <a
+      href="https://loopring.org/#/post/loopring-to-launch-amm-liquidity-mining-on-layer-2-cn"
+      target="_blank"
+      className="slide"
+    >
       <img src="/images/promotions/3_zh.jpg" onDragStart={handleDragStart} />
     </a>,
   ];
