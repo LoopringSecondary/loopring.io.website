@@ -4,7 +4,6 @@ import ScrollToTop from './Components/ScrollToTop';
 import {LocalizeProvider, withLocalize} from 'react-localize-redux';
 import detectBrowserLanguage from 'detect-browser-language';
 
-import About from './About/About';
 import NotFound from './NotFound/NotFound';
 import {default as Walletzh} from './Wallet_zh/wallet';
 import {default as Walleten} from './Wallet_en/wallet';

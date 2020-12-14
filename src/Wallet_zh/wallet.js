@@ -4,6 +4,7 @@ import Navigation from './Navigation';
 import FooterSection from './FooterSection';
 import HeroSection from './HeroSection';
 import FeatureSection from './FeatureSection';
+import SlidesSection from './SlidesSection';
 import WithdrawalMining from './WithdrawalMining';
 import AOS from 'aos';
 
@@ -17,6 +18,7 @@ const WalletPage = (props) => {
   return (
     <>
       <Navigation />
+      <SlidesSection />
       <HeroSection />
       <FeatureSection
         even
