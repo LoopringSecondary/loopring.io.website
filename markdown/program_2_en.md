@@ -1,19 +1,17 @@
-## AMM交易排名赛
+## AMM Swap Tournament
 
-以下是路印AMM交易排名赛（第1期）规则：
+### Rules:
 
-1）活动自2021年1月x日凌晨开始，为期14天。
+1) This cycle starts at 00:00 AM on January 1st, 2021 CST, and lasts for 14 days.
 
-2）我们会按交易量排名，为每个资金池交易量排名前25位用户奖励10万LRC，共30万LRC。
+2) AMM swap tournament will be enabled for: LRC⇄ETH，ETH⇄USDT，and WBTC⇄ETH pool. The reward for each pool is 100,000 LRC, for a total of 300,000 LRC.
 
-3）支持的资金池为：LRC⇄ETH，ETH⇄USDT，和WBTC⇄ETH。
+3) Swap using Loopring Wallet earns 50% extra reward.
 
-4）使用路印钱包交易将获得50%额外奖励。
-
-5）奖励将在活动结束后三天内通过二层账号直接发放。
+4) Rewards will be directly distributed to your layer-2 accounts within three days of the end of the cycle.
 
 
-### 具体奖励：
+### Reward distribution：
 
 ![](/markdown/images/program_2.png "")
 

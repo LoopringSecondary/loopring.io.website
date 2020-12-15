@@ -1,22 +1,22 @@
-## AMM流动性挖矿
+## AMM Liquidity Mining
 
-以下是路印AMM流动性挖矿（第1期）规则：
+### Rules:
 
-1）活动自2021年1月x日凌晨开始，为期14天。
+1) This cycle starts at 00:00 AM on January 1st, 2021 CST, and lasts for 14 days.
 
-2）支持三个资金池：LRC⇄ETH，ETH⇄USDT，和WBTC⇄ETH。每个资金池这一期的奖励为40万LRC，共120万LRC。
+2) Liquidity mining will be enabled for: LRC⇄ETH，ETH⇄USDT，and WBTC⇄ETH pool. The reward for each pool is 400,000 LRC, for a total of 1.2 million LRC.
 
-3）我们每天会对资金池做多次随机快照，并按照活动期间所有快照余额的平均值计算每个LP应得的奖励数量。
+3) We take random snapshots of the relevant AMM pools several times a day, and calculate the amount of rewards each LP earns based on the average of all snapshot balances in the cycle.
 
-4）通过路印钱包入金提供流动性，还将获得5%额外奖励。
+4) Adding liquidity through Loopring Wallet and will earn an additional 5% bonus.
 
-5）奖励在活动结束后三天内通过二层账号直接发放给LP。
+5) All mining rewards are issued in LRC. This cycle's mining rewards will be directly distributed to LP's layer-2 accounts within three days of the end of the cycle.
 
-6）对于支持流动性挖矿的资金池，参与入金提供流动性就自动开始挖矿，无需任何其它操作。
+6) For pools with liquidity mining, providing liquidity is how you mine. You automatically start mining without any other user action.
 
-7）挖矿不涉及锁仓，但入金获得的LP代币必须存储在路印二层账号中。如果将LP代币提现到以太坊主网，则无法获取挖矿奖励。用户也可以将LP代币部分或全部转给二层其它账号，但挖矿奖励也将部分或全部归另一个账号所有。
+7) Mining does not involve locking up your funds, but the LP tokens must stay in your Loopring layer-2 account. If you withdraw LP tokens to the Ethereum mainnet, you cannot get mining rewards, because it will not be recorded in the snapshots. You can transfer part or all of your LP tokens to other accounts on layer-2, but the mining rewards will also follow.
 
 
 ---
 
-注： LP代币是参与一个资金池后由资金池发给LP的权益代币。比如LRC⇄ETH资金池的代币叫LP-LRC-ETH。LP-LRC-ETH的相对比例代表您对LRC⇄ETH资金池的实际拥有权。如果您将LP代币转移给其它账号，也就相当于将资金池中对应的资产转移给了其它账号。
+Note: LP tokens are equity tokens issued by AMM pools to LPs. For example, the LP token of the LRC⇄ETH AMM pool is called LP-LRC-ETH. The relative proportion of LP-LRC-ETH represents your actual ownership of the LRC⇄ETH AMM pool. If you transfer LP tokens to other accounts, it is equivalent to transferring the corresponding underlying assets in the pool to other accounts.
