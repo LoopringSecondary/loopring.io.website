@@ -1,14 +1,15 @@
-## 订单本流动性挖矿
+## Orderbook Liquidity Mining
 
 
-以下是路印订单本流动性挖矿（第11期）规则：
+### Rules:
 
-1）本期活动支持两个交易对：USDC/USDT，DAI/USDT。
+1) This cycle starts at 00:00 AM on January 1st, 2021 CST, and lasts for 14 days.
 
-2）活动自2021年1月x日凌晨开始，为期14天。
+2) Trading pairs are USDC/USDT, DAI/USDT.
 
-3）最大spread为0.1%。
+3) The maximum spread is 0.1%.
 
-4）其它规则遵循[路印3.1订单本流动性挖矿规则](https://loopring.org/market-making-competition-cn)。
+4) Other details follow [Loopring v1 orderbook liquidity mining rules](https://medium.com/loopring-protocol/loopring-exchange-liquidity-mining-competition-748917b277e6). Hourly snapshots, measured by order depth, tightness, and balance.
 
-5）奖励将在活动结束后三天内通过二层账号直接发放。
+5) Rewards will be directly distributed to your layer-2 accounts within three days of the end of the cycle.
+
