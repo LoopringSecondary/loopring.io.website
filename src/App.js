@@ -8,7 +8,10 @@ import NotFound from './NotFound/NotFound';
 import {default as Walletzh} from './Wallet_zh/wallet';
 import {default as Walleten} from './Wallet_en/wallet';
 import {default as WMiningzh} from './WMining_zh/wmining';
-import {default as SimpleMarkdownPage} from './Legal/SimpleMarkdown';
+import {
+  default as SimpleMarkdownPage,
+  MarkdownFilePage,
+} from './Legal/SimpleMarkdown';
 
 class App extends React.Component {
   render() {
@@ -180,6 +183,11 @@ class App extends React.Component {
                 render={(props) => (
                   <SimpleMarkdownPage name="points" isChinese={isChinese} />
                 )}
+              />
+
+              <Route
+                path="/embed/:file"
+                render={(props) => <MarkdownFilePage />}
               />
 
               <Route component={NotFound} />
