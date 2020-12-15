@@ -11,7 +11,7 @@ const BaseMarkdownPage = ({file}) => {
   const [markdown, updateMarkdown] = React.useState('');
 
   React.useEffect(function effectFunction() {
-    fetch('/markdown/legal/' + file)
+    fetch('/markdown/' + file)
         .then((response) => response.text())
         .then((content) => {
           updateMarkdown(content);
