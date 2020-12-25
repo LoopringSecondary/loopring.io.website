@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Navigation from './Navigation';
 import HeroSection from './HeroSection';
 import FeatureSection from './FeatureSection';
-import WithdrawalMining from './WithdrawalMining';
+// import WithdrawalMining from './WithdrawalMining';
 import AOS from 'aos';
 import FooterSection from './FooterSection';
 import SlidesSection from './SlidesSection';
@@ -86,7 +86,7 @@ const WalletPage = ({t}) => {
         imageUrl={'/images/feature_best_choice_en.png'}
       />
 
-      <WithdrawalMining />
+      {/* <WithdrawalMining />*/}
       <FooterSection />
     </>
   );
