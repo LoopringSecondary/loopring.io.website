@@ -5,7 +5,7 @@ import FooterSection from './FooterSection';
 import HeroSection from './HeroSection';
 import FeatureSection from './FeatureSection';
 import SlidesSection from './SlidesSection';
-import WithdrawalMining from './WithdrawalMining';
+// import WithdrawalMining from './WithdrawalMining';
 import AOS from 'aos';
 
 import './wallet.scss';
@@ -74,7 +74,7 @@ const WalletPage = (props) => {
         imageUrl={'/images/feature_best_choice_zh.png'}
       />
 
-      <WithdrawalMining />
+      {/* <WithdrawalMining />*/}
       <FooterSection />
     </>
   );
