@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "//loopring.io/static/css/main.22afd489.chunk.css",
-    "main.js": "//loopring.io/static/js/main.54f0ae9a.chunk.js",
-    "main.js.map": "//loopring.io/static/js/main.54f0ae9a.chunk.js.map",
+    "main.css": "//loopring.io/static/css/main.912eaa97.chunk.css",
+    "main.js": "//loopring.io/static/js/main.9148bde8.chunk.js",
+    "main.js.map": "//loopring.io/static/js/main.9148bde8.chunk.js.map",
     "runtime-main.js": "//loopring.io/static/js/runtime-main.9d179c5f.js",
     "runtime-main.js.map": "//loopring.io/static/js/runtime-main.9d179c5f.js.map",
     "static/css/2.20fc26f0.chunk.css": "//loopring.io/static/css/2.20fc26f0.chunk.css",
-    "static/js/2.fd20dbb8.chunk.js": "//loopring.io/static/js/2.fd20dbb8.chunk.js",
-    "static/js/2.fd20dbb8.chunk.js.map": "//loopring.io/static/js/2.fd20dbb8.chunk.js.map",
+    "static/js/2.fd791e73.chunk.js": "//loopring.io/static/js/2.fd791e73.chunk.js",
+    "static/js/2.fd791e73.chunk.js.map": "//loopring.io/static/js/2.fd791e73.chunk.js.map",
     "index.html": "//loopring.io/index.html",
-    "precache-manifest.55d1e0a9daeb31ed2db09b751f9201e9.js": "//loopring.io/precache-manifest.55d1e0a9daeb31ed2db09b751f9201e9.js",
+    "precache-manifest.5fd3f239cf057da19caeb0b0f7e5b7c0.js": "//loopring.io/precache-manifest.5fd3f239cf057da19caeb0b0f7e5b7c0.js",
     "service-worker.js": "//loopring.io/service-worker.js",
     "static/css/2.20fc26f0.chunk.css.map": "//loopring.io/static/css/2.20fc26f0.chunk.css.map",
-    "static/css/main.22afd489.chunk.css.map": "//loopring.io/static/css/main.22afd489.chunk.css.map",
-    "static/js/2.fd20dbb8.chunk.js.LICENSE.txt": "//loopring.io/static/js/2.fd20dbb8.chunk.js.LICENSE.txt"
+    "static/css/main.912eaa97.chunk.css.map": "//loopring.io/static/css/main.912eaa97.chunk.css.map",
+    "static/js/2.fd791e73.chunk.js.LICENSE.txt": "//loopring.io/static/js/2.fd791e73.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9d179c5f.js",
     "static/css/2.20fc26f0.chunk.css",
-    "static/js/2.fd20dbb8.chunk.js",
-    "static/css/main.22afd489.chunk.css",
-    "static/js/main.54f0ae9a.chunk.js"
+    "static/js/2.fd791e73.chunk.js",
+    "static/css/main.912eaa97.chunk.css",
+    "static/js/main.9148bde8.chunk.js"
   ]
 }
