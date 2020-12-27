@@ -2,7 +2,7 @@
 
 ### Rules:
 
-1) This cycle starts at 00:00 AM on January 1st, 2021 CST, and lasts for 14 days.
+1) This cycle starts at 00:00 AM on January 7st, 2021 CST, and lasts for 14 days.
 
 2) Liquidity mining will be enabled for: LRC⇄ETH，ETH⇄USDT，and WBTC⇄ETH pool. The reward for each pool is 400,000 LRC, for a total of 1.2 million LRC.
 
