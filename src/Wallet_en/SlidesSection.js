@@ -23,21 +23,21 @@ const SlidesSection = () => {
       target="_blank"
       className="slide"
     >
-      <img src="/images/promotions/1_en.jpg" onDragStart={handleDragStart} />
+      <img src="/images/promotions/1_en.png" onDragStart={handleDragStart} />
     </a>,
     <a
       href="https://medium.com/loopring-protocol/loopring-to-launch-amm-liquidity-mining-on-layer-2-6cabbcf4801c?source=collection_home---4------0-----------------------"
       target="_blank"
       className="slide"
     >
-      <img src="/images/promotions/2_en.jpg" onDragStart={handleDragStart} />
+      <img src="/images/promotions/2_en.png" onDragStart={handleDragStart} />
     </a>,
     <a
       href="https://medium.com/loopring-protocol/loopring-to-launch-amm-liquidity-mining-on-layer-2-6cabbcf4801c?source=collection_home---4------0-----------------------"
       target="_blank"
       className="slide"
     >
-      <img src="/images/promotions/3_en.jpg" onDragStart={handleDragStart} />
+      <img src="/images/promotions/3_en.png" onDragStart={handleDragStart} />
     </a>,
   ];
 
