@@ -54,6 +54,12 @@ const FooterSection = () => {
                 Social
               </div>
               <div>
+                <a href="https://discord.gg/KkYccYp">Discord</a>
+              </div>
+              <div>
+                <a href="https://twitter.com/loopringorg">Twitter</a>
+              </div>
+              <div>
                 <a href="https://medium.com/loopring-protocol">Medium</a>
               </div>
               <div>
@@ -63,19 +69,10 @@ const FooterSection = () => {
                 <a href="https://www.youtube.com/c/loopring">YouTube</a>
               </div>
               <div>
-                <a href="https://twitter.com/loopringorg">Twitter</a>
-              </div>
-              <div>
                 <a href="https://weibo.com/loopringfoundation">Weibo</a>
               </div>
               <div>
                 <a href="https://reddit.com/r/loopringorg">Reddit</a>
-              </div>
-              <div>
-                <a href="https://t.me/loopringfans">Telegram</a>
-              </div>
-              <div>
-                <a href="https://discord.gg/KkYccYp">Discord</a>
               </div>
             </Container>
           </Columns.Column>
@@ -89,7 +86,7 @@ const FooterSection = () => {
               </div>
               <div>
                 <a href="https://exchange.loopring.io">
-                  Loopring Swap & Exchange (v2)
+                  Loopring AMM & Exchange (v2)
                 </a>
               </div>
               <div>
@@ -98,7 +95,6 @@ const FooterSection = () => {
               <div>
                 <a href="https://loopring.org">Loopring Protocol</a>
               </div>
-              <div>Loopring AMM</div>
             </Container>
           </Columns.Column>
         </Columns>
