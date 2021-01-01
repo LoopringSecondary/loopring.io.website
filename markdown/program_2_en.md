@@ -10,7 +10,7 @@
 
 4) Rewards will be directly distributed to your layer-2 accounts within three days of the end of the cycle.
 
-### Additional Swap Tournament
+### Additional Tournament Pools
 
 - HBTC/ETH to reward 50,000LRC
 - vETH/ETH to reward $3,000 worth of LRC
