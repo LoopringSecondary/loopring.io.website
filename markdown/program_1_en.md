@@ -1,6 +1,6 @@
 ## AMM Liquidity Mining
 
-### Rules:
+### Rules
 
 1) This cycle starts at 00:00 AM on January 7st, 2021 CST, and lasts for 14 days.
 
@@ -16,6 +16,14 @@
 
 7) Mining does not involve locking up your funds, but the LP tokens must stay in your Loopring layer-2 account. If you withdraw LP tokens to the Ethereum mainnet, you cannot get mining rewards, because it will not be recorded in the snapshots. You can transfer part or all of your LP tokens to other accounts on layer-2, but the mining rewards will also follow.
 
+
+### Additional Mining Pools
+
+The following pools are also enabled for liquidity mining by their corresponding token issuance teams.
+
+- AC/USDT to reward 9,600 AC
+- vETH/ETH to reward $15,000 in LRC
+- WOO/USDT to reward $4,600 in WOO and 5% more in LRC
 
 ---
 
