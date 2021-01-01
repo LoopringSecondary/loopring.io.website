@@ -22,9 +22,10 @@
 
 下列AMM资金池的相关代币发行方也提供小额奖励，开启流动性挖矿：
 
-- AC/USDT 奖励9,600 AC
-- vETH/ETH 奖励15,000美金等值LRC
-- WOO/USDT 奖励4,600美金等值WOO和$230美金等值LRC
+- AC/USDT 奖励 9,600 AC
+- vETH/ETH 奖励 15,000美金等值LRC
+- WOO/USDT 奖励 4,600美金等值WOO和$230美金等值LRC
+- MCB/ETH 奖励 1,050 MCB
 
 ---
 
