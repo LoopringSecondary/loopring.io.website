@@ -1,6 +1,6 @@
 ## AMM Swap Tournament
 
-### Rules:
+### Rules
 
 1) This cycle starts at 00:00 AM on January 7st, 2021 CST, and lasts for 14 days.
 
@@ -10,8 +10,12 @@
 
 4) Rewards will be directly distributed to your layer-2 accounts within three days of the end of the cycle.
 
+### Additional Tournament Pools
 
-### Reward distribution：
+- HBTC/ETH to reward 50,000LRC
+- vETH/ETH to reward $3,000 worth of LRC
+
+### Reward distribution
 
 ![](/markdown/images/program_2.png "")
 
