@@ -24,8 +24,8 @@
 
 - AC/USDT 奖励 9,600 AC
 - vETH/ETH 奖励 15,000美金等值LRC
-- WOO/USDT 奖励 4,600美金等值WOO和$230美金等值LRC
-- MCB/ETH 奖励 1,050MCB和$230美金等值LRC
+- WOO/USDT 奖励 4,600美金等值WOO和1,000美金等值LRC
+- MCB/ETH 奖励 1,050MCB和1,000美金等值LRC
 
 ---
 
