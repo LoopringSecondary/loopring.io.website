@@ -23,8 +23,8 @@ The following pools are also enabled for liquidity mining by their corresponding
 
 - AC/USDT to reward 9,600 AC
 - vETH/ETH to reward $15,000 in LRC
-- WOO/USDT to reward $4,600 in WOO and 5% more in LRC
-- MCB/ETH to reward 1,050 MCB
+- WOO/USDT to reward $4,600 in WOO and $230 in LRC
+- MCB/ETH to reward 1,050 MCB and $230 in LRC
 
 ---
 
