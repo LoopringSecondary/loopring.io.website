@@ -17,7 +17,9 @@ class App extends React.Component {
   render() {
     const lang = detectBrowserLanguage().toLowerCase();
     const isChinese = lang === 'zh' || lang === 'zh-cn';
-    document.title = isChinese ? '路印科技 - 钱包' : 'Loopring - Wallet';
+    document.title = isChinese ?
+      '路印科技（香港） - 钱包' :
+      'Loopring - Wallet';
     return (
       <LocalizeProvider>
         <HashRouter>

@@ -1,10 +1,10 @@
 # Service Agreement
-This document is a binding legal agreement between you and Loopring Technology Ltd. If you continue to use the Loopring Wallet app, you will be deemed to have accepted its content and are bound by its terms. Please be sure to read carefully and fully understand the content of this agreement, especially the clauses for exemption or limitation of liability, applicable laws and dispute resolution clauses. The terms of exemption or limitation of liability will be marked in bold, and you should read them carefully.
+This document is a binding legal agreement between you and Loopring HK Technology Ltd. If you continue to use the Loopring Wallet app, you will be deemed to have accepted its content and are bound by its terms. Please be sure to read carefully and fully understand the content of this agreement, especially the clauses for exemption or limitation of liability, applicable laws and dispute resolution clauses. The terms of exemption or limitation of liability will be marked in bold, and you should read them carefully.
 
 ## Important terms and definitions
 In this agreement, the following words have the following meanings:
 
-**Loopring** refers Loopring Technology Ltd, a British Virgin Islands-registered company, registration number 2018184.
+**Loopring** refers Loopring HK Technology Ltd, a British Virgin Islands-registered company, registration number 2018184.
 
 **The application** refers to the Loopring Exchange and/or Loopring Smart Wallet application. The Loopring application can (or) be provided as a downloadable mobile software application, or it can (or) be accessed through an Internet browser and can Use on desktop or laptop computers.
 
