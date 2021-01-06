@@ -13,7 +13,7 @@
 ### Additional Tournament Pools
 
 - HBTC/ETH to reward 50,000LRC
-- vETH/ETH to reward $3,000 worth of LRC
+- vETH/ETH to reward 1,000 LRC
 
 ### Reward distribution
 
