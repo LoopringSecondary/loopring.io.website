@@ -15,7 +15,7 @@
 ### 更多非官方AMM交易排名赛资金池
 
 - HBTC/ETH 奖励50,000LRC
-- vETH/ETH 奖励3,000美金等值LRC
+- vETH/ETH 奖励1,000 LRC
 
 ### 具体奖励：
 
