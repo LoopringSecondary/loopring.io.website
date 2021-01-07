@@ -9,6 +9,6 @@
 
 3）最大spread为0.1%。
 
-4）其它规则遵循[路印3.1订单本流动性挖矿规则](https://loopring.org/market-making-competition-cn)。
+4）其它规则遵循[路印3.1订单本流动性挖矿规则](https://loopring.org/#/post/market-making-competition-cn)。
 
 5）奖励将在活动结束后三天内通过二层账号直接发放。
