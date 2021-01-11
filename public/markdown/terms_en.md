@@ -4,7 +4,9 @@ This document is a binding legal agreement between you and Loopring HK Technolog
 ## Important terms and definitions
 In this agreement, the following words have the following meanings:
 
+
 **Loopring** refers Loopring HK Technology Limited, a Hong Kong-registered company.
+
 
 **The application** refers to the Loopring Exchange and/or Loopring Smart Wallet application. The Loopring application can (or) be provided as a downloadable mobile software application, or it can (or) be accessed through an Internet browser and can Use on desktop or laptop computers.
 

@@ -122,7 +122,7 @@ const HeroSection = (props) => {
             >
               Loopring's zkRollup L2 solution offers the same security
               guarantees as Ethereum mainnet, with a big scalability boost:
-              throughput increased by 1000x, and cost recuced to just 0.1% of
+              throughput increased by 1000x, and cost reduced to just 0.1% of
               L1. Ethereum is now unleashed. One year ago, we launched the first
               zkRollup on Ethereum - now we put its power in your pocket. Smooth
               orderbook trading, AMMs, and global payments, right from the
