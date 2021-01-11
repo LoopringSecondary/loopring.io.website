@@ -104,7 +104,7 @@ const FooterSection = () => {
             paddingBottom: '10px',
           }}
         >
-          Copyright (2020) Loopring Technology Limited
+          Copyright (2020) Loopring HK Technology Limited
         </CenterAlignContainer>
       </Container>
     </Footer>

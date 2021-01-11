@@ -120,8 +120,8 @@ const WithdrawalMining = (props) => {
                 other self-custodial wallets are eligible.
               </li>
               <li>
-                Loopring Technology reserves the right to interpret, modify, and
-                cancel this program if necessary.
+                Loopring reserves the right to interpret, modify, and cancel
+                this program if necessary.
               </li>
             </ol>
           </div>
