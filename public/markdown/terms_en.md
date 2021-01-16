@@ -1,4 +1,4 @@
-# TERM OF USE
+# TERMS OF USE
 
 
 The following terms and conditions (“**Terms**” or “**Agreement**”) is a binding agreement between you and Loopring HK Technology Limited (“**we**,” “**our**”, “**us**” or “**Loopring**”).  Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms.  By accessing or using the Service you agree to be bound by these Terms.  If you disagree with any part of the Terms then you may not access to the Service.  Please read carefully and understand the Terms before using the Service, in particular the provisions of Limitation of Liability and Warrant Disclaimer (Section 8) and Governing Law and Dispute Resolution (Section 9), so that you are aware of your legal rights and obligations.
