@@ -1,125 +1,119 @@
-# Service Agreement
-This document is a binding legal agreement between you and Loopring HK Technology Limited. If you continue to use the Loopring Wallet app, you will be deemed to have accepted its content and are bound by its terms. Please be sure to read carefully and fully understand the content of this agreement, especially the clauses for exemption or limitation of liability, applicable laws and dispute resolution clauses. The terms of exemption or limitation of liability will be marked in bold, and you should read them carefully.
-
-## Important terms and definitions
-In this agreement, the following words have the following meanings:
+# TERMS OF USE
 
 
-**Loopring** refers Loopring HK Technology Limited, a Hong Kong-registered company.
+The following terms and conditions (“**Terms**” or “**Agreement**”) is a binding agreement between you and Loopring HK Technology Limited (“**we**,” “**our**”, “**us**” or “**Loopring**”).  Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms.  By accessing or using the Service you agree to be bound by these Terms.  If you disagree with any part of the Terms then you may not access to the Service.  Please read carefully and understand the Terms before using the Service, in particular the provisions of Limitation of Liability and Warrant Disclaimer (Section 8) and Governing Law and Dispute Resolution (Section 9), so that you are aware of your legal rights and obligations.
+
+## 1. DEFINITION
+
+Except being defined in other parts of this Agreement, the following terms have the following definition:
+
+1.1. “**Loopring**” refers to Loopring HK Technology Limited, a private company limited by shares registered in the Hong Kong Special Administrative Region of the People's Republic of China, with registration number 2966965.
+
+1.2. “**Application**” or “App” refers to the Loopring Smart Wallet and/or Loopring Exchange application. The Loopring Application can be provided as a downloadable mobile application, or accessed via an Internet browser and used on desktop or laptop computers.
+
+1.3. “**Device**” refers to a mobile phone with Internet functionality or a computing device with Internet functionality (such as a touch screen tablet computer).
+
+1.4. “**Service**” refers to the functions of the App provided by Loopring to the Users, including the ability of these Users to appoint guardians and execute Transactions.
+
+1.5. “**Token**” or “**cryptocurrency**” refers to any digital token or asset that can be transmitted, stored or exchanged using the Loopring App.
+
+1.6. “**Account**” refers to your personal user account, which can identify you on the software protocol that enables the transmission and exchange of Tokens.
+
+1.7. “**User**” refers to an individual who has registered an Account to use the Loopring App.
+
+## 2. CONFIRMATION AND ACCEPTANCE
+
+**By using our Services, including downloading one of our mobile applications and visiting our website, you acknowledge that you have read, understood, and agreed to these Terms, as well as the accompanying Privacy Policy and Risk Disclosure.**  We reserve the right to change these Terms at any time.  Any such changes with respect to your use of our Services will take effect immediately when posted on our website or on our mobile Application.  Your continued use of our Services following any such change will signify your acceptance to be bound by the then current Terms.  Please check the effective date above to determine if there have been any changes since you have last reviewed these Terms. If you do not agree to this Agreement or any modifications to this Agreement, you should not use our Services. Failure or delay by Loopring in enforcing or partially enforcing any provision of these Terms shall not be construed as a waiver of any rights.
+
+## 3. SERVICES
+We provide the Services of transmitting, store and exchanging Tokens via App.  We reserve the right to add or delete specific Tokens and their related transaction pairs and automatic market making capital pools within the scope of the Service at any time without notice. The fact that the Services include (or not) any specific Token should not be interpreted as any form of recognition by us.  We will not recommend or endorse any specific Token for any purposes.
 
 
-**The application** refers to the Loopring Exchange and/or Loopring Smart Wallet application. The Loopring application can (or) be provided as a downloadable mobile software application, or it can (or) be accessed through an Internet browser and can Use on desktop or laptop computers.
+## 4. ELIGIBILITY
+To be eligible to use our Services, you must be at least eighteen (18) years old and be able to form legally binding contracts.  You can only use our Services if permitted under the laws of your jurisdiction. **In particular, we would like to draw your attention: Loopring prohibits U.S. residents or citizens from depositing, withdrawing, buying or selling Tokens in the Loopring App.** Please make sure that these Terms are in compliance with all laws, rules, and regulations that apply to you. By using our Services, you represent and warrant that you meet all eligibility requirements that we outline in these Terms. We may still refuse to let certain people access or use our Services, however, and we reserve the right to change our eligibility criteria at any time.
 
-**A device** refers to a mobile phone with Internet functionality or a computing device with Internet functionality (such as a touch screen "tablet").
+## 5. PRIVACY POLICY
 
-**Service** refers to the application functions provided to users, including the ability of these users to appoint guardians and execute transactions.
 
-**Token** refers to any digital token or asset. (May be called "cryptocurrency"), which can be used for transmission, storage or exchange using the Loopring app.
+5.1. We have provided a privacy policy (“**Privacy Policy**”) regarding the collection, retention, use, management and protection of user information in the process of providing our Services.  The Privacy Policy is designed to help you understand what information we collect, why we collect it, and how you can update, manage, export, and delete your information.  The terms of our Privacy Policy have been incorporated into this Agreement by reference and apply to your use of the App.  We recommend that you read and understand all the contents of the Privacy Policy before using the Loopring App.
 
-**Account** refers to your personal user account, which can identify you on the software protocol that enables the transmission and exchange of tokens.
+5.2. In order to provide the App continuously, stably and safely, we need to collect technical information about the Devices and related software, hardware and peripherals so that we can improve our products and provide you with any Services. You agree that we may contact you via email, WeChat, phone, post or SMS from time to time to provide you with information about goods or services that may be of interest to you.
 
-**A user** is an individual who has registered an account to use the Loopring application; terms such as "user" should be interpreted accordingly.
+5.3. The Loopring App or any Service may contain links to other independent third-party websites. Third-party websites are not under our control, and we are not responsible for their content or privacy policies (if any), and do not provide any guarantees for them. You need to make your own independent judgments about interactions with any third-party websites, including the purchase and use of any products or services accessed through them.
 
-If this end user license agreement refers to "you" or "your", it means the individual who accepts this agreement; when referring to "us", "our" or "us", it refers to Loopring.
 
-## Terms of use
-### 1. Confirmation and acceptance
-Your use of the Loopring app is subject to the terms of this agreement, but may also be subject to any rules or policies applied by any app store provider or operator from which you can download the Loopring app from its website (this The category website is "App Store", and the category rule is "App Store Rules").
+## 6. ACCOUNT AND GUARDIANS
 
-We may change these terms at any time without notice. Any such changes should take effect the next time you use the Loopring app. The next time you use the Loopring app, any such new terms may be displayed on the screen, and you may need to read and accept them to continue using the Loopring app.
+6.1. In order to obtain the Service, you must register and create an Account using the functions provided through the Loopring App. The security of your Account is your personal responsibility, and we are not responsible for any loss caused by your failure to protect the security and privacy of your password (or any other security key or login information).
 
-The terms of this agreement apply to the Loopring app and any updates or additions to the Loopring app, unless such additions are provided under separate terms, in which case these terms shall apply. If any open source software is included in the application or any service, the terms of the open source license may override some terms of this agreement.
+6.2. The functions provided by the Loopring App allow you to appoint a guardian. The appointment of a guardian is your personal choice and responsibility. We are not responsible for the actions, negligence or absence of the guardian, and you agree to be responsible for any disputes between you and the guardian designated by you (or any third party with the right to exercise any power).
 
-From time to time, we may release updates to the app through the app store or website. Depending on the update, you may not be able to use the service until you download the latest version of the Loopring app and accept any new terms.
+6.3. You can choose the “Loopring Official Guardian” as your guardian. In such case, if you lose your Device, we will provide you with a method to recover your Account. Using Loopring Official Guardian to restore your Account depends on your prompt response to one or more electronic messages (maybe sent by SMS and/or email) to verify your identity (“Recovery Message").  Failure to respond to the Recovery Message immediately or fail to respond to the Recovery Message at all may result in the link being invalid, and you may not be able to request other Recovery Messages for a period of time thereafter. The Recovery Message may invite you to submit a unique code or identifier to us to verify your identity. Repeated failure to provide a correct or valid identifier may result in your Account being locked or unavailable for a period of time. If you rely on Loopring Official Guardian to provide Wallet recovery Services, but lose your registered mobile phone or cannot use your registered email address, you will never be able to recover your Wallet.  Loopring does not rely on User information to determine your ownership of a mobile phone or mailbox.  In other words, if you cannot use the registered mobile phone or email address, the Loopring Official Guardian will refuse to serve you and you may never be able to restore your Wallet.
 
-It is assumed that you have obtained permission from the owner of any mobile phone or handheld device that you control but do not own. According to the terms of this agreement, you are responsible for the use of the Loopring application on any such device (regardless of whether it is owned by you).
 
-The terms of our privacy policy ("Privacy Policy") have been incorporated into this agreement by reference and apply to your use of the application. You acknowledge and agree that Internet transmissions will never be completely private or secure.
+## 7. INTELLECTUAL PROPERTY AND LICENSE
 
-All use of Loopring applications shall comply with the terms of our privacy policy. In order to provide applications continuously, stably and safely, we need to collect technical information about the equipment and related software, hardware and peripherals so that we can improve our products and provide you with any services. You agree that we may contact you via email, WeChat, phone, post or SMS from time to time to provide you with information about goods or services that may be of interest to you.
+7.1. Loopring Applications contain patented materials, copyrighted material and trademarks (the “Content”), which is protected by patent law, copyright law, registered and unregistered trademarks, and other intellectual property rights. Unless otherwise provided, we exclusively own the Content. Your use of the Services does not grant you any right, title, or interest in the Content.  On the condition that you agree the terms of this Agreement, we grant you a limited, personal, non-commercial, non-exclusive, non-transferable, and revocable license to use Loopring App on your Devices.  Any use of our Services other than as specifically authorized in this Agreement, without our prior written permission, is strictly prohibited and will terminate your license to use our Services.
 
-The Loopring app or any service may contain links to other independent third-party websites ("third-party websites"). Third-party websites are not under our control, and we are not responsible for their content or privacy policies (if any), and do not provide any guarantees for them. You need to make your own independent judgments about interactions with any third-party sites, including the purchase and use of any products or services accessed through them.
+7.2. By using our Services, you agree that unless having our prior written consent, you will NOT:
+-  (a) copy, translate, decompile, disassemble, merge, adapt, change or modify, reverse engineer or create derivative works of this application, in whole or in any part;
+-  (b) provide to anyone in any form Loopring App (including objects and source code), in whole or in part;
+-  (c) rent, lease, sublicense, loan the Loopring App; or
+-  (d) copy, modify, send and use the announcements, articles, videos, audios, pictures, files, information, materials, trademarks or logos displayed in this Agreement or Loopring App for commercial purposes.
 
-Any words after the term including (including), (especially) including (for example) or any similar phrases shall be interpreted as descriptive and shall not limit the generality of the relevant common words.
+7.3. You agree that you will not use or attempt to use another user’s Account without authorization or use our Services in any manner that could interfere, disrupt, negatively affect, or inhibit other users from fully enjoying it.  You agree not to distribute any virus or other harmful computer code through Loopring App.  You also agree to not take any action that may impose an unreasonable or disproportionately large load on our or any of our third party providers’ infrastructure.  You agree not to bypass, circumvent, or attempt to bypass or circumvent any measures that we may use to prevent or restrict access to the Services.
 
-### 2. Privacy Policy
-Your use of the Loopring app means that you trust our way of handling your information. Loopring's privacy policy is designed to help you understand what information we collect, why we collect it, and how you update, manage, export, and delete your information. We recommend that you carefully read and understand the entire contents of the Loopring Privacy Policy before using the Loopring app.
+7.4. You also agree that when using our Services you will not violate any laws, including any local, provincial, state, federal, national, or international laws that may apply to you.  You agree that you will not use our Services to pay for, support, or otherwise engage in any illegal activities including, but not limited to, illegal gambling, fraud, money laundering, or terrorist activities.
 
-### 3. Your account and guardian
-In order to receive the service, you must register and create an account using the functions provided through the Loopring app. The security of your account is your personal responsibility, and we are not responsible for any failures caused by your failure to ensure the security and privacy of your password (or any other security key or login information).
+7.5. You further agree not to encourage or induce any third party to engage in any of the activities prohibited under this Section.
 
-The functionality provided by the Loopring app allows you to appoint a guardian. The appointment of a guardian is your personal choice and responsibility.
+7.6. Your use of the Loopring App may be subject to any rules or policies applied by any app store provider or operator from which you can download the Loopring App.  If the Application or any Service contains any open-source software, the terms of the open license may supersede some terms of this Agreement.
 
-We are not responsible for the guardian's actions, negligence or absence, and you agree to be responsible for any disputes between you and your designated guardian (or any third party with the right to exercise any power).
 
-### 4. The official guardian of Loopring
-You can choose the "Official Guardian of Loopring" as your guardian. If you lose your device, we will provide you with a way to recover your account.
 
-Recovering your account using Loopring's official guardian depends on your prompt response to one or more electronic messages (maybe sent via SMS and/or email) to verify your identity ("recovery message"). Failure to immediately respond to the recovery message or failure to respond to the recovery message at all may result in the link being invalid, and you may not be able to request other recovery messages for a period of time thereafter.
+## 8. LIMITATION OF LIABILITY & WARRANT DISCLAIMER
 
-The recovery message may invite you to submit a unique code or identifier to us to verify your identity. Repeated failure to provide correct or valid identifiers may result in your account being locked or unavailable for a period of time.
 
-### 5. Trading activities and risks
-The order book trading and automatic market-making trading integrated in the Loopring application are used for spot purchase and sale of digital tokens. In particular, I would like to draw your attention: Loopring prohibits (1) persons and nationals living in prohibited jurisdictions and (2) US residents and citizens from depositing, withdrawing money, or buying and selling in the Loopring app .
+8.1. The Loopring App allows you to send and receive Tokens (each such event is called a “Transaction”). The choice of Transactions is entirely up to you. Any transaction, transfer or contract between you and any other user or third party shall be a private arrangement between you and the entity, and Loopring shall not be liable for such arrangements. You acknowledge that we do not provide or promise to verify the identity of any counterparty you may interact with. You are solely responsible for identifying and verifying the counterparty of the transaction you choose to conduct, and we are not responsible for any decision you make to send the Token to any third party. If you send the Token to an unexpected recipient, we will not take any responsibility for you. We cannot cancel or reverse your Transactions using the Loopring App, and are not responsible for any Transactions you enter incorrectly.
 
-The token market is volatile and changes rapidly in terms of liquidity, market depth, and trading dynamics. You accept sole responsibility for the following: any and all trading and non-trading activities on the Loopring app and your account in the Loopring app; and, even if the Loopring app incorrectly states at any time The same is true for the true status of any position or contract of any other party on the Loopring app. You acknowledge and agree: to take full responsibility and assume responsibility for your trading and non-trading behaviors and omissions on the Loopring app and all gains and losses you suffer from using the Loopring app and any service; for protecting access The Loopring app and any service and any information provided through the Loopring app and any service are fully responsible, including but not limited to private keys, usernames, passwords and bank account details.
+8.2. When you try to make a Transaction, there may be a delay between the initiation of the Transaction and the final execution. Such delays may be caused by delays inherent in the function of the underlying token network on which Transactions will be executed. No matter how such delays occur, we are not responsible for any such delays.
 
-### 6. Scope of Services and License
-The Loopring app allows you to send and receive tokens (each such event is called a "transaction"). The choice of trading is entirely up to you, and you acknowledge that we do not provide or promise to verify the identity of any counterparty with whom you may interact. You are solely responsible for identifying and verifying the counterparty of the transaction you choose to conduct, and we are not responsible for any decision you make to send the pass to any third party.
+8.3. If you expect to receive the goods, assets or services for which the Token is valued for trading, then we will not be liable to you. In particular, if your expected consideration is not fulfilled or the quality is not satisfactory, we will not bear any responsibility to you, and will not make or provide any form of refund or compensatory compensation to you.
 
-If you send the pass to an unexpected recipient, we will not take any responsibility for you. We cannot "cancel" or "undo" transactions you make using the Loopring app, and are not responsible for any transactions you enter incorrectly.
+8.4. The token market is volatile and changes rapidly in terms of liquidity, market depth and transaction dynamics. You agree to bear the sole responsibility for the following: **any and all trading and non-trading activities on the Loopring App and your Account in the Loopring App, even if the Loopring App incorrectly presents any position or contract status of any other party on the Loopring App. You acknowledge and agree to take full responsibility and assume responsibility for: your trading and non-trading activities and omissions on the Loopring App and all gains and losses you suffer from using the Loopring App and any Service; any information for protecting the access to the Loopring App and any Service, including but not limited to private keys, usernames, passwords and bank account information.**
 
-Where you are trying to make a transaction, there may be a delay between the initiation of the transaction and its final execution. Such delays may be caused by delays inherent in the function of the underlying token network on which transactions will be executed. No matter how such delays occur, we are not responsible for any such delays.
+8.5. Token transactions depend on the normal operation of software protocols that we do not own.  Related agreements include open-source programs that are publicly available, and we cannot assume any responsibility for the failure of these agreements to operate as expected.  In particular, we are not responsible for any changes to such agreements or any “forks” of these agreements that result in the simultaneous existence of multiple instances of these agreements. You confirm and agree that you have the responsibility to inform yourself about the operation of the relevant software agreement on the basis of any token you choose to use in the Transaction, and you are responsible for making yourself aware of the “forks” of any agreement and taking appropriate measures.
 
-If you expect to receive the goods, assets or services for which the token is valued for trading, then we will not bear any responsibility to you. In particular, if your expected consideration is not fulfilled or the quality is unsatisfactory, we will not bear any responsibility to you, and will not make or provide any form of refund or compensatory compensation to you.
+8.6. **LOOPRING APP IS PROVIDED "AS IS" AND WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE DISCLAIM ALL REPRESENTATIONS AND WARRANTIES, EXPRESS OR IMPLIED, RELATING TO THE APP AND THE SERVICES, INCLUDING WITHOUT LIMITATION, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, FREEDOM FROM COMPUTER VIRUS, AND ANY IMPLIED WARRANTIES ARISING FROM COURSE OF DEALING, COURSE OF PERFORMANCE, OR USAGE IN TRADE, ALL OF WHICH ARE EXPRESSLY DISCLAIMED. IN ADDITION, WE DO NOT REPRESENT OR WARRANT THAT THE CONTENT ACCESSIBLE VIA THE SERVICES IS ACCURATE, COMPLETE, AVAILABLE, CURRENT, FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS, OR THAT THE RESULTS OF USING THE SERVICES WILL MEET YOUR REQUIREMENTS.**
 
-We reserve the right to add or delete specific tokens and their related transaction pairs and automatic market making capital pools within the scope of the service at any time without notice. The fact that the service scope (or not) is characterized by any specific type of token should not be interpreted as any form of recognition of the token by us. We will not recommend or endorse any specific token for any purpose.
 
-Token transactions rely on the normal operation of software protocols that we do not own. Related agreements include open source programs that are publicly available, and we assume any responsibility for the failure of these agreements to operate as expected or at all. In particular, we are not responsible for any changes to such agreements or any "forks" of these agreements that result in the simultaneous existence of multiple instances of these agreements. You confirm and agree that you have the responsibility to inform yourself about the operation of the relevant software agreement on the basis of any token you choose to use in the transaction, and you are responsible for making yourself aware of the "forking" of any agreement and taking appropriate measures. Protect yourself from the same actions.
+## 9. GOVERNING LAW AND DISPUTE RESOLUTION
 
-Considering that you agree to abide by the terms of this agreement, we grant you a non-transferable, non-exclusive license to use the Loopring app on your device subject to these terms, privacy policy and any applicable app store rules .
+9.1. The entry, interpretation, amendment, supplementation and dispute resolution of this Agreement shall be governed by the laws of the Hong Kong Special Administrative Region of the People's Republic of China.  If there are no relevant provisions in the Applicable Law, then business practices and/or industry practices shall be referred to.
 
-We reserve all other rights.
+9.2. If any provision or part of this Agreement is invalid, void, or for any reason unenforceable, that provision or part will be deemed severable and limited or eliminated to the minimum extent necessary. The limitation or elimination of the provision will not affect any other provisions of the Agreement. 
 
-### 7. Claims and Liability
-You accept any transaction, assignment or contract between you and any other user or third party, which should be a private arrangement between you and that entity. Loopring assumes no responsibility for such arrangements, nor does it assume the responsibility of any party. The responsibility for resolving any disputes related to such arrangements belongs to you only. In particular, you accept that Loopring is not responsible for using app features to verify the identity of the entity to which you can transfer tokens.
+9.3. Any disputes arising from this Agreement, or related to this Agreement, including any issues concerning its existence, validity or termination, shall be settled through friendly negotiation.  If either party is unwilling to resolve through negotiation, or cannot resolve within thirty (30) days, either party has the right to submit the dispute to the arbitration at International Chamber of Commerce (“ICC”) and follow ICC’s effective Arbitration Rules to appoint one or more arbitrators to arbitrate in accordance with the aforementioned rules.  The language of arbitration shall be English, and unless agreed upon by both parties, the place of arbitration shall be the Hong Kong Special Administrative Region of the People's Republic of China.  The arbitral tribunal's decision is final and binding on both parties to the Agreement.
 
-Therefore, for any claims, liabilities and losses, you agree to exempt Loopring from all liability, and agree that Loopring will not be liable for any disputes that may arise between you and any other person for any reason.
 
-### 8. Events beyond control
-We are not responsible for any failure to perform or delay in performing our obligations under this agreement due to any behavior or event beyond our reasonable control ("events beyond our control"). In particular, I would like to draw your attention: You accept (1) Loopring’s writing and uploading and third-party writing and uploading to the basic pass network security vulnerabilities in the code and data integrated with the Loopring application, (2) the upgrade and distribution of pass contracts Fork, (3) The rollback and fork of the basic token network belong to the category of uncontrollable events described in this clause.
+## 10. FORCE MAJEURE
+We will not be responsible for any failure to perform or delay in performance due to any behavior or event beyond our reasonable control (“**Uncontrollable Events**”) including major natural disasters, fires, other catastrophe, wars, terrorist activities, strikes, Device failures, telecommunication failures, etc.).  **In particular, I would like to draw your attention: you accept that the following events belong to Uncontrollable Events described in this clause:**
 
-### 9. License restrictions
-Unless expressly provided in this agreement or expressly permitted by any local law, you agree to:
+ - **(a) the security vulnerabilities in the code and data written and uploaded to the basic Token network that are used and integrated in the Loopring Application;**
+ - **(b) the upgrade and fork of the Token contract, and**
+ - **(c) the rollback and fork of the basic Token network.**
 
-Do not copy Loopring applications;
 
-Not to rent, lease, sublicense, loan, translate, merge, adapt, change or modify the Loopring application;
+## 11. OTHER
 
-Do not change or modify the Loopring app in whole or in any part;
+11.1. You agree that we may assign any of our rights and/or transfer, sub-contract, or delegate any of our obligations under these Terms.  Your agreement to these Terms is personal to you and you may not transfer or assign it to any third party.
 
-Do not combine the Loopring app or any part of it with any other program or merge it into any other program;
+11.2. Our failure or delay to enforce your obligations in this Agreement or to exercise our rights against you does not mean that we have waived our rights to you, and it will not mean you do not have to comply with these obligations. If we do waive your default, we will only do so in writing, but this does not mean that we will automatically waive any of your future default.
 
-Do not disassemble, decompile, reverse engineer or create derivative works of this application by all or any part of the Loopring application, or attempt to perform any such operations;
+11.3. The language of this Agreement is Chinese.  Any translated version is provided for the convenience of the Users only with no intention to modify the terms of this Agreement.  If there is a conflict between the Chinese version of this Agreement and the non-Chinese version, the Chinese version shall prevail.
 
-Without our prior written consent, Loopring applications (including objects and source code) may not be provided to anyone in any form or otherwise provided in whole or in part;
+---
 
-Comply with laws and regulations that may apply to the application or any service.
+The Agreement is effective from November 25, 2020.
 
-Do not copy, modify, copy, send, and use announcements, articles, videos, audios, pictures, files, information, materials, trademarks or logos displayed in this agreement or Loopring applications for commercial purposes.
-
-### 10. Application of law and dispute resolution
-Each condition of this agreement operates independently. If any court or competent authority rules that any of them is illegal or unenforceable, the remaining conditions will remain fully effective.
-
-Please note that the entry into force, interpretation, amendment, supplementation and dispute resolution of this agreement shall be governed by the laws of the Hong Kong Special Administrative Region of the People’s Republic of China ; if there are no relevant provisions in the law, refer to business practices and/or industry practices. If you choose to use the Loopring app as a provider or demander anywhere else in the world, you are responsible for checking local laws and ensuring compliance with them.
-
-Any disputes arising from this agreement or performance of this agreement, or related to this agreement, including any issues concerning its existence, validity or termination, shall be resolved through friendly negotiation between the two parties. If either party is unwilling to resolve through negotiation, or cannot resolve it within thirty (30) days after the start of the negotiation, either party has the right to submit the dispute to the International Chamber of Commerce Arbitration ("ICC") and follow The court’s effective "Conciliation and Arbitration Rules" appoint one or more arbitrators to arbitrate in accordance with the aforementioned rules. The language of arbitration shall be English, and unless otherwise agreed by the parties to this agreement, the place of arbitration shall be the Hong Kong Special Administrative Region of the People's Republic of China . The arbitration tribunal’s award is final and binding on both parties to the agreement.
-
-### 11. Other
-We may transfer our rights and obligations under this agreement to another organization, but this will not affect your rights or our obligations under this agreement.
-
-If we fail to insist that you perform any of the obligations in this agreement, or we do not exercise our rights against you, or we delay doing so, it does not mean that we have waived our rights to you, and it does not mean you There is no need to comply with these obligations. If we do give up your default settings, we will only do so in writing, but this does not mean that we will automatically give up any future default settings.
-
-Any translated version of this agreement is provided for the convenience of users only, and there is no intention to modify the terms of this agreement. If there is a conflict between the Chinese version of this agreement and the non-Chinese version, the Chinese version shall prevail.
-
-This agreement is applicable as of November 25, 2020.
+Last Updated: January 16, 2021.
