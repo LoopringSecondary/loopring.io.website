@@ -2,17 +2,26 @@
 
 @import "../../_variables.sass";
 
+.outerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
 .legal.markdown {
   margin: 20px;
-
+  max-width: 768px;
   * {
     font-family: "SimSun", "Roboto", sans-serif;
     font-weight: 500;
     font-size: 13px;
+    color: #444;
   }
 
   strong {
-    font-weight: 700;
+    font-weight: 900;
+    color:#222;
   }
 
   h1 {
@@ -94,13 +103,13 @@
 
   h1 {
     font-size: 28px;
-    color: black;
+    color: #222;
   }
 
   h2 {
     font-size: 24px;
     // border-bottom: 1px solid #cccccc;
-    color: black;
+    color: #222;
   }
 
   h3 {

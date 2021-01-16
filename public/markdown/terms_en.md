@@ -1,10 +1,6 @@
 # TERM OF USE
 
 
-Last Updated: January 16, 2021.
-
----
-
 The following terms and conditions (“**Terms**” or “**Agreement**”) is a binding agreement between you and Loopring HK Technology Limited (“**we**,” “**our**”, “**us**” or “**Loopring**”).  Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms.  By accessing or using the Service you agree to be bound by these Terms.  If you disagree with any part of the Terms then you may not access to the Service.  Please read carefully and understand the Terms before using the Service, in particular the provisions of Limitation of Liability and Warrant Disclaimer (Section 8) and Governing Law and Dispute Resolution (Section 9), so that you are aware of your legal rights and obligations.
 
 ## 1. DEFINITION
@@ -88,7 +84,7 @@ To be eligible to use our Services, you must be at least eighteen (18) years old
 
 8.5. Token transactions depend on the normal operation of software protocols that we do not own.  Related agreements include open-source programs that are publicly available, and we cannot assume any responsibility for the failure of these agreements to operate as expected.  In particular, we are not responsible for any changes to such agreements or any “forks” of these agreements that result in the simultaneous existence of multiple instances of these agreements. You confirm and agree that you have the responsibility to inform yourself about the operation of the relevant software agreement on the basis of any token you choose to use in the Transaction, and you are responsible for making yourself aware of the “forks” of any agreement and taking appropriate measures.
 
-8.6. LOOPRING APP IS PROVIDED "AS IS" AND WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE DISCLAIM ALL REPRESENTATIONS AND WARRANTIES, EXPRESS OR IMPLIED, RELATING TO THE APP AND THE SERVICES, INCLUDING WITHOUT LIMITATION, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, FREEDOM FROM COMPUTER VIRUS, AND ANY IMPLIED WARRANTIES ARISING FROM COURSE OF DEALING, COURSE OF PERFORMANCE, OR USAGE IN TRADE, ALL OF WHICH ARE EXPRESSLY DISCLAIMED. IN ADDITION, WE DO NOT REPRESENT OR WARRANT THAT THE CONTENT ACCESSIBLE VIA THE SERVICES IS ACCURATE, COMPLETE, AVAILABLE, CURRENT, FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS, OR THAT THE RESULTS OF USING THE SERVICES WILL MEET YOUR REQUIREMENTS.
+8.6. **LOOPRING APP IS PROVIDED "AS IS" AND WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE DISCLAIM ALL REPRESENTATIONS AND WARRANTIES, EXPRESS OR IMPLIED, RELATING TO THE APP AND THE SERVICES, INCLUDING WITHOUT LIMITATION, WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, FREEDOM FROM COMPUTER VIRUS, AND ANY IMPLIED WARRANTIES ARISING FROM COURSE OF DEALING, COURSE OF PERFORMANCE, OR USAGE IN TRADE, ALL OF WHICH ARE EXPRESSLY DISCLAIMED. IN ADDITION, WE DO NOT REPRESENT OR WARRANT THAT THE CONTENT ACCESSIBLE VIA THE SERVICES IS ACCURATE, COMPLETE, AVAILABLE, CURRENT, FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS, OR THAT THE RESULTS OF USING THE SERVICES WILL MEET YOUR REQUIREMENTS.**
 
 
 ## 9. GOVERNING LAW AND DISPUTE RESOLUTION
@@ -101,11 +97,11 @@ To be eligible to use our Services, you must be at least eighteen (18) years old
 
 
 ## 10. FORCE MAJEURE
-We will not be responsible for any failure to perform or delay in performance due to any behavior or event beyond our reasonable control (“**Uncontrollable Events**”) including major natural disasters, fires, other catastrophe, wars, terrorist activities, strikes, Device failures, telecommunication failures, etc.).  In particular, I would like to draw your attention: you accept that the following events belong to Uncontrollable Events described in this clause
+We will not be responsible for any failure to perform or delay in performance due to any behavior or event beyond our reasonable control (“**Uncontrollable Events**”) including major natural disasters, fires, other catastrophe, wars, terrorist activities, strikes, Device failures, telecommunication failures, etc.).  **In particular, I would like to draw your attention: you accept that the following events belong to Uncontrollable Events described in this clause:**
 
- - (a) the security vulnerabilities in the code and data written and uploaded to the basic Token network that are used and integrated in the Loopring Application;
- - (b) the upgrade and fork of the Token contract, and
- - (c) the rollback and fork of the basic Token network.
+ - **(a) the security vulnerabilities in the code and data written and uploaded to the basic Token network that are used and integrated in the Loopring Application;**
+ - **(b) the upgrade and fork of the Token contract, and**
+ - **(c) the rollback and fork of the basic Token network.**
 
 
 ## 11. OTHER
@@ -119,3 +115,5 @@ We will not be responsible for any failure to perform or delay in performance du
 ---
 
 The Agreement is effective from November 25, 2020.
+
+Last Updated: January 16, 2021.

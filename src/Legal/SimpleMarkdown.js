@@ -19,9 +19,11 @@ const BaseMarkdownPage = ({file}) => {
   }, []);
 
   return (
-    <Container className="legal markdown has-text-black">
-      <ReactMarkdown children={markdown} />
-    </Container>
+    <div className="outerContainer">
+      <Container className="legal markdown has-text-black">
+        <ReactMarkdown children={markdown} />
+      </Container>
+    </div>
   );
 };
 
