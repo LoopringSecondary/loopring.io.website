@@ -1,4 +1,4 @@
-## AMM Liquidity Mining (Round#1)
+## AMM Liquidity Mining (Round#2)
 
 ### Rules
 

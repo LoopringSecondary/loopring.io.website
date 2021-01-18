@@ -1,4 +1,4 @@
-## AMM Swap Tournament (Round#1)
+## AMM Swap Tournament (Round#2)
 
 ### Rules
 
