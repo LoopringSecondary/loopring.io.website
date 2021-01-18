@@ -1,16 +1,16 @@
-## AMM Liquidity Mining
+## AMM Liquidity Mining (Round#1)
 
 ### Rules
 
-1) This cycle starts at 00:00 AM on January 7st, 2021 CST, and lasts for 14 days.
+1) This round starts at 00:00 AM on January 7st, 2021 CST, and lasts for 14 days.
 
 2) Liquidity mining will be enabled for: LRC⇄ETH，ETH⇄USDT，and WBTC⇄ETH pool. The reward for each pool is 400,000 LRC, for a total of 1.2 million LRC.
 
-3) We take random snapshots of the relevant AMM pools several times a day, and calculate the amount of rewards each LP earns based on the average of all snapshot balances in the cycle.
+3) We take random snapshots of the relevant AMM pools several times a day, and calculate the amount of rewards each LP earns based on the average of all snapshot balances in the round.
 
 4) Adding liquidity through Loopring Wallet and will earn an additional 5% bonus.
 
-5) All mining rewards are issued in LRC. This cycle's mining rewards will be directly distributed to LP's layer-2 accounts within three days of the end of the cycle.
+5) All mining rewards are issued in LRC. This round's mining rewards will be directly distributed to LP's layer-2 accounts within three days of the end of the round.
 
 6) For pools with liquidity mining, providing liquidity is how you mine. You automatically start mining without any other user action.
 
