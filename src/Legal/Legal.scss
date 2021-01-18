@@ -30,6 +30,18 @@
     text-align: center !important;
   }
 
+  td,th {
+    padding: 4px 12px;
+  }
+  thead {
+    background-color: #f0f0f0;
+  }
+  table {
+    border: 1px solid #f0f0f0;
+  }
+  tr {
+    border: 1px solid #f0f0f0;
+  }
   a {
     color: #4183c4;
   }

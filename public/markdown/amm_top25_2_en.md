@@ -1,19 +1,29 @@
 ## AMM Swap Tournament (Round#2)
 
+### Pools and Rewards
+
+
+| **Token** | **Pool** | **Swap Tournament Reward** |
+| :--- | ---: | ---: |
+| Ethereum | ETH⇄DAI | 100,000LRC ≈  $40,000 |
+| Ethereum | ETH⇄USDC | 100,000LRC ≈  $40,000 |
+| Loopring | LRC⇄ETH | 100,000LRC ≈  $40,000 |
+| Bella Protocol | BEL⇄ETH  | 2,500 LRC ≈  $1,000 |
+| BoringDAO | oBTC⇄ETH |  1,000 LRC ≈  $400 |
+| Bifrost | vETH⇄ETH |  5,000 LRC ≈  $2,000 |
+| ENJ | ENJ⇄ETH | 5,000 LRC ≈  $2,000 |
+| NIOX | NIOX⇄ETH |  2500 LRC ≈  $1,000 |
+| DPI | DPI⇄ETH |  3,750 LRC ≈  $1,500 |
+| AMP | AMP⇄ETH |  2,500 LRC ≈  $1,000 |
+| WooTrade | WOO⇄USDT  | - |
+
+
+
 ### Rules
 
-1) This round starts at 00:00 AM on January 7st, 2021 CST, and lasts for 14 days.
+1) This round starts at 00:00 AM on January 25th, 2021 UTC, and lasts for 14 days.
 
-2) AMM swap tournament will be enabled for: LRC⇄ETH，ETH⇄USDT，and WBTC⇄ETH pool. The reward for each pool is 100,000 LRC, for a total of 300,000 LRC.
-
-3) Swap using Loopring Wallet earns 50% extra reward.
-
-4) Rewards will be directly distributed to your layer-2 accounts within three days of the end of the round.
-
-### Additional Tournament Pools
-
-- HBTC/ETH to reward 50,000LRC
-- vETH/ETH to reward 1,000 LRC
+2) Rewards will be directly distributed to your layer-2 accounts within three days of the end of the round.
 
 ### Reward distribution
 
