@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import {useParams} from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
+import gfm from 'remark-gfm';
 import styled from 'styled-components';
 import Navigation from '../Wallet_zh/Navigation';
 import FooterSection from '../Wallet_zh/FooterSection';
@@ -21,7 +22,7 @@ const BaseMarkdownPage = ({file}) => {
   return (
     <div className="outerContainer">
       <Container className="legal markdown has-text-black">
-        <ReactMarkdown children={markdown} />
+        <ReactMarkdown plugins={[gfm]} children={markdown} />
       </Container>
     </div>
   );
