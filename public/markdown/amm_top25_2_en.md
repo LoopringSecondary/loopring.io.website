@@ -5,16 +5,16 @@
 
 | **Project** | **Pool** | **Reward** |
 | :--- | ---: | ---: |
-| Ethereum | ETH⇄DAI | 100,000LRC ≈  $40,000 |
-| Ethereum | ETH⇄USDC | 100,000LRC ≈  $40,000 |
-| Loopring | LRC⇄ETH | 100,000LRC ≈  $40,000 |
-| Bella Protocol | BEL⇄ETH  | 2,500 LRC ≈  $1,000 |
-| BoringDAO | oBTC⇄ETH |  1,000 LRC ≈  $400 |
-| Bifrost | vETH⇄ETH |  5,000 LRC ≈  $2,000 |
-| ENJ | ENJ⇄ETH | 5,000 LRC ≈  $2,000 |
-| NIOX | NIOX⇄ETH |  2500 LRC ≈  $1,000 |
-| DPI | DPI⇄ETH |  3,750 LRC ≈  $1,500 |
-| AMP | AMP⇄ETH |  2,500 LRC ≈  $1,000 |
+Ethereum | ETH⇄DAI |  100,000LRC ≈  $40,000
+Ethereum | ETH⇄USDC |  100,000LRC ≈  $40,000
+Loopring | LRC⇄ETH |  100,000LRC ≈  $40,000
+Bella Protocol | BEL⇄ETH | 2,500 LRC ≈  $1,000
+BoringDAO | oBTC⇄ETH |  1,000 LRC ≈  $400
+Bifrost | vETH⇄ETH | 5,000 LRC ≈  $2,000
+ENJ | ENJ⇄ETH |  5,000 LRC ≈  $2,000
+NIOX | NIOX⇄ETH |  1250 LRC ≈  $500
+DPI | DPI⇄ETH |  3,750 LRC ≈  $1,500
+AMP | AMP⇄ETH |  2,500 LRC ≈  $1,000
 
 
 
