@@ -6,18 +6,17 @@
 
 | **Project** | **Pool** | **Reward** |
 | :--- | ---: | ---: |
-| Ethereum | ETH⇄DAI | 400,000 LRC ≈  $160,000 |
-| Ethereum | ETH⇄USDC | 400,000 LRC ≈  $160,000|
-| Loopring | LRC⇄ETH | 400,000 LRC ≈  $160,000|
-| Bella Protocol | BEL⇄ETH | 10,000 BEL ≈  $11,300 |
-| BoringDAO | oBTC⇄ETH | 14 BOR ≈  $6,500|
-| Bifrost | vETH⇄ETH | 50,000 LRC≈  $21,000 |
-| ENJ | ENJ⇄ETH | 100,000 ENJ ≈  $25,000 |
-| NIOX | NIOX⇄ETH | 300,000 NIOX ≈  $10,500|
-| DPI | DPI⇄ETH | 2,250 INDEX ≈  $12,500|
-| AMP | AMP⇄ETH | 800,000 AMP≈  $6,000 |
-| WooTrade | WOO⇄USDT | 221,904 WOO ≈  $6,000 |
-
+Ethereum | ETH⇄DAI | 400,000 LRC |
+Ethereum | ETH⇄USDC | 400,000 LRC |
+Loopring | LRC⇄ETH | 400,000 LRC |
+Bella Protocol | BEL⇄ETH | 10,000 BEL  |
+BoringDAO | oBTC⇄ETH | 14 BOR |
+Bifrost | vETH⇄ETH | 50,000 LRC |
+ENJ | ENJ⇄ETH | 50,000 ENJ  |
+NIOX | NIOX⇄ETH | 150,000 NIOX |
+DPI | DPI⇄ETH | 2,000 INDEX  |
+AMP | AMP⇄ETH | 800,000 AMP |
+WooTrade | WOO⇄USDT | 221,904 WOO |
 
 
 ### Rules
