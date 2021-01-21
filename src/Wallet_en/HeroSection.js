@@ -20,7 +20,7 @@ const DownloadButton = (props) => {
     'has-background-white has-text-black-bis';
 
   return (
-    <a href="https://github.com/Loopring/loopring-wallet-feedback/raw/main/LoopringWallet.apk">
+    <a href="https://play.google.com/store/apps/details?id=loopring.defi.wallet">
       <HoverableButton
         className={classes}
         size="large"
