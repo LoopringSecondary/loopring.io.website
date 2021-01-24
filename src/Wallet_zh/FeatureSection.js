@@ -47,12 +47,12 @@ const FeatureSection = ({h1, h2, h3, imageUrl, even, imageSize}) => {
 
         <p className="has-text-grey-dark is-size-6">{h3}</p>
 
-        <a
+        {/*     <a
           className="download-link"
           href="http://52.82.125.33:8082/LoopringWallet.apk"
         >
           下载钱包安卓App（beta）
-        </a>
+        </a>*/}
       </div>
     </RightAlignContainer>
   );

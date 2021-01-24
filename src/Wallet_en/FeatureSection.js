@@ -47,12 +47,12 @@ const FeatureSection = ({h1, h2, h3, imageUrl, even, imageSize}) => {
 
         <p className="has-text-grey-dark is-size-6">{h3}</p>
 
-        <a
+        {/*     <a
           className="download-link"
           href="https://play.google.com/store/apps/details?id=loopring.defi.wallet"
         >
           Get Android App (beta)
-        </a>
+        </a>*/}
       </div>
     </RightAlignContainer>
   );
