@@ -34,12 +34,12 @@ const FooterSection = () => {
 
               <div>
                 <a href="mailto:wallet@loopring.org">建议反馈</a>
-                <div>
+                {/*           <div>
                   <a href="http://52.82.125.33:8082/LoopringWallet.apk">
                     安卓App
                   </a>
                 </div>
-                <div>iOS App</div>
+                <div>iOS App</div>*/}
               </div>
               <div>使用教程</div>
               <div>路印积分</div>

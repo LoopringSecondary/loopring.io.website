@@ -15,27 +15,18 @@ const HoverableButton = styled(Button)`
   }
 `;
 const DownloadButton = (props) => {
-  const classes = props.primary ?
-    'has-background-primary has-text-white' :
-    'has-background-white has-text-black-bis';
-
+  const opacity = props.url ? 1 : 0.3;
   return (
-    <a href="http://52.82.125.33:8082/LoopringWallet.apk">
-      <HoverableButton
-        className={classes}
-        size="large"
+    <a href={props.url}>
+      <img
         style={{
-          borderRadius: '20px',
-          width: '300px',
-          fontSize: '16px',
-          fonWeight: '400',
-          margin: '20px',
-          transition: '0.5s',
-          border: 'none',
+          display: 'inlineBlock',
+          height: '36px',
+          margin: '16px 8px',
+          opacity: opacity,
         }}
-      >
-        下载钱包安卓App（beta）
-      </HoverableButton>
+        src={props.imageUrl}
+      />
     </a>
   );
 };
@@ -91,7 +82,15 @@ const HeroSection = (props) => {
       <Section className="hero-section-bottom is-small has-background-white">
         <CenterAlignContainer>
           <div className="has-text-centered" style={{marginTop: '0'}}>
-            <DownloadButton primary />
+            <DownloadButton
+              url="https://play.google.com/store/apps/details?id=loopring.defi.wallet"
+              imageUrl="/images/download_google_play.png"
+            />
+            <DownloadButton
+              url="http://52.82.125.33:8082/LoopringWallet.apk"
+              imageUrl="/images/download_apk.png"
+            />
+            <DownloadButton imageUrl="/images/download_apple_appstore.svg" />
             <div
               className="first-zkrollup has-text-black-bis "
               style={{paddingTop: '60px', fontWeight: '600'}}
