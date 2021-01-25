@@ -1,4 +1,3 @@
-
 > Last edit: 2021-01-23
 
 
@@ -35,7 +34,7 @@ Many of the above fee settings depends on the price of Ether. Loopring will adju
 
 ### Affiliate Rewards
 
-For every trade our affiliates contribute, the reward we pay per trade is calculated as follows:
+For every trade our affiliates contribute, the reward we pay per maker order is calculated as follows:
 
 `
 (taker_fee - maker_rebate) * trade_volume * 30%
