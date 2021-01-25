@@ -34,12 +34,12 @@ const FooterSection = () => {
 
               <div>
                 <a href="mailto:wallet@loopring.org">Feedback</a>
-                <div>
+                {/*          <div>
                   <a href="https://play.google.com/store/apps/details?id=loopring.defi.wallet">
                     Android App (beta)
                   </a>
                 </div>
-                <div>iOS App </div>
+                <div>iOS App </div>*/}
               </div>
               <div>Wallet Tutorial</div>
               <div>Looping Points</div>
