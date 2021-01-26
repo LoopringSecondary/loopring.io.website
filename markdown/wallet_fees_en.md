@@ -12,14 +12,14 @@ Whitelist an address | ≈ Ethereum TX gas cost |  
 Remove address from whitelist | ≈ Ethereum TX gas cost |  
 Lock wallet by official guardian | ≈ Ethereum TX gas cost | Waived once per day
 Lock other’s wallet | ≈ Ethereum TX gas cost |  
-Unlock wallet | ≈ Ethereum TX gas cost + $10.00|  
+Unlock wallet | ≈ Ethereum TX gas cost|  
 ERC20 approval for Loopring DEX | Free |  
 Other ERC20 approval | ≈ Ethereum TX gas cost |  
 L1-to-L2 transfer (Deposit) | ≈ Ethereum TX gas cost |  
 L1-to-L1 transfer | ≈ Ethereum TX gas cost |  
 Change of daily quota | ≈ Ethereum TX gas cost |
 Wallet upgrade | Free |  
-Wallet recovery | ≈ Ethereum TX gas cost + $10.00 |
+Wallet recovery | ≈ Ethereum TX gas cost |
 
 All fees will include a meta-transaction overhead unless the fee is charged by using L2 transfers or from the user's Loopring RedPacket balance.
 
@@ -35,8 +35,8 @@ All users share the same **flat-fee**s and **minimal-fee**s, but VIPs have diffe
 #### Exchange Fee Table
 Service | Flat-Fee | Minimal-Fee | Normal User | VIP1 | VIP2 | VIP3 | VIP4
 :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
-Stablecoin orderbook trade | - | maker:0, taker:$0.25 | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04%
-Other orderbook trade | - | maker:0, taker:$0.83 | maker:-0.02%, taker:0.25% | maker:-0.02%, taker:0.20% | maker:-0.02%, taker:0.15% | maker:-0.02%, taker:0.10% | maker:-0.02%, taker:0.06%
+Stablecoin orderbook trade [1]| - | maker:0, taker:$0.85 | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04%
+Other orderbook trade [1]| - | maker:0, taker:$0.85 | maker:-0.02%, taker:0.25% | maker:-0.02%, taker:0.20% | maker:-0.02%, taker:0.15% | maker:-0.02%, taker:0.10% | maker:-0.02%, taker:0.06%
 AMM swap | - | $0.50 | 0.10% | 0.10% | 0.10% | 0.10% | 0.06%
 AMM exit | $5.00 | - | - | - | - | - | -
 AMM join | - | - | - | - | - | - | -
@@ -44,27 +44,35 @@ L2-to-L2 transfer | $0.05 | - | - | - | - | - | -
 L1-to-L2 transfer (Deposit) | - | - | - | - | - | - | -
 L2-to-L1 transfer (Withdrawal) | $5.00 | - | - | - | - | - | -
 L2-to-L1 forced transfer (Forced Withdrawal) | 0.01ETH | - | - | - | - | - | -
-L2-to-L1 fast transfer (Fast Withdrawal) | $25.00 | - | 0.25% | 0.25% | 0.25% | 0.25% | 0.25%
+L2-to-L1 fast transfer (Fast Withdrawal) [2] | - | - | 0.50% | 0.50% | 0.50% | 0.50% | 0.50%
 Submit order | - | - | - | - | - | - | -
 Cancel order | - | - | - | - | - | - | -
-Set L2 EdDSA key* | $5.00 | - | - | - | - | - | -
+Set L2 EdDSA key [3] | $5.00 | - | - | - | - | - | -
 
 Note:
 
 -  '-' means 0 or 0%.
--  Orderbook market makers get 0.02% rebate
-- __*__ Waived for the first operation or when this tx is approved with an on-chain hash.
-
+- [1] The minimal order size is $33.00
+- [2] The minimal amount for fast withdrawal is $5,000
+- [3] Waived for the first operation or when this tx is approved with an on-chain hash.
 
 Many of the above fee settings depends on the price of Ether. Loopring will adjust fee parameters if necessary.
 
 ### Affiliate Rewards
 
-For every trade our affiliates contribute, the reward we pay per maker order is calculated as follows:
+For every trade our affiliates contribute, the reward we pay per taker order in orderbooks is calculated as follows:
 
 `
-(taker_fee - maker_rebate) * trade_volume * 30%
+(trading_fee - maker_rebate) * trade_volume * 20%
 `
+
+the reward we pay per taker order in AMM is calculated as follows:
+
+`
+(trading_fee - liquidity_fee) * trade_volume * 20%
+`
+Out of the affiliate reward for a taker order, 50% will be given to the user's registration referral up to 3 months; and 50 will be given to the third-party platform that contributed the order.
+If the taker doesn't have a registration referral or the order is submitted directly without going through a third-party platform, then all affiliate reward will go to Loopring relayer.
 
 #### Affiliate Reward Table
 Trade  | Normal User | VIP1 | VIP2 | VIP3 | VIP4
