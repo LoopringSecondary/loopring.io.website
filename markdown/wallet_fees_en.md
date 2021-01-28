@@ -1,4 +1,4 @@
-> Last edit: 2021-01-23
+> Last edit: 2021-01-28
 
 ## Loopring Wallet
 
