@@ -1,16 +1,16 @@
-> Last edit: 2021-01-23
+> Last edit: 2021-01-28
 
 
-Loopring Exchange charges fees per service type. Each service has a **flat fee** and a **percentage fee**. For the percentage fee, there is also a **minimal fee** applied.
+Loopring Exchange charges fees per service type. Each service has a **flat-fee** and a **percentage fee**. For the percentage fee, there is also a **minimal-fee** applied.
  The acutal fee charged for a service is `flat_fee + max(minimal_fee, percentage_fee * volume)`.
 
-All users share the same flat fee, but VIPs have different percentange fee settings.
+All users share the same **flat-fee**s and **minimal-fee**s, but VIPs have different percentange fee settings.
 
 #### Exchange Fee Table
-Service | Flat-Fee | Min-Fee | Normal User | VIP1 | VIP2 | VIP3 | VIP4
+Service | Flat-Fee | Minimal-Fee | Normal User | VIP1 | VIP2 | VIP3 | VIP4
 :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
-Stablecoin orderbook trade | - | maker:0, taker:$0.25 | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04%
-Other orderbook trade | - | maker:0, taker:$0.83 | maker:-0.02%, taker:0.25% | maker:-0.02%, taker:0.20% | maker:-0.02%, taker:0.15% | maker:-0.02%, taker:0.10% | maker:-0.02%, taker:0.06%
+Stablecoin orderbook trade [1]| - | maker:0, taker:$0.85 | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04%
+Other orderbook trade [1]| - | maker:0, taker:$0.85 | maker:-0.02%, taker:0.25% | maker:-0.02%, taker:0.20% | maker:-0.02%, taker:0.15% | maker:-0.02%, taker:0.10% | maker:-0.02%, taker:0.06%
 AMM swap | - | $0.50 | 0.10% | 0.10% | 0.10% | 0.10% | 0.06%
 AMM exit | $5.00 | - | - | - | - | - | -
 AMM join | - | - | - | - | - | - | -
@@ -18,27 +18,35 @@ L2-to-L2 transfer | $0.05 | - | - | - | - | - | -
 L1-to-L2 transfer (Deposit) | - | - | - | - | - | - | -
 L2-to-L1 transfer (Withdrawal) | $5.00 | - | - | - | - | - | -
 L2-to-L1 forced transfer (Forced Withdrawal) | 0.01ETH | - | - | - | - | - | -
-L2-to-L1 fast transfer (Fast Withdrawal) | $25.00 | - | 0.25% | 0.25% | 0.25% | 0.25% | 0.25%
+L2-to-L1 fast transfer (Fast Withdrawal) [2] | - | - | 0.50% | 0.50% | 0.50% | 0.50% | 0.50%
 Submit order | - | - | - | - | - | - | -
 Cancel order | - | - | - | - | - | - | -
-Set L2 EdDSA key* | $5.00 | - | - | - | - | - | -
+Set L2 EdDSA key [3] | $5.00 | - | - | - | - | - | -
 
 Note:
 
 -  '-' means 0 or 0%.
--  Orderbook market makers get 0.02% rebate
-- __*__ Waived for the first operation or when this tx is approved with an on-chain hash.
+- [1] The minimal order size is $33.00
+- [2] The minimal amount for fast withdrawal is $5,000
+- [3] Waived for the first operation or when this tx is approved with an on-chain hash.
 
-
-Many of the above fee settings depends on the price of Ether. Loopring will adjust fee parameters if necessary. Going forward, we will also release APIs for you to query these fee parameters.
+Many of the above fee settings depends on the price of Ether. Loopring will adjust fee parameters if necessary.
 
 ### Affiliate Rewards
 
-For every trade our affiliates contribute, the reward we pay per maker order is calculated as follows:
+For every trade our affiliates contribute, the reward we pay per taker order in orderbooks is calculated as follows:
 
 `
-(taker_fee - maker_rebate) * trade_volume * 30%
+(trading_fee - maker_rebate) * trade_volume * 20%
 `
+
+the reward we pay per taker order in AMM is calculated as follows:
+
+`
+(trading_fee - liquidity_fee) * trade_volume * 20%
+`
+Out of the affiliate reward for a taker order, 50% will be given to the user's registration referral up to 3 months; and 50 will be given to the third-party platform that contributed the order.
+If the taker doesn't have a registration referral or the order is submitted directly without going through a third-party platform, then all affiliate reward will go to Loopring relayer.
 
 #### Affiliate Reward Table
 Trade  | Normal User | VIP1 | VIP2 | VIP3 | VIP4
