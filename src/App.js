@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route, Switch, HashRouter} from 'react-router-dom';
+import {Route, Redirect, Switch, HashRouter} from 'react-router-dom';
 import ScrollToTop from './Components/ScrollToTop';
 import {LocalizeProvider, withLocalize} from 'react-localize-redux';
 import detectBrowserLanguage from 'detect-browser-language';
@@ -189,6 +189,34 @@ class App extends React.Component {
                 path="/embed/:file"
                 render={(props) => <MarkdownFilePage />}
               />
+
+              <Route path="/amm_mining_zh">
+                <Redirect to={{pathname: '/embed/amm_mining_2_zh.md'}} />
+              </Route>
+
+              <Route path="/amm_mining_en">
+                <Redirect to={{pathname: '/embed/amm_mining_2_en.md'}} />
+              </Route>
+
+              <Route path="/amm_top25_en">
+                <Redirect to={{pathname: '/embed/amm_top25_2_en.md'}} />
+              </Route>
+
+              <Route path="/amm_top25_zh">
+                <Redirect to={{pathname: '/embed/amm_top25_2_zh.md'}} />
+              </Route>
+
+              <Route path="/orderbook_mining_zh">
+                <Redirect
+                  to={{pathname: '/embed/orderbook_mining_12_zh.md'}}
+                />
+              </Route>
+
+              <Route path="/orderbook_mining_en">
+                <Redirect
+                  to={{pathname: '/embed/orderbook_mining_12_en.md'}}
+                />
+              </Route>
 
               <Route component={NotFound} />
             </Switch>
