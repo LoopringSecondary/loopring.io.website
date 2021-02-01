@@ -64,10 +64,7 @@ const Navigation = (props) => {
               href="https://exchange.loopring.io"
               onClick={onLinkClick}
             >
-              路印交易所 <span className="new">v2</span>
-            </NavbarItem>
-            <NavbarItem href="https://v1.loopring.io" onClick={onLinkClick}>
-              旧版交易所<span className="new old">v1</span>
+              路印交易所
             </NavbarItem>
           </div>
         </div>

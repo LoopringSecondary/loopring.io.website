@@ -88,11 +88,9 @@ const FooterSection = () => {
                 其他
               </div>
               <div>
-                <a href="https://exchange.loopring.io">路印交易所 v2</a>
+                <a href="https://exchange.loopring.io">路印交易所</a>
               </div>
-              <div>
-                <a href="https://v1.loopring.io">路印交易所 v1</a>
-              </div>
+
               <div>
                 <a href="https://loopring.org">路印协议</a>
               </div>
