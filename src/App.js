@@ -5,6 +5,7 @@ import {LocalizeProvider, withLocalize} from 'react-localize-redux';
 import detectBrowserLanguage from 'detect-browser-language';
 
 import NotFound from './NotFound/NotFound';
+import RedPacket from './RedPacket/RedPacket';
 import {default as Walletzh} from './Wallet_zh/wallet';
 import {default as Walleten} from './Wallet_en/wallet';
 import {default as WMiningzh} from './WMining_zh/wmining';
@@ -28,6 +29,12 @@ class App extends React.Component {
                 exact
                 component={isChinese ? Walletzh : Walleten}
               />
+              <Route
+                path="/redpacket"
+                exact
+                render={(props) => <RedPacket isChinese={isChinese} />}
+              />
+
               <Route path="/wmining" exact component={WMiningzh} />
               <Route
                 path="/legal/terms/en"

@@ -17,12 +17,13 @@ const HoverableButton = styled(Button)`
 
 const DownloadButton = (props) => {
   const opacity = props.url ? 1 : 0.3;
+  const height = props.small ? '28px' : '36px';
   return (
     <a href={props.url}>
       <img
         style={{
           display: 'inlineBlock',
-          height: '36px',
+          height: height,
           margin: '16px 8px',
           opacity: opacity,
         }}
