@@ -22,9 +22,8 @@ class RedPacket extends I18nComponent {
 
     return (
       <div className="redpacket-page">
-        <section className="section has-text-centered is-vcentered is-centered">
-          <div className={classes} />
-        </section>
+        <div className={classes} />
+
         <div className="downloadButtons has-text-centered is-vcentered is-centered">
           <DownloadButton
             small

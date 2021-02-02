@@ -17,7 +17,7 @@ const HoverableButton = styled(Button)`
 
 const DownloadButton = (props) => {
   const opacity = props.url ? 1 : 0.3;
-  const height = props.small ? '28px' : '36px';
+  const height = props.small ? '32px' : '36px';
   return (
     <a href={props.url}>
       <img
