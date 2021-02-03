@@ -40,7 +40,7 @@ Other orderbook trade [1]| - | maker:0, taker:$0.85 | maker:-0.02%, taker:0.25% 
 AMM swap | - | $0.50 | 0.10% | 0.10% | 0.10% | 0.10% | 0.06%
 AMM exit | $5.00 | - | - | - | - | - | -
 AMM join | - | - | - | - | - | - | -
-L2-to-L2 transfer | $0.05 | - | - | - | - | - | -
+L2-to-L2 transfer | $0.10 | - | - | - | - | - | -
 L1-to-L2 transfer (Deposit) | - | - | - | - | - | - | -
 L2-to-L1 transfer (Withdrawal) | $5.00 | - | - | - | - | - | -
 L2-to-L1 forced transfer (Forced Withdrawal) | 0.01ETH | - | - | - | - | - | -
