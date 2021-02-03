@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "//loopring.io/static/css/main.150501b9.chunk.css",
+    "main.css": "//loopring.io/static/css/main.bd59410c.chunk.css",
     "main.js": "//loopring.io/static/js/main.a3609ce3.chunk.js",
     "main.js.map": "//loopring.io/static/js/main.a3609ce3.chunk.js.map",
     "runtime-main.js": "//loopring.io/static/js/runtime-main.9d179c5f.js",
@@ -9,17 +9,17 @@
     "static/js/2.84854c3d.chunk.js": "//loopring.io/static/js/2.84854c3d.chunk.js",
     "static/js/2.84854c3d.chunk.js.map": "//loopring.io/static/js/2.84854c3d.chunk.js.map",
     "index.html": "//loopring.io/index.html",
-    "precache-manifest.c3afc225cd5fde15da6763b69face30d.js": "//loopring.io/precache-manifest.c3afc225cd5fde15da6763b69face30d.js",
+    "precache-manifest.c1ec06ef7198d0165d102f864dfeff7c.js": "//loopring.io/precache-manifest.c1ec06ef7198d0165d102f864dfeff7c.js",
     "service-worker.js": "//loopring.io/service-worker.js",
     "static/css/2.730bffad.chunk.css.map": "//loopring.io/static/css/2.730bffad.chunk.css.map",
-    "static/css/main.150501b9.chunk.css.map": "//loopring.io/static/css/main.150501b9.chunk.css.map",
+    "static/css/main.bd59410c.chunk.css.map": "//loopring.io/static/css/main.bd59410c.chunk.css.map",
     "static/js/2.84854c3d.chunk.js.LICENSE.txt": "//loopring.io/static/js/2.84854c3d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9d179c5f.js",
     "static/css/2.730bffad.chunk.css",
     "static/js/2.84854c3d.chunk.js",
-    "static/css/main.150501b9.chunk.css",
+    "static/css/main.bd59410c.chunk.css",
     "static/js/main.a3609ce3.chunk.js"
   ]
 }
