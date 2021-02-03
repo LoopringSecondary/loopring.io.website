@@ -10,22 +10,21 @@
   position: relative;
 
   .card {
-  	width:100vw;
-    height:100vh;
-  	max-height: -webkit-fill-available;
+    width: 100vw;
+    height: 100vh;
+    max-height: -webkit-fill-available;
 
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
 
-	  background-repeat: no-repeat;
-	  background-position: top;
-	  background-size: cover;
+    &.chinese {
+      background-image: url("/images/redpacket_landing_zh.jpeg");
+    }
 
-	  &.chinese {
-	  	background-image: url('/images/redpacket_landing_zh.jpeg');
-	  }
-
-	  &.english {
-	  	background-image: url('/images/redpacket_landing_en.jpeg');
-	  }
+    &.english {
+      background-image: url("/images/redpacket_landing_en.jpeg");
+    }
   }
 
   .downloadButtons {
@@ -38,8 +37,8 @@
     bottom: 0;
     padding-top: 18px;
     padding-bottom: 12px;
-  	background-color: rgba(255,255,255, 0.92);
-  	width: 100vw;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.01), 0 -6px 6px rgba(0,0,0,0.05);
+    background-color: rgba(255, 255, 255, 0.92);
+    width: 100vw;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.01), 0 -6px 6px rgba(0, 0, 0, 0.05);
   }
 }
