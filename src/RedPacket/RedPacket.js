@@ -25,20 +25,25 @@ class RedPacket extends I18nComponent {
         <div className={classes} />
 
         <div className="downloadButtons has-text-centered is-vcentered is-centered">
-          <DownloadButton
-            small
-            url="https://play.google.com/store/apps/details?id=loopring.defi.wallet"
-            imageUrl="/images/download_google_play.png"
-          />
-          <DownloadButton
-            small
-            url="http://52.82.125.33:8082/LoopringWallet.apk"
-            imageUrl="/images/download_apk.png"
-          />
-          <DownloadButton
-            small
-            imageUrl="/images/download_apple_appstore.svg"
-          />
+          <span className="prompt">
+            <Translate id="download" />
+          </span>
+          <div>
+            <DownloadButton
+              small
+              url="https://play.google.com/store/apps/details?id=loopring.defi.wallet"
+              imageUrl="/images/download_google_play.png"
+            />
+            <DownloadButton
+              small
+              url="http://52.82.125.33:8082/LoopringWallet.apk"
+              imageUrl="/images/download_apk.png"
+            />
+            <DownloadButton
+              small
+              imageUrl="/images/download_apple_appstore.svg"
+            />
+          </div>
         </div>
       </div>
     );

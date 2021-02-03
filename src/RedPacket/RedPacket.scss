@@ -12,7 +12,8 @@
   .card {
   	width:100vw;
     height:100vh;
-  	height: -webkit-fill-available;
+  	max-height: -webkit-fill-available;
+
 
 	  background-repeat: no-repeat;
 	  background-position: top;
@@ -28,6 +29,8 @@
   }
 
   .downloadButtons {
+    .prompt {
+    }
     position: absolute;
     border-top-right-radius: 24px;
     border-top-left-radius: 24px;
@@ -35,7 +38,7 @@
     bottom: 0;
     padding-top: 18px;
     padding-bottom: 12px;
-  	background-color: rgba(255,255,255, 0.86);
+  	background-color: rgba(255,255,255, 0.92);
   	width: 100vw;
     box-shadow: 0 10px 20px rgba(0,0,0,0.01), 0 -6px 6px rgba(0,0,0,0.05);
   }
