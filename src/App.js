@@ -6,6 +6,7 @@ import detectBrowserLanguage from 'detect-browser-language';
 
 import NotFound from './NotFound/NotFound';
 import RedPacket from './RedPacket/RedPacket';
+import StakingClaim from './StakingClaim/StakingClaim';
 import {default as Walletzh} from './Wallet_zh/wallet';
 import {default as Walleten} from './Wallet_en/wallet';
 import {default as WMiningzh} from './WMining_zh/wmining';
@@ -33,6 +34,12 @@ class App extends React.Component {
                 path="/redpacket"
                 exact
                 render={(props) => <RedPacket isChinese={isChinese} />}
+              />
+
+              <Route
+                path="/staking"
+                exact
+                render={(props) => <StakingClaim isChinese={isChinese} />}
               />
 
               <Route path="/wmining" exact component={WMiningzh} />
