@@ -59,9 +59,7 @@ const FooterSection = () => {
               <div>
                 <a href="https://github.com/Loopring">GitHub</a>
               </div>
-              <div>
-                <a href="https://www.youtube.com/c/loopring">油管</a>
-              </div>
+
               <div>
                 <a href="https://twitter.com/loopringorg">推特</a>
               </div>
@@ -71,9 +69,7 @@ const FooterSection = () => {
               <div>
                 <a href="https://reddit.com/r/loopringorg">Reddit</a>
               </div>
-              <div>
-                <a href="https://t.me/loopringfans">电报</a>
-              </div>
+
               <div>
                 <a href="https://discord.gg/KkYccYp">Discord</a>
               </div>
