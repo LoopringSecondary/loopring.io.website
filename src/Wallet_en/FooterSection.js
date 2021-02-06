@@ -65,12 +65,7 @@ const FooterSection = () => {
               <div>
                 <a href="https://github.com/Loopring">GitHub</a>
               </div>
-              <div>
-                <a href="https://www.youtube.com/c/loopring">YouTube</a>
-              </div>
-              <div>
-                <a href="https://weibo.com/loopringfoundation">Weibo</a>
-              </div>
+
               <div>
                 <a href="https://reddit.com/r/loopringorg">Reddit</a>
               </div>
@@ -82,7 +77,7 @@ const FooterSection = () => {
                 className="has-text-black-ter has-text-din"
                 style={{fontSize: '20px', marginBottom: '8px'}}
               >
-                Other
+                Links
               </div>
               <div>
                 <a href="https://exchange.loopring.io">Loopring Exchange</a>
@@ -90,6 +85,18 @@ const FooterSection = () => {
 
               <div>
                 <a href="https://loopring.org">Loopring Protocol</a>
+              </div>
+
+              <div>
+                <a href="https://duneanalytics.com/Brecht/loopring">
+                  Dune Analytics Dashboard
+                </a>
+              </div>
+
+              <div>
+                <a href="https://www.coingecko.com/it/cambi/loopring_amm">
+                  Coingecko Stats
+                </a>
               </div>
             </Container>
           </Columns.Column>
