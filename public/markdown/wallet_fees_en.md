@@ -10,7 +10,7 @@ Add a guardian | ≈ Ethereum TX gas cost | Waived for adding the official guard
 Remove a guardian | ≈ Ethereum TX gas cost |  
 Whitelist an address | ≈ Ethereum TX gas cost |  
 Remove address from whitelist | ≈ Ethereum TX gas cost |  
-Lock wallet by official guardian | ≈ Ethereum TX gas cost | Temporarily waived
+Lock wallet by official guardian | ≈ Ethereum TX gas cost | Temporarily waived once per day
 Lock other’s wallet | ≈ Ethereum TX gas cost |  
 Unlock wallet | ≈ Ethereum TX gas cost|  
 ERC20 approval for Loopring DEX | ≈ Ethereum TX gas cost|  
