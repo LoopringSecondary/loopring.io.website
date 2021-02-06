@@ -1,4 +1,4 @@
-> Last edit: 2021-01-28
+> Last edit: 2021-02-06
 
 
 Loopring Exchange charges fees per service type. Each service has a **flat-fee** and a **percentage fee**. For the percentage fee, there is also a **minimal-fee** applied.
@@ -16,12 +16,12 @@ AMM exit | 0.023377 ETH[4] | - | - | - | - | - | -
 AMM join | - | - | - | - | - | - | -
 L2-to-L2 transfer | 0.000309 ETH[4] | - | - | - | - | - | -
 L1-to-L2 transfer (Deposit) | - | - | - | - | - | - | -
-L2-to-L1 transfer (Withdrawal) | 0.011481 ETH[4]  | - | - | - | - | - | -
+L2-to-L1 transfer (Withdrawal) | 0.011481 ETH[4] | - | - | - | - | - | -
 L2-to-L1 forced transfer (Forced Withdrawal) | 0.01ETH | - | - | - | - | - | -
-L2-to-L1 fast transfer (Fast Withdrawal) [2] | 0.019532 ETH[4]  | - | 0.50% | 0.50% | 0.50% | 0.50% | 0.50%
+L2-to-L1 fast transfer (Fast Withdrawal) [2] | 0.019532 ETH[4] | - | 0.50% | 0.50% | 0.50% | 0.50% | 0.50%
 Submit order | - | - | - | - | - | - | -
 Cancel order | - | - | - | - | - | - | -
-Set L2 EdDSA key [3] | 0.000309 ETH[4]  | - | - | - | - | - | -
+Set L2 EdDSA key [3] | 0.000309 ETH[4] | - | - | - | - | - | -
 
 Note:
 

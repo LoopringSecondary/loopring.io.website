@@ -1,4 +1,4 @@
-> Last edit: 2021-01-28
+> Last edit: 2021-02-06
 
 ## Loopring Wallet
 
@@ -6,14 +6,14 @@
 Service | Fee | Comment
 :--- | :--- | :--- |
 Creation of new wallet | ≈ Ethereum TX gas cost |  
-Add a guardian | ≈ Ethereum TX gas cost | Waived for add first official guardian operation
+Add a guardian | ≈ Ethereum TX gas cost | Waived for adding the official guardian for the first time
 Remove a guardian | ≈ Ethereum TX gas cost |  
 Whitelist an address | ≈ Ethereum TX gas cost |  
 Remove address from whitelist | ≈ Ethereum TX gas cost |  
-Lock wallet by official guardian | ≈ Ethereum TX gas cost | Waived once per day
+Lock wallet by official guardian | ≈ Ethereum TX gas cost | Temporarily waived
 Lock other’s wallet | ≈ Ethereum TX gas cost |  
 Unlock wallet | ≈ Ethereum TX gas cost|  
-ERC20 approval for Loopring DEX | 限时 Free |  
+ERC20 approval for Loopring DEX | ≈ Ethereum TX gas cost|  
 Other ERC20 approval | ≈ Ethereum TX gas cost |  
 L1-to-L2 transfer (Deposit) | ≈ Ethereum TX gas cost |  
 L1-to-L1 transfer | ≈ Ethereum TX gas cost |  
