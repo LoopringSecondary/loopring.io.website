@@ -16,7 +16,7 @@ Bifrost | vETH⇄ETH |  5,000 LRC
 
 1) This round starts at 00:00 AM on February 11th, 2021 UTC, and lasts for 14 days.
 
-2) We will divide rewards into 100,000 units and distribute them to the top 25 AMM traders based on their trading volumes according to the chart below:
+2) We will divide rewards into 200,000 units and distribute them to the top 25 AMM traders based on their trading volumes according to the chart below:
 ![](/markdown/images/program_2.png "")
 
 
