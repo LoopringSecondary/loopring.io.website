@@ -5,9 +5,9 @@
 
 | **项目** | **资金池** | **奖励** |
 | :--- | ---: | ---: |
-Ethereum | ETH⇄USDT  | 100,000LRC
+Ethereum | ETH⇄USDT  | 200,000LRC
 Redfox labs | RFOX⇄ETH | 100,000 RFOX 
-Bifrost | vETH⇄ETH |  2,500 LRC
+Bifrost | vETH⇄ETH |  5,000 LRC
 
 
 
@@ -18,7 +18,7 @@ Bifrost | vETH⇄ETH |  2,500 LRC
 
 1）活动自2021年2月11日早上8:00开始，为期14天。
 
-2）我们将奖励分层10万份，按照下图中的数量奖励给交易量排名前25位交易者。
+2）我们将奖励分成20万份，按照下图中的数量奖励给交易量排名前25位交易者。
 
 ![](/markdown/images/program_2.png "")
 
