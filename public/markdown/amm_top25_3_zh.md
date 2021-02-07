@@ -6,7 +6,7 @@
 | **项目** | **资金池** | **奖励** |
 | :--- | ---: | ---: |
 Ethereum | ETH⇄USDT  | 200,000LRC
-Redfox labs | RFOX⇄ETH | 100,000 RFOX 
+Redfox labs | RFOX⇄ETH | 100,000 RFOX
 Bifrost | vETH⇄ETH |  5,000 LRC
 
 
@@ -20,6 +20,6 @@ Bifrost | vETH⇄ETH |  5,000 LRC
 
 2）我们将奖励分成20万份，按照下图中的数量奖励给交易量排名前25位交易者。
 
-![](/markdown/images/program_2.png "")
+![](/markdown/images/program_3.png "")
 
 3）奖励将在活动结束后三天内通过二层账号直接发放。
