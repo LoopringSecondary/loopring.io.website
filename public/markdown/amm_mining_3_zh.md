@@ -4,21 +4,15 @@
 
 | **项目** | **资金池** | **奖励** |
 | :--- | ---: | ---: |
-Ethereum | ETH⇄DAI | 400,000 LRC |
-Ethereum | ETH⇄USDC | 400,000 LRC |
-Loopring | LRC⇄ETH | 400,000 LRC |
-Bella Protocol | BEL⇄ETH | 10,000 BEL  |
-BoringDAO | oBTC⇄ETH | 14 BOR |
+Ethereum | ETH⇄USDT | 400,000 LRC |
+Redfox labs | RFOX⇄ETH | 880,000 RFOX |
 Bifrost | vETH⇄ETH | 50,000 LRC |
-ENJ | ENJ⇄ETH | 50,000 ENJ  |
-NIOX | NIOX⇄ETH | 150,000 NIOX |
-DPI | DPI⇄ETH | 2,000 INDEX  |
-AMP | AMP⇄ETH | 800,000 AMP |
-WooTrade | WOO⇄USDT | 221,904 WOO |
+BoringDAO | oBTC⇄ETH | 14 BOR |
+
 
 ### 规则
 
-1）活动自2021年1月25日早上8:00开始，为期14天。
+1）活动自2021年2月11日早上8:00开始，为期14天。
 
 2）我们每天会对资金池做多次随机快照，并按照活动期间所有快照余额的平均值计算每个LP应得的奖励数量。
 
