@@ -5,9 +5,9 @@
 
 | **Project** | **Pool** | **Reward** |
 | :--- | ---: | ---: |
-Ethereum | ETH⇄USDT  | 100,000LRC
+Ethereum | ETH⇄USDT  | 200,000LRC
 Redfox labs | RFOX⇄ETH | 100,000 RFOX 
-Bifrost | vETH⇄ETH |  2,500 LRC
+Bifrost | vETH⇄ETH |  5,000 LRC
 
 
 
