@@ -1,16 +1,16 @@
-## Orderbook Liquidity Mining (Round#13)
+## Orderbook Liquidity Mining (Round#3)
 
 
 ### Rewards
 
  | **Orderbook** | **Reward** |
 | :--- | ---: |
-| DAI/USDT | 50,000 LRC|
-| USDC/USDT | 50,000 LRC|
+| DAI/USDT | 15,000 LRC|
+| USDC/USDT | 15,000 LRC|
 
 ### Rules
 
-1) This round starts at 00:00 AM on January 25th, 2021 UTC, and lasts for 14 days.
+1) This round starts at 00:00 AM on February 11th, 2021 UTC, and lasts for 14 days.
 
 2) The maximum spread is 0.1%.
 
