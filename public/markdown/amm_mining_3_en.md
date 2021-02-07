@@ -6,7 +6,7 @@
 
 | **Project** | **Pool** | **Reward** |
 | :--- | ---: | ---: |
-Ethereum | ETH⇄USDT | 400,000 LRC |
+Ethereum | ETH⇄USDT | 800,000 LRC |
 Redfox labs | RFOX⇄ETH | 880,000 RFOX |
 Bifrost | vETH⇄ETH | 50,000 LRC |
 BoringDAO | oBTC⇄ETH | 14 BOR |
