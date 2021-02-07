@@ -1,4 +1,4 @@
-> Last edit: 2021-01-28
+> Last edit: 2021-02-06
 
 ## Loopring Wallet
 
@@ -6,14 +6,14 @@
 Service | Fee | Comment
 :--- | :--- | :--- |
 Creation of new wallet | ≈ Ethereum TX gas cost |  
-Add a guardian | ≈ Ethereum TX gas cost | Waived for add first official guardian operation
+Add a guardian | ≈ Ethereum TX gas cost | Waived for adding the official guardian for the first time
 Remove a guardian | ≈ Ethereum TX gas cost |  
 Whitelist an address | ≈ Ethereum TX gas cost |  
 Remove address from whitelist | ≈ Ethereum TX gas cost |  
-Lock wallet by official guardian | ≈ Ethereum TX gas cost | Waived once per day
+Lock wallet by official guardian | ≈ Ethereum TX gas cost | Temporarily waived once per day
 Lock other’s wallet | ≈ Ethereum TX gas cost |  
 Unlock wallet | ≈ Ethereum TX gas cost|  
-ERC20 approval for Loopring DEX | 限时 Free |  
+ERC20 approval for Loopring DEX | ≈ Ethereum TX gas cost|  
 Other ERC20 approval | ≈ Ethereum TX gas cost |  
 L1-to-L2 transfer (Deposit) | ≈ Ethereum TX gas cost |  
 L1-to-L1 transfer | ≈ Ethereum TX gas cost |  
@@ -38,13 +38,13 @@ Service | Flat-Fee | Minimal-Fee | Normal User | VIP1 | VIP2 | VIP3 | VIP4
 Stablecoin orderbook trade [1]| - | maker:0, taker:0.000309 ETH[4] | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04%
 Other orderbook trade [1]| - | maker:0, taker:0.000309 ETH[4] | maker:-0.02%, taker:0.25% | maker:-0.02%, taker:0.20% | maker:-0.02%, taker:0.15% | maker:-0.02%, taker:0.10% | maker:-0.02%, taker:0.06%
 AMM swap | - | 0.000309 ETH[4] | 0.10% | 0.10% | 0.10% | 0.10% | 0.06%
-AMM exit | 0.023377 ETH[4] | - | - | - | - | - | -
+AMM exit | 0.011969 ETH[4] | - | - | - | - | - | -
 AMM join | - | - | - | - | - | - | -
 L2-to-L2 transfer | 0.000309 ETH[4] | - | - | - | - | - | -
 L1-to-L2 transfer (Deposit) | - | - | - | - | - | - | -
-L2-to-L1 transfer (Withdrawal) | 0.011481 ETH[4] | - | - | - | - | - | -
+L2-to-L1 transfer (Withdrawal) | 0.005879 ETH[4] | - | - | - | - | - | -
 L2-to-L1 forced transfer (Forced Withdrawal) | 0.01ETH | - | - | - | - | - | -
-L2-to-L1 fast transfer (Fast Withdrawal) [2] | 0.019532 ETH[4] | - | 0.50% | 0.50% | 0.50% | 0.50% | 0.50%
+L2-to-L1 fast transfer (Fast Withdrawal) [2] | - | 0.01 ETH[4] | 0.50% | 0.50% | 0.50% | 0.50% | 0.50%
 Submit order | - | - | - | - | - | - | -
 Cancel order | - | - | - | - | - | - | -
 Set L2 EdDSA key [3] | 0.000309 ETH[4] | - | - | - | - | - | -
