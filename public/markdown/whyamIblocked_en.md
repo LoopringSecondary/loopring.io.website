@@ -1,4 +1,4 @@
-#  The Blacklist
+#  Blacklist
 
 Loopring Technology will backlist users who violate our **TERMS of USE**.
 
