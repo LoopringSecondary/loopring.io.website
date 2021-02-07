@@ -5,8 +5,8 @@
 
  | **Orderbook** | **Reward** |
 | :--- | ---: |
-| DAI/USDT | 15,000 LRC|
-| USDC/USDT | 15,000 LRC|
+| DAI/USDT | 30,000 LRC|
+| USDC/USDT | 30,000 LRC|
 
 ### Rules
 
