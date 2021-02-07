@@ -22,6 +22,5 @@ Bifrost | vETH⇄ETH |  2,500 LRC
 
 3) Rewards will be directly distributed to your layer-2 accounts within three days of the end of the round.
 
-### Reward Distribution
 
 
