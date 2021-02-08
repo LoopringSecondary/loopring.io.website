@@ -55,7 +55,7 @@ Note:
 - [1] The minimal order size is $33.00
 - [2] The minimal amount for fast withdrawal is $5,000
 - [3] Waived for the first operation or when this tx is approved with an on-chain hash.
-- [4] Assuming Ethereum gas price is 100Gwei and will adjust in realtime based on the actual gas price. For example, if the gas price is now 150Gwei, the fee will be multiplied by 1.5.
+- [4] Actual fee amount will be cauclated using the realtime gas-price and fee token's ETH price.
 
 Many of the above fee settings depends on the price of Ether. Loopring will adjust fee parameters if necessary.
 
