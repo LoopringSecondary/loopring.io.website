@@ -47,7 +47,7 @@ L2-to-L1 forced transfer (Forced Withdrawal) | 0.01 ETH | - | - | - | - | - | -
 L2-to-L1 fast transfer (Fast Withdrawal) [2] | - | 146400 GAS[4] | 0.50% | 0.50% | 0.50% | 0.50% | 0.50%
 Submit order | - | - | - | - | - | - | -
 Cancel order | - | - | - | - | - | - | -
-Set L2 EdDSA key [3] | 285200 GAS[4] | - | - | - | - | - | -
+Set L2 EdDSA key [3] | 16500 GAS[4] | - | - | - | - | - | -
 
 Note:
 
