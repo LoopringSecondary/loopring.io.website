@@ -10,7 +10,8 @@ Ethereum | ETH⇄USDT | 800,000 LRC |
 Redfox labs | RFOX⇄ETH | 880,000 RFOX |
 Bifrost | vETH⇄ETH | 50,000 LRC |
 BoringDAO | oBTC⇄ETH | 14 BOR |
-
+Autonio | NIOX⇄ETH |  150,000 NIOX
+Adex | ADX⇄ETH |  44,000 ADX
 
 
 ### Rules

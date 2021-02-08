@@ -8,8 +8,8 @@
 Ethereum | ETH⇄USDT  | 200,000LRC
 Redfox labs | RFOX⇄ETH | 100,000 RFOX
 Bifrost | vETH⇄ETH |  5,000 LRC
-
-
+Autonio | NIOX⇄ETH |  1,250 LRC
+Adex | ADX⇄ETH |  4,000 LRC
 
 
 
