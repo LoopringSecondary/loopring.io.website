@@ -9,9 +9,9 @@ All users share the same **flat-fee**s and **minimal-fee**s, but VIPs have diffe
 #### Exchange Fee Table
 Service | Flat-Fee | Minimal-Fee | Normal User | VIP1 | VIP2 | VIP3 | VIP4
 :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
-Stablecoin orderbook trade [1]| - | maker:0, taker:3600 GAS[4] | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04%
-Other orderbook trade [1]| - | maker:0, taker:3600 GAS[4] | maker:-0.02%, taker:0.25% | maker:-0.02%, taker:0.20% | maker:-0.02%, taker:0.15% | maker:-0.02%, taker:0.10% | maker:-0.02%, taker:0.06%
-AMM swap | - | 3600 GAS[4] | 0.10% | 0.10% | 0.10% | 0.10% | 0.06%
+Stablecoin orderbook trade [1]| - | maker:0, taker:2900 GAS[4] | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04%
+Other orderbook trade [1]| - | maker:0, taker:2900 GAS[4] | maker:-0.02%, taker:0.25% | maker:-0.02%, taker:0.20% | maker:-0.02%, taker:0.15% | maker:-0.02%, taker:0.10% | maker:-0.02%, taker:0.06%
+AMM swap | - | 2900 GAS[4] | 0.10% | 0.10% | 0.10% | 0.10% | 0.06%
 AMM exit | 285200 GAS[4] | - | - | - | - | - | -
 AMM join | - | - | - | - | - | - | -
 L2-to-L2 transfer | 900 GAS[4] | - | - | - | - | - | -
