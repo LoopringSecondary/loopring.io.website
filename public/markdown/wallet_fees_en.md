@@ -43,7 +43,7 @@ AMM join | - | - | - | - | - | - | -
 L2-to-L2 transfer | 900 GAS[4] | - | - | - | - | - | -
 L1-to-L2 transfer (Deposit) | - | - | - | - | - | - | -
 L2-to-L1 transfer (Withdrawal) | 46400 GAS[4] | - | - | - | - | - | -
-L2-to-L1 forced transfer (Forced Withdrawal) | 0.01 ETH | - | - | - | - | - | -
+L2-to-L1 forced transfer (Forced Withdrawal) | 0.02 ETH | - | - | - | - | - | -
 L2-to-L1 fast transfer (Fast Withdrawal) [2] | - | 146400 GAS[4] | 0.50% | 0.50% | 0.50% | 0.50% | 0.50%
 Submit order | - | - | - | - | - | - | -
 Cancel order | - | - | - | - | - | - | -
