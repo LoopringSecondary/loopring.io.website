@@ -1,4 +1,4 @@
-> Last edit: 2021-02-06
+> Last edit: 2021-02-09
 
 ## Loopring Wallet
 
@@ -35,19 +35,19 @@ All users share the same **flat-fee**s and **minimal-fee**s, but VIPs have diffe
 #### Exchange Fee Table
 Service | Flat-Fee | Minimal-Fee | Normal User | VIP1 | VIP2 | VIP3 | VIP4
 :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
-Stablecoin orderbook trade [1]| - | maker:0, taker:2900 GAS[4] | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04%
-Other orderbook trade [1]| - | maker:0, taker:2900 GAS[4] | maker:-0.02%, taker:0.25% | maker:-0.02%, taker:0.20% | maker:-0.02%, taker:0.15% | maker:-0.02%, taker:0.10% | maker:-0.02%, taker:0.06%
-AMM swap | - | 2900 GAS[4] | 0.10% | 0.10% | 0.10% | 0.10% | 0.06%
-AMM exit | 285200 GAS[4] | - | - | - | - | - | -
+Stablecoin orderbook trade [1]| - | maker:0, taker:2,900 GAS[4] | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04%
+Other orderbook trade [1]| - | maker:0, taker:2,900 GAS[4] | maker:-0.02%, taker:0.25% | maker:-0.02%, taker:0.20% | maker:-0.02%, taker:0.15% | maker:-0.02%, taker:0.10% | maker:-0.02%, taker:0.06%
+AMM swap | - | 2,900 GAS[4] | 0.10% | 0.10% | 0.10% | 0.10% | 0.06%
+AMM exit | 96,000 GAS[4][5] | - | - | - | - | - | -
 AMM join | - | - | - | - | - | - | -
 L2-to-L2 transfer | 900 GAS[4] | - | - | - | - | - | -
 L1-to-L2 transfer (Deposit) | - | - | - | - | - | - | -
-L2-to-L1 transfer (Withdrawal) | 46400 GAS[4] | - | - | - | - | - | -
+L2-to-L1 transfer (Withdrawal) | 46,400 GAS[4] | - | - | - | - | - | -
 L2-to-L1 forced transfer (Forced Withdrawal) | 0.02 ETH | - | - | - | - | - | -
-L2-to-L1 fast transfer (Fast Withdrawal) [2] | - | 146400 GAS[4] | 0.50% | 0.50% | 0.50% | 0.50% | 0.50%
+L2-to-L1 fast transfer (Fast Withdrawal) [2] | - | 146,400 GAS[4] | 0.50% | 0.50% | 0.50% | 0.50% | 0.50%
 Submit order | - | - | - | - | - | - | -
 Cancel order | - | - | - | - | - | - | -
-Set L2 EdDSA key [3] | 16500 GAS[4] | - | - | - | - | - | -
+Set L2 EdDSA key [3] | 16,500 GAS[4] | - | - | - | - | - | -
 
 Note:
 
@@ -56,6 +56,7 @@ Note:
 - [2] The minimal amount for fast withdrawal is $5,000
 - [3] Waived for the first operation or when this tx is approved with an on-chain hash.
 - [4] Actual fee amount will be calculated using the realtime gas-price and fee token's ETH price.
+- [5] AMM exit fees will be changed to after Feb 20th.
 
 Many of the above fee settings depends on the price of Ether. Loopring will adjust fee parameters if necessary.
 
