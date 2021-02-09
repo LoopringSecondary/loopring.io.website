@@ -6,10 +6,11 @@
 | **项目** | **资金池** | **奖励** |
 | :--- | ---: | ---: |
 Ethereum | ETH⇄USDT  | 200,000LRC
-Redfox labs | RFOX⇄ETH | 100,000 RFOX
-Bifrost | vETH⇄ETH |  5,000 LRC
-Autonio | NIOX⇄ETH |  1,250 LRC
 Adex | ADX⇄ETH |  4,000 LRC
+Autonio | NIOX⇄ETH |  1,250 LRC
+Bifrost | vETH⇄ETH |  5,000 LRC
+Index Coop | DPI⇄ETH  | 3,600 LRC |
+Redfox labs | RFOX⇄ETH | 100,000 RFOX
 
 
 
