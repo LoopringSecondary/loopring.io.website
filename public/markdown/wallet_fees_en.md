@@ -35,19 +35,19 @@ All users share the same **flat-fee**s and **minimal-fee**s, but VIPs have diffe
 #### Exchange Fee Table
 Service | Flat-Fee | Minimal-Fee | Normal User | VIP1 | VIP2 | VIP3 | VIP4
 :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
-Stablecoin orderbook trade [1]| - | maker:0, taker:1390 GAS[4] | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04%
-Other orderbook trade [1]| - | maker:0, taker:1390 GAS[4] | maker:-0.02%, taker:0.25% | maker:-0.02%, taker:0.20% | maker:-0.02%, taker:0.15% | maker:-0.02%, taker:0.10% | maker:-0.02%, taker:0.06%
-AMM swap | - | 1390 GAS[4] | 0.10% | 0.10% | 0.10% | 0.10% | 0.06%
-AMM exit | 285150 GAS[4] | - | - | - | - | - | -
+Stablecoin orderbook trade [1]| - | maker:0, taker:2900 GAS[4] | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04%
+Other orderbook trade [1]| - | maker:0, taker:2900 GAS[4] | maker:-0.02%, taker:0.25% | maker:-0.02%, taker:0.20% | maker:-0.02%, taker:0.15% | maker:-0.02%, taker:0.10% | maker:-0.02%, taker:0.06%
+AMM swap | - | 2900 GAS[4] | 0.10% | 0.10% | 0.10% | 0.10% | 0.06%
+AMM exit | 285200 GAS[4] | - | - | - | - | - | -
 AMM join | - | - | - | - | - | - | -
-L2-to-L2 transfer | 1390 GAS[4] | - | - | - | - | - | -
+L2-to-L2 transfer | 900 GAS[4] | - | - | - | - | - | -
 L1-to-L2 transfer (Deposit) | - | - | - | - | - | - | -
-L2-to-L1 transfer (Withdrawal) | 46325 GAS[4] | - | - | - | - | - | -
-L2-to-L1 forced transfer (Forced Withdrawal) | 0.01 ETH | - | - | - | - | - | -
-L2-to-L1 fast transfer (Fast Withdrawal) [2] | - | 146325 GAS[4] | 0.50% | 0.50% | 0.50% | 0.50% | 0.50%
+L2-to-L1 transfer (Withdrawal) | 46400 GAS[4] | - | - | - | - | - | -
+L2-to-L1 forced transfer (Forced Withdrawal) | 0.02 ETH | - | - | - | - | - | -
+L2-to-L1 fast transfer (Fast Withdrawal) [2] | - | 146400 GAS[4] | 0.50% | 0.50% | 0.50% | 0.50% | 0.50%
 Submit order | - | - | - | - | - | - | -
 Cancel order | - | - | - | - | - | - | -
-Set L2 EdDSA key [3] | 16480 GAS[4] | - | - | - | - | - | -
+Set L2 EdDSA key [3] | 16500 GAS[4] | - | - | - | - | - | -
 
 Note:
 
