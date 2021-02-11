@@ -93,7 +93,10 @@ const HeroSection = (props) => {
               url="http://52.82.125.33:8082/LoopringWallet.apk"
               imageUrl="/images/download_apk.png"
             />
-            <DownloadButton imageUrl="/images/download_apple_appstore.svg" />
+            <DownloadButton
+              url="https://apps.apple.com/us/app/%E8%B7%AF%E5%8D%B0%E6%99%BA%E8%83%BD%E9%92%B1%E5%8C%85/id1550921126"
+              imageUrl="/images/download_apple_appstore.svg"
+            />
             <div
               className="first-zkrollup has-text-black-bis has-text-din"
               style={{
