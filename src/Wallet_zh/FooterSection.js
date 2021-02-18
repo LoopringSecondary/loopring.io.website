@@ -54,7 +54,7 @@ const FooterSection = () => {
                 联系
               </div>
               <div>
-                <a href="https://community.loopring.io">社区（英文）</a>
+                <a href="https://community.loopring.io">英文论坛</a>
               </div>
               <div>
                 <a href="https://medium.com/loopring-protocol">Medium</a>
