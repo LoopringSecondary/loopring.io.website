@@ -54,6 +54,9 @@ const FooterSection = () => {
                 Social
               </div>
               <div>
+                <a href="https://community.loopring.io">Community</a>
+              </div>
+              <div>
                 <a href="https://discord.gg/KkYccYp">Discord</a>
               </div>
               <div>
