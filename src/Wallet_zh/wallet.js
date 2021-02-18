@@ -18,7 +18,7 @@ const WalletPage = (props) => {
   return (
     <>
       <Navigation />
-      <SlidesSection />
+      {/* <SlidesSection />*/}
       <HeroSection />
       <FeatureSection
         even
