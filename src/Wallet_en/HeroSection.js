@@ -40,7 +40,8 @@ const HeroSection = (props) => {
         className="hero-section-top has-background-primary has-text-white"
         style={{
           paddingBottom: '40px',
-          backgroundImage: 'url(\'/images/bg_color_top.png\')',
+          backgroundImage:
+            'url(\'' + process.env.PUBLIC_URL + '/images/bg_color_top.png\')',
           backgroundSize: 'cover',
           borderBottom: '180px solid white',
         }}
@@ -77,7 +78,7 @@ const HeroSection = (props) => {
               width: '420px',
               filter: 'drop-shadow(0 0 1rem #1c42ff50)',
             }}
-            src={'/images/top_en.png'}
+            src={process.env.PUBLIC_URL + '/images/top_en.png'}
           />
         </CenterAlignContainer>
       </Section>
@@ -87,15 +88,21 @@ const HeroSection = (props) => {
           <div className="has-text-centered" style={{marginTop: '0'}}>
             <DownloadButton
               url="https://play.google.com/store/apps/details?id=loopring.defi.wallet"
-              imageUrl="/images/download_google_play.png"
+              imageUrl={
+                process.env.PUBLIC_URL + '/images/download_google_play.png'
+              }
             />
             <DownloadButton
               url="http://52.82.125.33:8082/LoopringWallet.apk"
-              imageUrl="/images/download_apk.png"
+              imageUrl={process.env.PUBLIC_URL + '/images/download_apk.png'}
             />
             <DownloadButton
-              url="https://apps.apple.com/us/app/%E8%B7%AF%E5%8D%B0%E6%99%BA%E8%83%BD%E9%92%B1%E5%8C%85/id1550921126"
-              imageUrl="/images/download_apple_appstore.svg"
+              url={
+                'https://apps.apple.com/us/app/%E8%B7%AF%E5%8D%B0%E6%99%BA%E8%83%BD%E9%92%B1%E5%8C%85/id1550921126'
+              }
+              imageUrl={
+                process.env.PUBLIC_URL + '/images/download_apple_appstore.svg'
+              }
             />
             <div
               className="first-zkrollup has-text-black-bis has-text-din"

@@ -2,7 +2,7 @@
 @import "../../_variables.sass";
 
 .withdrawal-section {
-  background-image: url("/images/wmining_bg.png");
+  background-image: url("%PUBLIC_URL%/images/wmining_bg.png");
   background-size: 600px;
   background-repeat: no-repeat;
   background-position: right center;

@@ -19,11 +19,11 @@
     background-size: cover;
 
     &.chinese {
-      background-image: url("/images/redpacket_landing_zh.jpeg");
+      background-image: url("%PUBLIC_URL%/images/redpacket_landing_zh.jpeg");
     }
 
     &.english {
-      background-image: url("/images/redpacket_landing_en.jpeg");
+      background-image: url("%PUBLIC_URL%/images/redpacket_landing_en.jpeg");
     }
   }
 

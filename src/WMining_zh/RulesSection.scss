@@ -2,7 +2,7 @@
 @import "../../_variables.sass";
 
 .wmining-hero-section {
-  background-image: url("/images/wmining-hero.png");
+  background-image: url("%PUBLIC_URL%/images/wmining-hero.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center top;
