@@ -43,11 +43,11 @@
     "dev": "HOST=0.0.0.0 react-scripts start",
     "build": "sh -ac '. .env.${REACT_APP_ENV}; react-scripts build'",
     "build:local": "REACT_APP_ENV=local yarn build",
-    "build:production": "REACT_APP_ENV=production yarn build",
+    "build:prod": "REACT_APP_ENV=prod yarn build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build:production",
-    "deploy:ipfs": "sh -ac '. .env.production; ipfs-deploy build -p pinata -d cloudflare'",
+    "predeploy": "yarn build:prod",
+    "deploy:ipfs": "sh -ac '. .env.prod; ipfs-deploy build -p pinata -d cloudflare'",
     "deploy": "gh-pages -d build"
   },
   "lint-staged": {
