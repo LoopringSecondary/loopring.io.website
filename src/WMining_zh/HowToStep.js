@@ -41,7 +41,12 @@ const HowToStep = ({titles}) => {
                         border: '1px solid #1c42ff10',
                         filter: 'drop-shadow(0 0 1rem #1c42ff50)',
                       }}
-                      src={'/images/wmining/' + (index + 1) + '.jpeg'}
+                      src={
+                        process.env.PUBLIC_URL +
+                        '/images/wmining/' +
+                        (index + 1) +
+                        '.jpeg'
+                      }
                     />
                     <div
                       className="is-size-6 has-text-dark"

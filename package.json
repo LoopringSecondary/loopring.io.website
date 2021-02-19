@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://github.com/dong77/website",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.21",
@@ -41,10 +41,13 @@
     "format": "prettier --write 'src/**/*.{js,jsx,css,scss,json}'",
     "start": "HOST=0.0.0.0 react-scripts start",
     "dev": "HOST=0.0.0.0 react-scripts start",
-    "build": "react-scripts build",
+    "build": "sh -ac '. .env.${REACT_APP_ENV}; react-scripts build'",
+    "build:local": "REACT_APP_ENV=local yarn build",
+    "build:prod": "REACT_APP_ENV=prod yarn build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build",
+    "predeploy": "yarn build:prod",
+    "deploy:ipfs": "sh -ac '. .env.prod; ipfs-deploy build -p pinata -d cloudflare'",
     "deploy": "gh-pages -d build"
   },
   "lint-staged": {
@@ -90,6 +93,7 @@
     "eslint-plugin-react": "^7.18.0",
     "gh-pages": "^2.1.1",
     "husky": "^4.2.0",
+    "ipfs-deploy": "^8.0.1",
     "lint-staged": "^9.5.0",
     "node-sass": "^4.14.1",
     "prettier": "^1.19.1",

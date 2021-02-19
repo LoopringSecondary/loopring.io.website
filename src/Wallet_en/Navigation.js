@@ -33,7 +33,11 @@ const Navigation = (props) => {
       <Container style={{paddingTop: '1rem', paddingBottom: '1rem'}}>
         <Navbar.Brand>
           <Navbar.Item renderAs="a" href="#">
-            <img className="logo" draggable="false" src="/images/logo.svg" />
+            <img
+              className="logo"
+              draggable="false"
+              src={process.env.PUBLIC_URL + '/images/logo.svg'}
+            />
           </Navbar.Item>
           <a
             ref={burgerRef}
