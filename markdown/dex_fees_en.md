@@ -1,4 +1,5 @@
-> Last edit: 2021-02-10
+> Last edit: 2021-02-19
+
 
 
 Loopring Exchange charges fees per service type. Each service has a **flat-fee** and a **percentage fee**. For the percentage fee, there is also a **minimal-fee** applied.
@@ -6,7 +7,7 @@ Loopring Exchange charges fees per service type. Each service has a **flat-fee**
 
 All users share the same **flat-fee**s and **minimal-fee**s, but VIPs have different percentange fee settings.
 
-#### Exchange Fee Table
+### Exchange Fee Table
 Service | Flat-Fee | Minimal-Fee | Normal User | VIP1 | VIP2 | VIP3 | VIP4
 :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---
 Stablecoin orderbook trade [1]| - | maker:0, taker:2,750GAS [4] | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04% | maker:-0.02%, taker:0.04%
@@ -33,6 +34,10 @@ Note:
 - [5] The fee is temporarily waived.
 
 Many of the above fee settings depends on the price of Ether. Loopring will adjust fee parameters if necessary.
+
+### Maker Rebates
+
+Maker orders will receive 0.02% trading volume as rebate.
 
 ### Affiliate Rewards
 
